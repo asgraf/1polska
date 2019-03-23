@@ -1,0 +1,10 @@
+<?php
+return [
+	'debug' => false,
+	'Config' => [
+		'live' => 1,
+		'adminEmail' => 'asgraf@gmail.com',
+		'systemEmail' => '1polska@1polska.pl',
+		'systemName' => '1Polska.pl'
+	]
+];

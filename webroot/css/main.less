@@ -1,0 +1,516 @@
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3-dev/less/bootstrap.less";
+
+body {
+	margin: 0;
+	padding: 58px 0 96px;
+}
+
+html {
+	position: relative;
+	min-height: 100%
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	line-height: 1.1;
+}
+
+h1, .h1 {
+	margin: 48px 0 36px;
+	font-size: 36px;
+}
+
+h2, .h2 {
+	margin: 48px 0 36px;
+	font-size: 28px;
+	line-height: 1.25em;
+}
+
+.view_content {
+	ul, ol {
+		padding-left: 0;
+	}
+	ul li {
+		padding-bottom: 6px;
+		a img.pull-left {
+			float: none !important;
+		}
+	}
+
+}
+
+a:focus {
+	outline: none;
+	outline-offset: 0;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	margin-top: 24px;
+	padding: 32px;
+	width: 100%;
+	background: #222;
+	color: #fff;
+	.text-muted {
+		text-align: center;
+		margin: 0;
+		padding: 0
+	}
+}
+
+.view_content {
+	margin-bottom: 20px
+}
+
+.alert {
+	.glyphicon {
+		font-size: 40px;
+		float: left;
+		padding-right: 20px
+	}
+}
+
+.row {
+	width: 100%;
+}
+
+.h140 {
+	overflow: hidden;
+	min-height: 140px;
+	max-height: 140px;
+	height: 140px;
+	font-size: 13px;
+}
+
+.h210 {
+	position: relative;
+	margin-bottom: 24px;
+	min-height: 210px;
+	max-height: 210px;
+	height: 210px;
+	border-top: solid 1px #eee;
+	border-bottom: solid 1px #eee;
+	background: #f8f8f8;
+	font-size: 13px;
+	.postulate_vote, .representative_vote {
+		position: absolute;
+		bottom: 16px;
+		width: 90%;
+	}
+	.img-circle {
+		margin-right: 16px;
+		margin-bottom: 24px
+	}
+}
+
+.h210:nth-child(2n+1) {
+	background: #fff
+}
+
+[data-click-url] {
+	cursor: pointer
+}
+
+th.created, td.created {
+	width: 110px
+}
+
+dt {
+	margin-top: 32px;
+	margin-bottom: 8px;
+	padding-top: 32px;
+	border-top: solid 1px #eee;
+	font-size: 1.25em
+}
+
+.has-error {
+	.form-control.no-error {
+		border-color: #ccc
+	}
+	label.no-error {
+		color: #555
+	}
+}
+
+.view_action {
+	dd {
+		max-width: 700px
+	}
+	dd.content, dd.desctiption {
+		text-align: justify
+	}
+}
+
+.jumbotron {
+	margin-bottom: 16px !important;
+	padding: 24px 0 24px !important;
+	p {
+		margin: 0 auto;
+		padding-bottom: 24px;
+	}
+	h1, .h1 {
+		font-size: 36px;
+	}
+	h1 {
+		margin: 16px 0 16px;
+	}
+	h2 {
+		margin: 0;
+	}
+	h4 {
+		margin-bottom: 36px;
+	}
+	h5 {
+		margin: 0 auto;
+		max-width: 480px;
+		border-bottom: solid 1px #eee;
+		color: #73a839 !important;
+	}
+}
+
+.progress, .progress-bar {
+	height: 10px
+}
+
+.disabled2 {
+	box-shadow: none;
+	opacity: .65;
+	cursor: not-allowed
+}
+
+.upvotes.progressbar {
+	width: 150px
+}
+
+[data-markdown] {
+	position: relative;
+	white-space: pre-wrap;
+	img {
+		float: left;
+		margin: 5px;
+		padding: 1px;
+		border: 1px solid #c0c0c0;
+	}
+	p {
+		display: inline;
+		margin: 0 !important;
+	}
+	&:after {
+		display: block;
+		visibility: hidden;
+		clear: both;
+		height: 0;
+		content: ".";
+	}
+}
+
+button[data-handler=bootstrap-markdown-Youtube] {
+	padding-bottom: 0
+}
+
+.postulate_vote {
+	min-width: 200px;
+	width: 200px;
+	.btn {
+		height: 42px;
+		min-width: 62px;
+		box-shadow: none;
+		text-align: center;
+		line-height: 24px;
+	}
+	a.btn {
+		padding: 1px 10px;
+		min-width: 110px;
+		width: auto;
+		text-align: left
+	}
+}
+
+.representative_vote {
+	.btn {
+		height: 42px;
+		min-width: 62px;
+		box-shadow: none;
+		text-align: center;
+		line-height: 24px;
+	}
+}
+
+.btn {
+	border-radius: 5px;
+	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.1);
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	transition: 0.1s;
+}
+
+.btn-primary {
+	border-color: #2fa4e7;
+	background: #54b4eb;
+	color: #fff;
+}
+
+.btn-default {
+	background: #fff;
+}
+
+.btn-success {
+	border-color: #73a839;
+	background: #88c149;
+	color: #fff;
+}
+
+.btn-danger {
+	border-color: #c71c22;
+	background: #e12b31;
+	color: #fff;
+}
+
+.default_cursor {
+	cursor: default;
+}
+
+.btn-default.default_cursor {
+	border-color: rgba(0, 0, 0, 0.1) !important;
+	background-color: #fff !important;
+}
+
+.btn-success.default_cursor {
+	border-color: #73a839 !important;
+	background-color: #73a839 !important;
+}
+
+.youtube-icon:before {
+	width: 12px;
+	height: 12px;
+	content: url('https://youtube.com/favicon.ico')
+}
+
+.votes {
+	min-width: 250px
+}
+
+.dropdown img {
+	margin-right: 10px
+}
+
+.navbar-inverse {
+	border-bottom: none;
+	background: #044687;
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+	.navbar-nav > li > a {
+		padding-top: 15px;
+		padding-bottom: 12px;
+		border-bottom: solid 3px #044687;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 0.875em;
+		line-height: 27px;
+		transition: 0.25s;
+	}
+	.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+		border-bottom: solid 3px #2fa4e7;
+		background: transparent;
+		color: #2fa4e7;
+	}
+}
+
+.caret {
+	margin-bottom: 3px;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px
+}
+
+.navbar-brand:first-letter {
+	text-shadow: 2px 0 0 red
+}
+
+nav.breadcrumbs:last-child {
+	margin-top: 48px
+}
+
+.social-box {
+	float: none;
+	clear: both;
+	margin: 48px 0 16px
+}
+
+.postulates.view .postulate_vote, .representatives.view .representative_vote {
+	display: block;
+	float: none;
+	clear: both;
+	height: 42px
+}
+
+.representatives .representative_vote {
+	width: 240px
+}
+
+.progress {
+	margin: 16px 0 0
+}
+
+.actions .btn {
+	white-space: normal
+}
+
+.default_cursor {
+	cursor: default
+}
+
+.visitable:visited {
+	color: #551A8B
+}
+
+@media (min-width: 1018px) and (max-width: 1199px) {
+	.h210 {
+		height: 260px;
+		min-height: 260px;
+		max-height: 260px
+	}
+
+	.jumbotron h1 {
+		font-size: 36px
+	}
+
+	h2, .h2 {
+		font-size: 26px;
+	}
+}
+
+@media (max-width: 1019px) {
+	.jumbotron h1 {
+		font-size: 32px
+	}
+
+	h2 {
+		font-size: 24px
+	}
+
+	thead {
+		display: none
+	}
+
+	tr {
+		display: block;
+		padding-top: 8px
+	}
+
+	td {
+		display: block;
+		width: auto !important;
+		border: none !important
+	}
+
+	td.upvotes {
+		width: auto !important;
+		float: left;
+		padding: 0 8px !important;
+		display: inline-block
+	}
+
+	td.upvotes.progressbar {
+		min-width: 280px
+	}
+
+	.progress {
+		margin: 16px 0 0
+	}
+
+	td.created {
+		clear: both;
+		border-bottom: solid 1px #eee !important;
+		text-align: right;
+		font-size: 0.75em;
+		color: #999
+	}
+
+	table tr:nth-child(2n+1) {
+		background: #f8f8f8
+	}
+
+	td.photo {
+		float: left
+	}
+
+	td.name {
+		padding: 16px 8px 0 !important
+	}
+
+	td.description {
+		padding: 0 8px 8px !important
+	}
+
+	td.votes {
+		clear: both;
+		text-align: left
+	}
+
+	.h210 {
+		min-height: 0;
+		height: auto;
+		max-height: 1000px;
+		padding-bottom: 36px
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.navbar-inverse .navbar-nav .dropdown-toggle {
+		font-size: 0;
+		color: transparent;
+	}
+}
+
+@media (max-width: 767px) {
+	body {
+		padding-top: 52px;
+	}
+
+	h2 {
+		font-size: 18px
+	}
+
+	h2, .h2 {
+		margin: 12px 0 24px;
+	}
+
+	h3 {
+		font-size: 16px
+	}
+
+	.jumbotron {
+		h1 {
+			font-size: 28px
+		}
+		p {
+			-webkit-column-count: 1;
+			-moz-column-count: 1;
+			column-count: 1;
+		}
+		h2 {
+			a, strong {
+				display: block;
+				width: auto;
+				float: none !important
+			}
+			strong {
+				margin: 24px 0 24px;
+				font-size: 24px;
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-nav > li > a {
+		padding-top: 15px;
+		padding-bottom: 12px;
+	}
+}
+
+.btn-group .btn {
+  margin-left: 0;
+}
