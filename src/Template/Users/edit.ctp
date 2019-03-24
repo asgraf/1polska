@@ -17,7 +17,31 @@ $this->set('title', 'Edycja profilu');
 	</fieldset>
 	<?php
 	echo $this->Form->button('Zapisz');
-	echo $this->Html->link('Usuń moje konto', ['action' => 'delete'], ['class' => 'pull-right text-danger']);
+	echo $this->Html->tag(
+		'span',
+		implode(' ', [
+			$this->Html->link(
+				'Eksport moich danych',
+				[
+					'action' => 'export',
+					'_ext' => 'json'
+				],
+				[
+					'title' => 'Za pomocą tego przycisku możesz pobrać wszelkie dane powiązane z twoim kontem jakimi tylko dysponujemy',
+					'class' => 'btn btn-info'
+				]),
+			$this->Html->link(
+				'Usuń moje konto',
+				[
+					'action' => 'delete'
+				],
+				[
+					'class' => 'btn btn-danger'
+				]
+			),
+		]),
+		['class' => 'pull-right']
+	);
 	echo $this->Form->end();
 	?>
 </div>
