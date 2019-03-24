@@ -26,11 +26,13 @@ class ConstituenciesController extends AppController
 
 			$query->contain([
 				'Postulates' => [
+					'MyVote',
 					'conditions' => [
 						'Postulates.active' => true
 					],
 				],
 				'Representatives' => [
+					'MyVote',
 					'conditions' => [
 						'Representatives.active' => true
 					],
