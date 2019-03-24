@@ -28,7 +28,8 @@ $this->set('title', 'Edycja profilu');
 				],
 				[
 					'title' => 'Za pomocą tego przycisku możesz pobrać wszelkie dane powiązane z twoim kontem jakimi tylko dysponujemy',
-					'class' => 'btn btn-info'
+					'class' => 'btn btn-info',
+					'download'=>'Moje wyeksportowane dane z serwisu 1Polska.json'
 				]),
 			$this->Html->link(
 				'Usuń moje konto',
