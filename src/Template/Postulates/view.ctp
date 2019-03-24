@@ -61,8 +61,8 @@ if ($this->Identity->get('admin')) {
 				}
 			}
 			?></dd>
-<!--		<dt>--><?//= __('Głosy użytkowników'); ?><!--</dt>-->
-<!--		<dd>--><?//= $this->cell('Votes', ['entity' => $postulate]) ?><!--</dd>-->
+		<!--		<dt>--><? //= __('Głosy użytkowników'); ?><!--</dt>-->
+		<!--		<dd>--><? //= $this->cell('Votes', ['entity' => $postulate]) ?><!--</dd>-->
 	</dl>
 	<?php if (!$representatives->isEmpty()) { ?>
 		<section class="container">
@@ -72,16 +72,17 @@ if ($this->Identity->get('admin')) {
 					<ul style="-webkit-column-width: 300px;-moz-column-width: 300px;column-width: 300px;">
 						<?php
 						foreach ($representatives as $representative) {
-							echo $this->Html->listLink(
-								$this->Html->image($representative->getPhotoThumbUrl(16, 16, true), ['width' => 16, 'height' => 16]) . h($representative->full_name),
-								[
-									'controller' => 'Representatives',
-									'action' => 'view',
-									'_entity' => $representative
-								],
-								['escape' => false]
-							);
-							echo '</a></li>';
+							if ($representative->get('_matchingData')['Votes']['value'] == 1) {
+								echo $this->Html->listLink(
+									$this->Html->image($representative->getPhotoThumbUrl(16, 16, true), ['width' => 16, 'height' => 16]) . h($representative->full_name),
+									[
+										'controller' => 'Representatives',
+										'action' => 'view',
+										'_entity' => $representative
+									],
+									['escape' => false]
+								);
+							}
 						}
 						?>
 					</ul>
