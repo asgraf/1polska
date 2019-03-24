@@ -39,20 +39,23 @@ class PostulatesController extends AppController
 		$representative = $this->Postulates->Users->Representatives->find()
 			->where([
 				'user_id' => $this->Authentication->getIdentityData('id')
-			]);
+			])
+			->first();
 		if (!$representative) {
 			$this->Flash->error('Nowe postulaty mogą proponować tylko ci użytkownicy którzy zgłosili się na reprezentanta');
 			return $this->redirect($this->referer(['action' => 'index'], true));
 		}
-		if ($representative->created->addDay()->isFuture()) {
+		if ($representative && $representative->created->addDay()->isFuture()) {
 			$this->Flash->error('Zaproponowanie postulatu będzie możliwe nie wcześniej niż: ' . $representative->created->addDay()->diffForHumans() . '<br>(Można proponować postulat najwcześniej dobę po rejestracji jako reprezentant)');
 			return $this->redirect($this->referer(['action' => 'index'], true));
 		}
 		/** @var \App\Model\Entity\Postulate|null $prev_postulate */
-		$prev_postulate = $this->Postulates->find()->where([
-			'user_id' => $this->Authentication->getIdentityData('id'),
-			'created >' => FrozenTime::parse()->subDay()
-		]);
+		$prev_postulate = $this->Postulates->find()
+			->where([
+				'user_id' => $this->Authentication->getIdentityData('id'),
+				'created >' => FrozenTime::parse()->subDay()
+			])
+			->first();
 		if ($prev_postulate) {
 			$this->Flash->error('Zaproponowanie kolejnego postulatu będzie możliwe nie wcześniej niż: ' . $prev_postulate->created->addDay()->diffForHumans() . '<br>(Można proponować jeden postulat na dobę)');
 			return $this->redirect($this->referer(['action' => 'index']));
@@ -93,6 +96,8 @@ class PostulatesController extends AppController
 
 			$postulate->user_id = $this->Authentication->getIdentityData('id');
 		});
+
+		$this->set('title', 'Nowy Postulat');
 
 		$this->Crud->execute();
 	}
@@ -223,7 +228,7 @@ class PostulatesController extends AppController
 						->contain('Photo')
 						->matching('Users.Votes', function (Query $query) use ($postulate) {
 							return $query->where([
-								'Votes.fk_id'=> $postulate->id,
+								'Votes.fk_id' => $postulate->id,
 								'Votes.fk_model' => 'Postulates',
 							]);
 						});
