@@ -86,6 +86,12 @@ class RepresentativesController extends AppController
 				'label' => __('Tagi'),
 				'help' => 'Aby przypisać kilka tagów oddziel je przecinkiem'
 			],
+			'privacy_policy' => [
+				'type' => 'custom',
+				'label' => 'Polityka prywatosci',
+				'formatter' => 'element',
+				'element' => 'Representatives/terms_and_policy'
+			]
 		]);
 
 		$this->Crud->on('beforeSave', function (Event $event) {
@@ -139,6 +145,12 @@ class RepresentativesController extends AppController
 				'label' => __('Tagi'),
 				'help' => 'Aby przypisać kilka tagów oddziel je przecinkiem'
 			],
+			'privacy_policy' => [
+				'type' => 'custom',
+				'label' => 'Polityka prywatosci',
+				'formatter' => 'element',
+				'element' => 'Representatives/terms_and_policy'
+			]
 		]);
 
 		$this->Crud->on('beforeFind', function (Event $event) {
