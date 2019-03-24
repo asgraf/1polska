@@ -3,7 +3,7 @@
  * @var $representative
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Representative $representative
- * @var \App\Model\Entity\Postulate $postulate
+ * @var \App\Model\Entity\Postulate $voted_postulate
  */
 use Cake\Utility\Hash;
 
@@ -96,20 +96,23 @@ if ($this->Identity->get('admin')) {
 					<ul>
 						<?php
 						$count = 0;
-						foreach ($representative->user->voted_representatives as $representative) {
-							if ($representative->get('_joinData')['value'] == 1) {
-								echo $this->Html->listLink(
-									$this->Html->image($representative->getPhotoThumbUrl(16, 16, true), ['width' => 16, 'height' => 16]) . h($representative->full_name),
-									[
-										'controller' => 'Representatives',
-										'action' => 'view',
-										'_entity' => $representative
-									],
-									['escape' => false]
-								);
-								$count++;
+						if ($representative->user->voted_representatives) {
+							foreach ($representative->user->voted_representatives as $voted_representatives) {
+								if ($voted_representatives->get('_joinData')['value'] == 1) {
+									echo $this->Html->listLink(
+										$this->Html->image($voted_representatives->getPhotoThumbUrl(16, 16, true), ['width' => 16, 'height' => 16]) . h($voted_representatives->full_name),
+										[
+											'controller' => 'Representatives',
+											'action' => 'view',
+											'_entity' => $voted_representatives
+										],
+										['escape' => false]
+									);
+									$count++;
+								}
 							}
 						}
+
 						if (!$count) {
 							echo '<li>Brak</li>';
 						}
@@ -120,18 +123,21 @@ if ($this->Identity->get('admin')) {
 					<h3>Reprezentanci, którym nie ufam:</h3>
 					<ul>
 						<?php
-						foreach ($representative->user->voted_representatives as $representative) {
-							if ($representative->get('_joinData')['value'] == -1) {
-								echo $this->Html->listLink(
-									$this->Html->image($representative->getPhotoThumbUrl(16, 16, true), ['width' => 16, 'height' => 16]) . h($representative->full_name),
-									[
-										'controller' => 'Representatives',
-										'action' => 'view',
-										'_entity' => $representative
-									],
-									['escape' => false]
-								);
-								$count++;
+						$count = 0;
+						if ($representative->user->voted_representatives) {
+							foreach ($representative->user->voted_representatives as $voted_representatives) {
+								if ($representative->get('_joinData')['value'] == -1) {
+									echo $this->Html->listLink(
+										$this->Html->image($voted_representatives->getPhotoThumbUrl(16, 16, true), ['width' => 16, 'height' => 16]) . h($voted_representatives->full_name),
+										[
+											'controller' => 'Representatives',
+											'action' => 'view',
+											'_entity' => $voted_representatives
+										],
+										['escape' => false]
+									);
+									$count++;
+								}
 							}
 						}
 						if (!$count) {
@@ -147,17 +153,19 @@ if ($this->Identity->get('admin')) {
 					<ul style="-webkit-column-width: 300px;-moz-column-width: 300px;column-width: 300px;">
 						<?php
 						$count = 0;
-						foreach ($representative->user->voted_postulates as $postulate) {
-							if ($postulate->get('_joinData')['value'] == 1) {
-								echo $this->Html->listLink(
-									$postulate->name,
-									[
-										'controller' => 'Postulates',
-										'action' => 'view',
-										'_entity' => $postulate
-									]
-								);
-								$count++;
+						if($representative->user->voted_postulates) {
+							foreach ($representative->user->voted_postulates as $voted_postulate) {
+								if ($voted_postulate->get('_joinData')['value'] == 1) {
+									echo $this->Html->listLink(
+										$voted_postulate->name,
+										[
+											'controller' => 'Postulates',
+											'action' => 'view',
+											'_entity' => $voted_postulate
+										]
+									);
+									$count++;
+								}
 							}
 						}
 						if (!$count) {
