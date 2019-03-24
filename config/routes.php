@@ -74,6 +74,7 @@ Router::scope('/', function (RouteBuilder $routes) {
 	$routes->connect('/o_co_chodzi', ['controller' => 'Pages', 'action' => 'display', 'o_co_chodzi']);
 	$routes->connect('/feedback', ['controller' => 'Pages', 'action' => 'display', 'disqus']);
 	$routes->connect('/polityka_prywatnosci', ['controller' => 'Pages', 'action' => 'display', 'polityka_prywatnosci']);
+	$routes->connect('/regulamin', ['controller' => 'Pages', 'action' => 'display', 'regulamin']);
 	$routes->connect('/postulaty/historia_glosowania', ['controller' => 'PostulatesUsersChanges']);
 	$routes->connect('/postulaty/:id/edycja', ['controller' => 'Postulates', 'action' => 'edit'], ['pass' => ['id'], 'routeClass' => 'EntityRoute']);
 	$routes->connect('/postulaty/:slug_:id/edycja', ['controller' => 'Postulates', 'action' => 'edit'], ['pass' => ['id'], 'routeClass' => 'EntityRoute']);
