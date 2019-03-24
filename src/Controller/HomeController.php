@@ -17,17 +17,21 @@ class HomeController extends AppController
 			'conditions' => [
 				'active' => true
 			],
-			//'order'=>'upvotes DESC',
+			'order'=>'upvotes DESC',
 			'limit' => 6,
+			'contain' => [
+				'MyVote'
+			],
 		]);
 		$representatives = $this->loadModel('Representatives')->find('all', [
 			'conditions' => [
 				'active' => true
 			],
-			//'order'=>'upvotes DESC',
+			'order'=>'upvotes DESC',
 			'limit' => 6,
 			'contain' => [
-				'Photo',
+				'MyVote',
+				'Photo'
 			],
 		]);
 		$users_count = $this->loadModel('Users')->find()->count();
