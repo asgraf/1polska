@@ -97,14 +97,14 @@ if ($this->Identity->get('admin')) {
 						<?php
 						$count = 0;
 						if ($representative->user->voted_representatives) {
-							foreach ($representative->user->voted_representatives as $voted_representatives) {
-								if ($voted_representatives->get('_joinData')['value'] == 1) {
+							foreach ($representative->user->voted_representatives as $voted_representative) {
+								if ($voted_representative->get('_joinData')['value'] == 1) {
 									echo $this->Html->listLink(
-										$this->Html->image($voted_representatives->getPhotoThumbUrl(16, 16, true), ['width' => 16, 'height' => 16]) . h($voted_representatives->full_name),
+										$this->Html->image($voted_representative->getPhotoThumbUrl(16, 16, true), ['width' => 16, 'height' => 16]) . h($voted_representative->full_name),
 										[
 											'controller' => 'Representatives',
 											'action' => 'view',
-											'_entity' => $voted_representatives
+											'_entity' => $voted_representative
 										],
 										['escape' => false]
 									);
@@ -125,14 +125,14 @@ if ($this->Identity->get('admin')) {
 						<?php
 						$count = 0;
 						if ($representative->user->voted_representatives) {
-							foreach ($representative->user->voted_representatives as $voted_representatives) {
-								if ($representative->get('_joinData')['value'] == -1) {
+							foreach ($representative->user->voted_representatives as $voted_representative) {
+								if ($voted_representative->get('_joinData')['value'] == -1) {
 									echo $this->Html->listLink(
-										$this->Html->image($voted_representatives->getPhotoThumbUrl(16, 16, true), ['width' => 16, 'height' => 16]) . h($voted_representatives->full_name),
+										$this->Html->image($voted_representative->getPhotoThumbUrl(16, 16, true), ['width' => 16, 'height' => 16]) . h($voted_representative->full_name),
 										[
 											'controller' => 'Representatives',
 											'action' => 'view',
-											'_entity' => $voted_representatives
+											'_entity' => $voted_representative
 										],
 										['escape' => false]
 									);
