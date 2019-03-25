@@ -8,7 +8,17 @@
  */
 
 if ($this->Identity->get('admin')) {
-	echo $this->Html->link('Pokaż w panelu admina', ['admin' => true, 'action' => 'view', 'emailhash' => $this->getRequest()->getParam('emailhash'), 'slug' => $this->getRequest()->getParam('slug')], ['class' => 'btn btn-info']);
+	echo $this->Html->link(
+		'Pokaż w panelu admina',
+		[
+			'prefix' => 'admin',
+			'action' => 'view',
+			'_entity' => $user
+		],
+		[
+			'class' => 'btn btn-info'
+		]
+	);
 }
 ?>
 <div class="users view">

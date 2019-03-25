@@ -7,13 +7,35 @@
  */
 use Cake\Utility\Hash;
 
-$this->set('title', $representative['name']);
+$this->set('title', $representative->full_name);
 $connected_sign = Hash::get($representative, 'user.status') == 'active' ? '<span class="text-success glyphicon glyphicon-ok" aria-hidden="true" title="Ten reprezentant posiada aktywne konto użytkownika na 1polska.pl"></span> ' : '';
-if ($this->Identity->getId() == $representative->user_id) {
-	echo $this->Html->link('Edycja', ['action' => 'edit', '_entity' => $representative], ['class' => 'btn btn-info']);
+if (
+	$representative->user_id &&
+	$this->Identity->getId() == $representative->user_id
+) {
+	echo $this->Html->link(
+		'Edycja',
+		[
+			'action' => 'edit',
+			'_entity' => $representative
+		],
+		[
+			'class' => 'btn btn-info'
+		]
+	);
 }
 if ($this->Identity->get('admin')) {
-	echo $this->Html->link('Edycja w panelu admina', ['prefix' => 'admin', 'action' => 'edit', '_entity' => $representative], ['class' => 'btn btn-info']);
+	echo $this->Html->link(
+		'Edycja w panelu admina',
+		[
+			'prefix' => 'admin',
+			'action' => 'edit',
+			'_entity' => $representative
+		],
+		[
+			'class' => 'btn btn-info'
+		]
+	);
 }
 ?>
 
@@ -153,7 +175,7 @@ if ($this->Identity->get('admin')) {
 					<ul style="-webkit-column-width: 300px;-moz-column-width: 300px;column-width: 300px;">
 						<?php
 						$count = 0;
-						if($representative->user->voted_postulates) {
+						if ($representative->user->voted_postulates) {
 							foreach ($representative->user->voted_postulates as $voted_postulate) {
 								if ($voted_postulate->get('_joinData')['value'] == 1) {
 									echo $this->Html->listLink(

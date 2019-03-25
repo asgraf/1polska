@@ -5,18 +5,40 @@
  * @var \App\Model\Entity\Postulate $postulate
  * @var \App\Model\Entity\Representative[]|\Cake\ORM\Query $representatives
  */
-$edit_time = strtotime($postulate['created']) + 15 * MINUTE;
-$this->set('title', $postulate['name']);
-if ($this->Identity->getId() == $postulate['user_id'] && $edit_time > time()) {
-	echo $this->Html->link('Edycja', ['action' => 'edit', 'id' => $this->getRequest()->getParam('id'), 'slug' => $this->getRequest()->getParam('slug')], ['class' => 'btn btn-info']);
+$this->set('title', $postulate->name);
+if (
+	$postulate->user_id &&
+	$this->Identity->getId() == $postulate->user_id &&
+	$postulate->created->addMinutes(15)->isFuture()
+) {
+	echo $this->Html->link(
+		'Edycja',
+		[
+			'action' => 'edit',
+			'_entity' => $postulate
+		],
+		[
+			'class' => 'btn btn-info'
+		]
+	);
 }
 if ($this->Identity->get('admin')) {
-	echo $this->Html->link('Edycja w panelu admina', ['admin' => true, 'action' => 'edit', 'id' => $this->getRequest()->getParam('id'), 'slug' => $this->getRequest()->getParam('slug')], ['class' => 'btn btn-info']);
+	echo $this->Html->link(
+		'Edycja w panelu admina',
+		[
+			'admin' => true,
+			'action' => 'edit',
+			'_entity' => $postulate
+		],
+		[
+			'class' => 'btn btn-info'
+		]
+	);
 }
 ?>
 
 <div class="postulates view">
-	<h1><?= h($postulate['name']); ?></h1>
+	<h1><?= $this->get('title'); ?></h1>
 	<?php
 	echo '<p>' . $this->element('postulate_vote', ['postulate' => $postulate]) . '</p>';
 	echo $this->element('social_buttons');
