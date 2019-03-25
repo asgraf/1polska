@@ -34,6 +34,14 @@ if ($value == -1) {
 	$votedown_url['action'] = 'downvote';
 }
 
+if (!$this->Identity->isLoggedIn()) {
+	$div_title = 'Aby móc oddać głos najpierw musisz się zalogować';
+	$votedown_url = $voteup_url = [
+		'controller' => 'Users',
+		'action' => 'login',
+		'redirect' => $this->getRequest()->getRequestTarget()
+	];
+}
 ?>
 <div title="<?= $div_title; ?>" class="representative_vote btn-group">
 	<?php

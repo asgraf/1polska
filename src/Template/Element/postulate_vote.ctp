@@ -23,6 +23,15 @@ if ($value == 1) {
 	$voteup_url['action'] = 'upvote';
 	$voteup_title = $this->Html->image('kratka_bez_ptaszka.png') . 'Popieram';
 }
+
+if (!$this->Identity->isLoggedIn()) {
+	$div_title = 'Aby móc oddać głos najpierw musisz się zalogować';
+	$voteup_url = [
+		'controller' => 'Users',
+		'action' => 'login',
+		'redirect' => $this->getRequest()->getRequestTarget()
+	];
+}
 ?>
 <div id="vote_widget_postulate_<?= $postulate->id ?>" title="<?= $div_title ?>"
      class="postulate_vote btn-group">
