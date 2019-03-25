@@ -1,9 +1,13 @@
 <?php
 namespace App\Model\Table;
 
+use App\Model\Entity\User;
+use ArrayObject;
+use Cake\Event\Event;
 use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
+use Cake\Routing\Router;
 use Cake\Validation\Validator;
 
 /**
@@ -52,7 +56,7 @@ class UsersTable extends Table
 		]);
 		$this->hasOne('Representatives', [
 			'foreignKey' => 'user_id',
-			'dependent'=>true,
+			'dependent' => true,
 		]);
 		$this->hasMany('Votes', [
 			'foreignKey' => 'user_id',
@@ -128,7 +132,7 @@ class UsersTable extends Table
 
 		$validator
 			->scalar('sid')
-			->maxLength('sid', 32)
+			->maxLength('sid', 64)
 			->allowEmptyString('sid');
 
 		$validator
@@ -152,5 +156,25 @@ class UsersTable extends Table
 		$rules->add($rules->isUnique(['token']));
 
 		return $rules;
+	}
+
+	public function beforeSave(Event $event, User $user, ArrayObject $options)
+	{
+		$request = Router::getRequest();
+		if ($request) {
+			if ($user->sid != $request->getSession()->read('sid')) {
+				if($user->sid) {
+					$this->updateAll(
+						[
+							'sid' => $request->getSession()->read('sid')
+						],
+						[
+							'sid' => $user->sid
+						]
+					);
+				}
+				$user->sid = $request->getSession()->read('sid');
+			}
+		}
 	}
 }

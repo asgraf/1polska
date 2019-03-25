@@ -13,6 +13,7 @@ use Cake\I18n\FrozenTime;
 use Cake\Routing\Router;
 use Cake\Utility\Hash;
 use Cake\Utility\Inflector;
+use Cake\Utility\Security;
 use Crud\Controller\ControllerTrait;
 
 /**
@@ -51,6 +52,10 @@ class AppController extends Controller
 		$this->getRequest()->addDetector('html', function (ServerRequest $request) {
 			return !$request->getParam('_ext');
 		});
+
+		if (!$this->getRequest()->getSession()->check('sid')) {
+			$this->getRequest()->getSession()->write('sid', Security::randomString());
+		}
 
 		$this->loadComponent('RequestHandler', [
 			'enableBeforeRedirect' => false,
@@ -122,9 +127,9 @@ class AppController extends Controller
 
 		if ($this->getRequest()->is('get')) {
 			if ($this->Authentication->getResult()->isValid()) {
-				/** @var FrozenTime $session_cache_time */
-				$session_cache_time = $this->Authentication->getIdentityData('session_cache_time');
-				if ($session_cache_time instanceof FrozenTime && $session_cache_time->addMinute()->isPast() || !$session_cache_time) {
+				/** @var FrozenTime $last_activity */
+				$last_activity = $this->Authentication->getIdentityData('last_activity');
+				if ($last_activity instanceof FrozenTime && $last_activity->addMinute()->isPast() || !$last_activity) {
 					$this->renewUserSession();
 				}
 			}
@@ -133,7 +138,7 @@ class AppController extends Controller
 		/** @var \App\Model\Entity\User|\Authentication\Identity $user */
 		$user = $this->Authentication->getIdentity();
 		if ($user && !$user->verified && !in_array($this->getRequest()->getParam('action'), $this->guestActions)) {
-			$this->Flash->warning('Wykonanie tej akcji wymaga zweryfikowanego konta.<br>Aby tego dokonać kliknij w link aktywacyjny który otrzymałeś na swój adres emailowy <b>'.h($user->email).'</b>');
+			$this->Flash->warning('Wykonanie tej akcji wymaga zweryfikowanego konta.<br>Aby tego dokonać kliknij w link aktywacyjny który otrzymałeś na swój adres emailowy <b>' . h($user->email) . '</b>');
 			return $this->redirect($this->referer('/', true));
 		}
 
@@ -297,7 +302,6 @@ class AppController extends Controller
 	protected function renewUserSession($user = null)
 	{
 		if ($user instanceof User) {
-			$user->set('session_cache_time', FrozenTime::parse());
 			$this->Authentication->setIdentity($user);
 			return true;
 		}
@@ -312,7 +316,8 @@ class AppController extends Controller
 		$this->loadModel('Users');
 		try {
 			$user = $this->Users->get($user->id);
-			$user->set('session_cache_time', FrozenTime::parse());
+			$user->set('last_activity', FrozenTime::parse());
+			$this->Users->saveOrFail($user);
 			$this->Authentication->setIdentity($user);
 			return true;
 		} catch (RecordNotFoundException $e) {

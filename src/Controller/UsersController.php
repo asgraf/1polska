@@ -267,6 +267,10 @@ class UsersController extends AppController
 		$result = $this->Authentication->getResult();
 
 		if ($result->isValid()) {
+			/** @var \App\Model\Entity\User $user */
+			$user = $this->Authentication->getIdentity()->getOriginalData();
+			$user->last_ip = $this->getRequest()->clientIp();
+			$this->Users->saveOrFail($user);
 			return $this->redirect($this->request->getQuery('redirect', '/'));
 		}
 

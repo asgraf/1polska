@@ -20,6 +20,7 @@ use Tools\Mailer\Email;
  * @property \Cake\I18n\FrozenTime $created
  * @property \Cake\I18n\FrozenTime $modified
  * @property \Cake\I18n\FrozenTime|null $last_activity
+ * @property string last_ip
  * @property string|null $sid
  * @property string|null $metadata
  *
