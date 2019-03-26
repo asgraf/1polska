@@ -245,7 +245,8 @@ class RepresentativesController extends AppController
 					'MyVote'
 				])
 				->order([
-					'upvotes' => 'desc'
+					'Representatives.upvotes' => 'desc',
+					'Representatives.created' => 'asc'
 				]);
 		});
 		return $this->Crud->execute();

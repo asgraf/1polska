@@ -199,7 +199,8 @@ class PostulatesController extends AppController
 					'MyVote',
 				])
 				->order([
-					'upvotes' => 'desc'
+					'Postulates.upvotes' => 'desc',
+					'Postulates.created' => 'asc'
 				]);
 		});
 		return $this->Crud->execute();
