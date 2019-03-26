@@ -147,7 +147,11 @@ class PostulatesTable extends Table
             ->maxLength('name', 100)
             ->requirePresence('name', 'create')
             ->allowEmptyString('name', false)
-            ->add('name', 'unique', ['rule' => 'validateUnique', 'provider' => 'table']);
+            ->add('name', 'unique', [
+            	'rule' => 'validateUnique',
+	            'provider' => 'table',
+	            'message' => 'Już istnieje postulat o takiej nazwie'
+            ]);
 
         $validator
             ->scalar('description')
@@ -162,15 +166,12 @@ class PostulatesTable extends Table
 
         $validator
             ->boolean('active')
-            ->requirePresence('active', 'create')
             ->allowEmptyString('active', false);
 
         $validator
-            ->requirePresence('upvotes', 'create')
             ->allowEmptyString('upvotes', false);
 
         $validator
-            ->requirePresence('downvotes', 'create')
             ->allowEmptyString('downvotes', false);
 
         return $validator;
