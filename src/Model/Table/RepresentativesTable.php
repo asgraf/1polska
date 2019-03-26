@@ -86,6 +86,53 @@ class RepresentativesTable extends Table
 				'MyVote.user_id' => $user_id,
 			]
 		]);
+
+		$this->searchManager()
+			->like('firstname', [
+				'before' => true,
+				'after' => true,
+				'form' => [
+					'label' => 'Imię',
+					'type' => 'search',
+					'class' => 'no-selectize',
+				]
+			])
+			->like('lastname', [
+				'before' => true,
+				'after' => true,
+				'form' => [
+					'label' => 'Nazwisko',
+					'type' => 'search',
+					'class' => 'no-selectize',
+				]
+			])
+			->value('constituency_id', [
+				'form' => [
+					'label' => 'Okręg',
+					'type' => 'select',
+					'options' => $this->Constituencies->find('list'),
+					'empty' => true
+				]
+			])
+			->callback('tags', [
+				'callback' => function (Query $query, array $args) {
+					if (is_array($args['tags'])) {
+						foreach ($args['tags'] as $tag) {
+							$query->find('tagged', ['tag' => $tag]);
+						}
+					}
+				},
+				'form' => [
+					'label' => 'Tagi',
+					'type' => 'select',
+					'options' => $this->Tags->find('list', [
+						'keyField' => 'label',
+						'valueField' => 'slug',
+					]),
+					'multiple' => true,
+					'empty' => true,
+				]
+			]);
 	}
 
 	/**

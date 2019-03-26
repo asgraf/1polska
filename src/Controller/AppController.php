@@ -85,6 +85,10 @@ class AppController extends Controller
 			],
 		]);
 
+		$this->loadComponent('Search.Prg', [
+			'actions' => ['index', 'lookup']
+		]);
+
 		$this->_crudInit();
 
 		if ($this->Crud->isActionMapped()) {
