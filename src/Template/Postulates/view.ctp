@@ -5,7 +5,7 @@
  * @var \App\Model\Entity\Postulate $postulate
  * @var \App\Model\Entity\Representative[]|\Cake\ORM\Query $representatives
  */
-$this->set('title', $postulate->name);
+$this->set('title', h($postulate->name));
 if (
 	$postulate->user_id &&
 	$this->Identity->getId() == $postulate->user_id &&

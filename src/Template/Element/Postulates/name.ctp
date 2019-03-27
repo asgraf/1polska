@@ -11,4 +11,4 @@ echo $this->Html->link(
 	['action' => 'view', '_entity' => $context],
 	['class' => 'view visitable']
 );
-echo $this->Html->tag('p', $context->description);
+echo $this->Html->tag('p', h($context->description));

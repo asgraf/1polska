@@ -12,7 +12,7 @@
  */
 $this->Html->meta(['property' => 'og:image', 'content' => 'http://lh6.googleusercontent.com/-hiYEyAESO8U/AAAAAAAAAAI/AAAAAAAAAAY/q7yeRBPt_Q4/photo.jpg'], NULL, ['inline' => false]);
 $this->set('title', '1Polska.pl - Strona główna');
-$width = $height = 80;
+
 $logged_id = $this->getRequest()->getAttribute('authentication')->getResult()->isValid();
 $join_button = $logged_id ? '' : $this->Html->link('Przyłącz się »', ['controller' => 'Users', 'action' => 'register'], ['class' => 'btn btn-primary btn-lg pull-right']);
 $this->append('header', '
@@ -39,16 +39,7 @@ $this->append('header', '
 		<h2><?= $this->Html->link('PRIORYTETY ZMIAN - najpopularniejsze postulaty (to co nas łączy):', ['controller' => 'Postulates', 'action' => 'index', 'active' => true]) ?></h2>
 		<?php
 		foreach ($postulates as $postulate) {
-			$url = ['controller' => 'Postulates', 'action' => 'view', '_entity' => $postulate];
-			echo '<div class="col-md-4 h210">';
-			echo '<div class="w140 truncate" data-click-url="' . $this->Url->build($url) . '">';
-			echo '<h3>' . $this->Html->link($postulate['name'], $url) . '</h3>';
-			echo $postulate['description'];
-			echo '</div>';
-			echo '<p class="clearfix">';
-			echo $this->element('postulate_vote', ['postulate' => $postulate]) . '&nbsp;';
-			echo '</p>';
-			echo '</div>';
+			echo $this->element('postulate_tile', ['postulate' => $postulate]);
 		}
 		?>
 		<div><?= $this->Html->link('Zobacz propozycje użytkowników', ['controller' => 'Postulates', 'action' => 'index', 'active' => true], ['class' => 'btn btn-primary']); ?></div>
@@ -76,20 +67,7 @@ $this->append('header', '
 		</div>
 		<?php
 		foreach ($representatives as $representative) {
-			$url = ['controller' => 'Representatives', 'action' => 'view', '_entity' => $representative];
-			echo '<div class="col-md-4 h210">';
-			echo '<div class="max140 truncate" data-click-url="' . $this->Url->build($url) . '">';
-			echo $this->Html->image(
-				$representative->getPhotoThumbUrl($width, $height),
-				['class' => 'pull-left img-circle', 'width' => $width, 'height' => $height]
-			);
-			echo '<h3>' . $this->Html->link($representative->full_name, $url) . '</h3>';
-			echo $representative['description'];
-			echo '</div>';
-			echo '<p class="clearfix">';
-			echo $this->element('representative_vote', ['representative' => $representative]) . '&nbsp;';
-			echo '</p>';
-			echo '</div>';
+			echo $this->element('representative_tile', ['representative' => $representative]);
 		}
 		?>
 		<div><?= $this->Html->link('Zobacz wszystkich reprezentantów', ['controller' => 'Representatives', 'action' => 'index', 'active' => true], ['class' => 'btn btn-primary']); ?></div>

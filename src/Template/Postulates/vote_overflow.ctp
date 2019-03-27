@@ -20,7 +20,7 @@ $this->Html->script('vote_overflow', ['block' => 'script'])
 		echo '<div class="col-md-4 h210 vote_block">';
 		echo '<div class="w140 truncate" data-click-url="' . $this->Url->build($url) . '">';
 		echo '<h3>' . $this->Html->link($postulate['name'], $url) . '</h3>';
-		echo $postulate['description'];
+		echo h($postulate->description);
 		echo '</div>';
 		echo $this->Form->postLink('Usuń', ['controller' => 'Postulates', 'action' => 'cancelvote', 'id' => $postulate['id']], ['class' => 'btn btn-danger postulate_vote postulate_vote_overflow']);
 		echo '</p>';

@@ -7,7 +7,7 @@
  */
 use Cake\Utility\Hash;
 
-$this->set('title', $representative->full_name);
+$this->set('title', h($representative->full_name));
 $connected_sign = Hash::get($representative, 'user.status') == 'active' ? '<span class="text-success glyphicon glyphicon-ok" aria-hidden="true" title="Ten reprezentant posiada aktywne konto użytkownika na 1polska.pl"></span> ' : '';
 if (
 	$representative->user_id &&
@@ -79,9 +79,9 @@ if ($this->Identity->get('admin')) {
 				echo 'Nie określono';
 			} ?></dd>
 		<dt><?= __('Krótki opis'); ?></dt>
-		<dd class="description"><?= $representative->description; ?></dd>
+		<dd class="description"><?= h($representative->description); ?></dd>
 		<dt><?= __('Pełny opis'); ?></dt>
-		<dd class="content" data-markdown><?= $representative->content; ?></dd>
+		<dd class="content" data-markdown><?= h($representative->content); ?></dd>
 		<?php if (!$representative->user) { ?>
 			<dt><?= __('Utworzono'); ?></dt>
 			<dd class="created"><?= $representative->created->diffForHumans(); ?></dd>
