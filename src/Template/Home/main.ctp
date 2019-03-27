@@ -74,7 +74,7 @@ $this->append('header', '
 	</div>
 
 	<div class="row">
-		<h2>REPREZENTANCI w Twoim OKRĘGU WYBORCZYM (kliknij na swój okręg wyborczy):</h2>
+		<h2>REPREZENTANCI wg OKRĘGÓW WYBORCZYCH - kliknij na mapę:</h2>
 		<?= $this->element('contituencies_map'); ?>
 	</div>
 
