@@ -6992,7 +6992,7 @@ button[data-handler=bootstrap-markdown-Youtube] {
 }
 .postulate_vote {
   min-width: 200px;
-  width: 200px;
+  width: 250px;
 }
 .postulate_vote .btn {
   height: 42px;
@@ -7006,6 +7006,9 @@ button[data-handler=bootstrap-markdown-Youtube] {
   min-width: 110px;
   width: auto;
   text-align: left;
+}
+.representative_vote {
+  width: 250px;
 }
 .representative_vote .btn {
   height: 42px;
