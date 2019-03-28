@@ -28,9 +28,13 @@ class PostulatesController extends AppController
 			])
 		) {
 			$action->setConfig('scaffold.actions_blacklist', [
-				'add', 'edit', 'view'
+				'add', 'edit'
 			]);
 		}
+
+		$action->setConfig('scaffold.actions_blacklist', [
+			'view', 'edit'
+		]);
 	}
 
 	public function add()
