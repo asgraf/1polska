@@ -38,7 +38,6 @@ if (!$this->getRequest()->is('ssl')) {
 				echo $this->element('flashbox');
 				echo $this->Form->control('email', ['label' => __d('user', 'Email')]);
 				echo $this->Form->control('password', ['label' => __d('user', 'Password')]);
-				echo $this->Recaptcha->display();
 				echo $this->Form->submit(__('Zaloguj'));
 
 				?>
