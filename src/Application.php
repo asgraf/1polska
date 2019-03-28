@@ -1,6 +1,7 @@
 <?php
 namespace App;
 
+use App\Middleware\CloudflareMiddleware;
 use Authentication\AuthenticationService;
 use Authentication\AuthenticationServiceProviderInterface;
 use Authentication\Middleware\AuthenticationMiddleware;
@@ -84,7 +85,7 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
 				'unauthenticatedRedirect' => '/zaloguj',
 				'queryParam' => 'redirect',
 			]))
-			//->add(new CloudflareMiddleware())
+			->add(new CloudflareMiddleware())
 		;
 		return $middlewareQueue;
 	}
