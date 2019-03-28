@@ -30,6 +30,7 @@ use Cake\Utility\Text;
  * @property \Tags\Model\Entity\Tag[] $tags
  * @property \App\Model\Entity\Vote $my_vote
  * @property \App\Model\Entity\Vote[] $votes
+ * @property int $tag_count
  */
 class Postulate extends Entity
 {

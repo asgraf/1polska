@@ -3,7 +3,7 @@
  * @var $postulate
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Postulate $postulate
- * @var \App\Model\Entity\Representative[]|\Cake\ORM\Query $representatives
+ * @var \App\Model\Entity\Representative[]|\Cake\Collection\CollectionInterface $representatives
  */
 $this->set('title', h($postulate->name));
 if (

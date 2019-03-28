@@ -6,5 +6,13 @@ return [
 		'adminEmail' => 'asgraf@gmail.com',
 		'systemEmail' => '1polska@1polska.pl',
 		'systemName' => '1Polska.pl'
+	],
+	'Cache'=>[
+		'cloudflare' => [
+			'className' => 'File',
+			'duration' => '+1 day',
+			'path' => CACHE,
+			'prefix' => 'cloudflare_'
+		],
 	]
 ];

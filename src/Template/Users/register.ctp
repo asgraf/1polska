@@ -10,6 +10,7 @@ echo $this->Form->control('name', ['required', 'label' => 'Nazwa użytkownika'])
 echo $this->Form->control('email', ['required']);
 echo $this->Form->control('password', ['label' => 'Hasło', 'required', 'pattern' => '.{8,}', 'title' => 'Hasło nie może być krótszę niż 8 znaków']);
 echo $this->element('Register/terms_and_policy');
+echo $this->Recaptcha->display();
 ?>
 <div class="form-group">
 	<div class="col-md-offset-2 col-sm-offset-6 col-md-8 col-sm-6">

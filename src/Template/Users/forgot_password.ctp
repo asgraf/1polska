@@ -11,7 +11,7 @@ $this->set('title', 'Zapomniane hasło');
 		<legend><?= $this->get('title'); ?></legend>
 		<?php
 		echo $this->Form->control('email', ['label' => __d('user', 'Email')]);
-		echo $this->element('recaptcha');
+		echo $this->Recaptcha->display();
 		?>
 	</fieldset>
 	<?= $this->Form->button(__d('user', 'Submit'), ['class' => 'btn submit', 'data-icon' => 'ok']); ?>

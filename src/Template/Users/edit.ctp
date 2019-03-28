@@ -12,7 +12,6 @@ $this->set('title', 'Edycja profilu');
 		<?php
 		echo $this->Form->control('name', ['label' => 'Nazwa Użytkownika']);
 		echo $this->Form->control('new_password', ['type' => 'password', 'label' => 'Nowe hasło', 'placeholder' => 'Pozostaw puste jeśli nie chcesz zmieniać hasła']);
-		echo $this->element('recaptcha');
 		?>
 	</fieldset>
 	<?php

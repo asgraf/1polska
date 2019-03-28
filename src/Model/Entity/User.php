@@ -20,7 +20,7 @@ use Tools\Mailer\Email;
  * @property \Cake\I18n\FrozenTime $created
  * @property \Cake\I18n\FrozenTime $modified
  * @property \Cake\I18n\FrozenTime|null $last_activity
- * @property string last_ip
+ * @property string|null $last_ip
  * @property string|null $sid
  * @property string|null $metadata
  *
@@ -30,6 +30,7 @@ use Tools\Mailer\Email;
  * @property mixed $slug
  * @property \App\Model\Entity\Postulate[] $voted_postulates
  * @property \App\Model\Entity\Representative[] $voted_representatives
+ * @property \App\Model\Entity\Representative $representative
  */
 class User extends Entity
 {

@@ -11,9 +11,7 @@ use Cake\Http\BaseApplication;
 use Cake\Http\Middleware\EncryptedCookieMiddleware;
 use Cake\Routing\Middleware\AssetMiddleware;
 use Cake\Routing\Middleware\RoutingMiddleware;
-use Cake\Routing\Router;
 use DateTime;
-use ForceUTF8\Encoding;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 
@@ -57,6 +55,7 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
 		$this->addPlugin('Setup', ['bootstrap' => true]);
 		$this->addPlugin('Authentication');
 		$this->addPlugin('Filerepo', ['routes' => true]);
+		$this->addPlugin('Recaptcha');
 	}
 
 	/**
@@ -84,7 +83,9 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
 			->add(new AuthenticationMiddleware($this, [
 				'unauthenticatedRedirect' => '/zaloguj',
 				'queryParam' => 'redirect',
-			]));
+			]))
+			//->add(new CloudflareMiddleware())
+		;
 		return $middlewareQueue;
 	}
 

@@ -5,6 +5,7 @@ use App\Model\Entity\User;
 use ArrayObject;
 use Cake\Controller\Controller;
 use Cake\Controller\Exception\SecurityException;
+use Cake\Core\Configure;
 use Cake\Datasource\Exception\RecordNotFoundException;
 use Cake\Event\Event;
 use Cake\Event\EventManager;
@@ -25,10 +26,11 @@ use Crud\Controller\ControllerTrait;
  * @link https://book.cakephp.org/3.0/en/controllers.html#the-app-controller
  * @property \Setup\Controller\Component\SetupComponent $Setup
  * @property \Authentication\Controller\Component\AuthenticationComponent $Authentication
- * @property \App\Controller\Component\RecaptchaComponent $Recaptcha
+ * @property \Recaptcha\Controller\Component\RecaptchaComponent $Recaptcha
  * @property \App\Model\Table\UsersTable $Users
  * @property \Crud\Controller\Component\CrudComponent $Crud
  * @property \App\Controller\Component\FlashComponent $Flash
+ * @property \Search\Controller\Component\PrgComponent $Prg
  */
 class AppController extends Controller
 {
@@ -87,6 +89,11 @@ class AppController extends Controller
 
 		$this->loadComponent('Search.Prg', [
 			'actions' => ['index', 'lookup']
+		]);
+
+		$this->loadComponent('Recaptcha.Recaptcha', [
+			'sitekey' => Configure::readOrFail('Recaptcha.site_key'),
+			'secret' => Configure::readOrFail('Recaptcha.secret_key'),
 		]);
 
 		$this->_crudInit();
@@ -289,14 +296,6 @@ class AppController extends Controller
 		$this->set('page_id', implode('-', $url_elements));
 		$this->set('page_class', implode(' ', $url_elements));
 	}
-
-//	private function checkCaptcha() {
-//		if(in_array($this->getRequest()->getParam('action'),['upvote','downvote','cancelvote'])) return;
-//		if(!$this->Recaptcha->checkCaptcha()) {
-//			$this->Flash->error(__('Nieprawidłowa Catpcha'));
-//			return $this->redirect($this->referer('/', true));
-//		}
-//	}
 
 
 	/**

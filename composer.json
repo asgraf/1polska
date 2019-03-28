@@ -11,6 +11,7 @@
         "cakephp/cakephp": "3.7.*",
         "cakephp/migrations": "^2.0.0",
         "cakephp/plugin-installer": "^1.0",
+        "crabstudio/recaptcha": "^2.1",
         "dereuromark/cakephp-tags": "^0.5.0",
         "dereuromark/cakephp-tools": "^1.9",
         "friendsofcake/crud": "~5.0",

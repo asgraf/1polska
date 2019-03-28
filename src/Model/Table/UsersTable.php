@@ -14,7 +14,7 @@ use Cake\Validation\Validator;
  * Users Model
  *
  * @property \App\Model\Table\PostulatesTable|\Cake\ORM\Association\HasMany $Postulates
- * @property \App\Model\Table\RepresentativesTable|\Cake\ORM\Association\HasMany $Representatives
+ * @property \App\Model\Table\RepresentativesTable|\Cake\ORM\Association\HasOne $Representatives
  * @property \App\Model\Table\VotesTable|\Cake\ORM\Association\HasMany $Votes
  *
  * @method \App\Model\Entity\User get($primaryKey, $options = [])

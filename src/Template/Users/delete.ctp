@@ -19,7 +19,7 @@
 				?>
 			</div>
 		</div>
-		<?= $this->element('recaptcha'); ?>
+		<?= $this->Recaptcha->display(); ?>
 	</fieldset>
 	<?php
 	echo $this->Form->button('Usuń moje konto', ['class' => 'btn btn-danger submit pull-right']);
