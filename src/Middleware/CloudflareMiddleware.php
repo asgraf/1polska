@@ -23,7 +23,7 @@ class CloudflareMiddleware
 
 			$response = $client->get('/ips-v4');
 			if($response->isOk()) {
-				return $response->getStringBody();
+				return explode("\n", $response->getStringBody());
 			} else {
 				throw new InternalErrorException('Failed to fetch cloudflare server ranges');
 			}
@@ -32,6 +32,7 @@ class CloudflareMiddleware
 
 	function isIpInRange($ip, $range)
 	{
+		$range = trim($range);
 		if (strpos($range, '/') == false) {
 			$range .= '/32';
 		}
