@@ -36,9 +36,8 @@ $adminpanel = !empty($this->Identity->get('admin')) && $this->getRequest()->getP
 <div id="fb-root"></div>
 <div class="container">
 	<?= $this->element('flashbox') ?>
-	<nav class="breadcrumbs"><?= $this->Html->getCrumbList(['class' => 'breadcrumb'], 'Strona główna'); ?></nav>
+	<?= $this->cell('Constituencies');?>
 	<div class="view_content"><?= $this->fetch('content'); ?></div>
-	<nav class="breadcrumbs"><?= $this->Html->getCrumbList(['class' => 'breadcrumb'], 'Strona główna'); ?></nav>
 </div>
 <footer id="footer" data-role="footer">
 	<p class="text-muted">
