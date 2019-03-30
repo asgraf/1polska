@@ -21,6 +21,7 @@ namespace App\View;
  * @property \Tools\View\Helper\GravatarHelper $Gravatar
  * @property \Tags\View\Helper\TagHelper $Tag
  * @property \Tags\View\Helper\TagCloudHelper $TagCloud
+ * @property \Recaptcha\View\Helper\RecaptchaHelper $Recaptcha
  */
 class AppView extends \CrudView\View\CrudView
 {
