@@ -13,6 +13,7 @@
 	?>
 	<?= $this->fetch('search'); ?>
 	<?= $this->fetch('afterSearch'); ?>
+	<?= $this->element('action-header') ?>
 
 	<?= $this->element('index/bulk_actions/form_start', compact('bulkActions')); ?>
 
@@ -47,7 +48,6 @@
 
 
 	<?= $this->element('index/pagination'); ?>
-	<?= $this->element('action-header') ?>
 	<?= $this->element('index/bulk_actions/form_end', compact('bulkActions')); ?>
 </div>
 
