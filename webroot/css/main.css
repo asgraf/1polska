@@ -6971,7 +6971,7 @@ dt {
   white-space: pre-wrap;
 }
 [data-markdown] img {
-  float: left;
+  display: block;
   margin: 5px;
   padding: 1px;
   border: 1px solid #c0c0c0;
