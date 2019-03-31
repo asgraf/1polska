@@ -3,7 +3,7 @@
  * @var \App\View\AppView $this
  */
 echo $this->Html->image(
-	'https://lh4.googleusercontent.com/REhJ_m0A_SJtGVdX1OWKkeULnMfDpxuOmfrZEhWsm9b11epp0MFyhEJkMIdOnBcKsPlI3COhaK3xsxvcvK0e3V4Yady3pCOo-zKb44WAfHJllSNXoLjr21QgP87ru8Rz4nwlZYc',
+	'img/mapa_okregi.jpg',
 	[
 		'alt' => 'Okręgi wyborcze do Sejmu RP',
 		'usemap' => '#okregi',
