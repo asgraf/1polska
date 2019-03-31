@@ -10,7 +10,7 @@
  * @var \App\Model\Entity\Postulate[]|\Cake\Collection\CollectionInterface $postulates
  * @var \App\Model\Entity\Representative[]|\Cake\Collection\CollectionInterface $representatives
  */
-$this->Html->meta(['property' => 'og:image', 'content' => 'http://lh6.googleusercontent.com/-hiYEyAESO8U/AAAAAAAAAAI/AAAAAAAAAAY/q7yeRBPt_Q4/photo.jpg'], NULL, ['inline' => false]);
+$this->Html->meta(['property' => 'og:image', 'content' => 'img/ico_1_42x42.png'], NULL, ['inline' => false]);
 $this->set('title', '1Polska.pl - Strona główna');
 
 $logged_id = $this->getRequest()->getAttribute('authentication')->getResult()->isValid();
