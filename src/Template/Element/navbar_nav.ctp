@@ -12,7 +12,7 @@ if ($this->Identity->isLoggedIn()) {
 }
 ?>
 <nav class="navbar navbar-inverse navbar-fixed-top">
-	<img src="https://lh6.googleusercontent.com/-hiYEyAESO8U/AAAAAAAAAAI/AAAAAAAAAAY/q7yeRBPt_Q4/photo.jpg"
+	<img src="img/ico_1_42x42.png"
 	     alt="1Polska LOGO" style="width:42px;height:42px;position:fixed;top:6px;left:0;">
 
 	<div class="container">
