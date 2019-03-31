@@ -3,7 +3,7 @@
  * @var \App\View\AppView $this
  */
 echo $this->Html->image(
-	'img/mapa_okregi.jpg',
+	'http://nowa.1polska.pl/img/mapa_okregi.jpg',
 	[
 		'alt' => 'Okręgi wyborcze do Sejmu RP',
 		'usemap' => '#okregi',
