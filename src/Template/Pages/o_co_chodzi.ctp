@@ -11,7 +11,7 @@ $this->set('title', 'O co chodzi');
 	frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
 	webkitallowfullscreen="true"></iframe>
 
-<img src="https://lh6.googleusercontent.com/-hiYEyAESO8U/AAAAAAAAAAI/AAAAAAAAAAY/q7yeRBPt_Q4/photo.jpg"
+<img src="img/ico_1_42x42.png"
      alt="1Polska LOGO" style="width:42px;height:42px;position:fixed;bottom:6px;right:0;">
 
 
