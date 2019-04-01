@@ -1,3 +1,8 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ */
+?>
 <?= $this->fetch('before_index'); ?>
 
 <div class="<?= $this->CrudView->getCssClasses(); ?>">
