@@ -19,8 +19,8 @@ $this->append('header', '
 <div class="jumbotron" style="padding:10px">
 	<div class="container">
 		<h5 style="font-style:italic; font-weight:normal; color:#99BB99">„Do triumfu zła wystarczy bierność ludzi dobrych” – Edmund Burke</h5>
-		<h1>Czas zjednoczyć dobrych ludzi wobec patologii obecnego systemu!</h1>
-		<h4>Chcesz żyć w normalnym kraju? Masz dość absurdów IIIRP? Nie jesteś sam!</h4>
+		<h1 style="font-size:36px">Czas zjednoczyć dobrych ludzi wobec patologii obecnego systemu!</h1>
+		<h4 style="color:#317EAC">Chcesz żyć w normalnym kraju? Masz dość absurdów IIIRP? Nie jesteś sam!</h4>
 		<p style="font-size:15px">To my, polskie społeczeństwo, które ma już dość tego chorego systemu, jaki stworzyły nam tzw. "elity IIIRP". Pookrągłostołowemu, zabetonowanemu układowi partyjnemu i obecnej klasie politycznej już dziękujemy! Dość hipokryzji, obłudy i zakłamania polityków oraz mediów. Tu ustalimy wspólnie priorytety zmian i wreszcie połączymy siły żeby przywrócić w Polsce normalność. To my: normalni, zwykli ludzie chcący żyć uczciwie i godnie jesteśmy w Polsce większością - i czas to sobie uświadomić!</p>
 		<h2 class="text-center">' . $this->Html->link('Zobacz więcej »', ['controller' => 'Pages', 'action' => 'display', 'o_co_chodzi'], ['class' => 'btn btn-primary btn-lg pull-left']) . '<strong style="margin-left:15px; margin-right:15px; font-weight:normal">Jest nas już <span style="color:#CC3344">' . number_format($users_count, 0, ',', '&nbsp;') . '</span> osób!</strong>
 		' . $join_button . '
@@ -66,7 +66,7 @@ $this->append('header', '
 	</div>
 
 	<div class="row">
-		<h2>REPREZENTANCI wg OKRĘGÓW WYBORCZYCH - kliknij na mapę:</h2>
+		<h2><a href="/okregi_wyborcze">REPREZENTANCI wg OKRĘGÓW WYBORCZYCH - kliknij na mapę:</a></h2>
 		<?= $this->element('contituencies_map'); ?>
 	</div>
 
