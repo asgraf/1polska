@@ -3,7 +3,7 @@
  * @var \App\View\AppView $this
  */
 echo $this->Html->image(
-	'https://lh4.googleusercontent.com/REhJ_m0A_SJtGVdX1OWKkeULnMfDpxuOmfrZEhWsm9b11epp0MFyhEJkMIdOnBcKsPlI3COhaK3xsxvcvK0e3V4Yady3pCOo-zKb44WAfHJllSNXoLjr21QgP87ru8Rz4nwlZYc',
+	'http://nowa.1polska.pl/img/mapa_okregi.jpg',
 	[
 		'alt' => 'Okręgi wyborcze do Sejmu RP',
 		'usemap' => '#okregi',
@@ -54,7 +54,7 @@ echo $this->Html->image(
 	<area shape="rect" coords="170,198,230,242" alt="Okr 37 Konin" title="Okr 37 Konin" href="/okregi_wyborcze/37" target="_top">
 	<area shape="rect" coords="98,150,166,188" alt="Okr 38 Piła" title="Okr 38 Piła" href="/okregi_wyborcze/38" target="_top">
 	<area shape="rect" coords="95,188,122,237" alt="Okr 38 Piła" title="Okr 38 Piła" href="/okregi_wyborcze/38" target="_top">
-	<area shape="circle" coords="144,211,20" alt="Okr 39 Poznań" title="Okr 39 Poznań" href="/okregi_wyborcze/39_Pozna%C5%84" target="_top">
+	<area shape="circle" coords="144,211,20" alt="Okr 39 Poznań" title="Okr 39 Poznań" href="/okregi_wyborcze/39" target="_top">
 	<area shape="rect" coords="80,50,138,145" alt="Okr 40 Koszalin" title="Okr 40 Koszalin" href="/okregi_wyborcze/40" target="_top">
 	<area shape="rect" coords="20,73,79,166" alt="Okr 41 Szczecin" title="Okr 41 Szczecin" href="/okregi_wyborcze/41" target="_top">
 </map>
