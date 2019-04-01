@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asgraf/filerepo.git",
-                "reference": "52a409fb746f65498b472615e55cf3e176d5c0a4"
+                "reference": "6c2acec40916af07d2c0253d7e67615866093332"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asgraf/filerepo/zipball/52a409fb746f65498b472615e55cf3e176d5c0a4",
-                "reference": "52a409fb746f65498b472615e55cf3e176d5c0a4",
+                "url": "https://api.github.com/repos/asgraf/filerepo/zipball/6c2acec40916af07d2c0253d7e67615866093332",
+                "reference": "6c2acec40916af07d2c0253d7e67615866093332",
                 "shasum": ""
             },
             "require": {
@@ -37,7 +37,7 @@
                 "MIT"
             ],
             "description": "Filerepo plugin for CakePHP",
-            "time": "2019-03-07T20:07:54+00:00"
+            "time": "2019-04-01T23:41:36+00:00"
         },
         {
             "name": "aura/intl",
@@ -920,12 +920,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Holt59/cakephp3-bootstrap-helpers.git",
-                "reference": "8b94691e5085b9603f351800eedb44e911238cbf"
+                "reference": "5da1f8922529d1c437106a3061b5e37593ea859c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Holt59/cakephp3-bootstrap-helpers/zipball/8b94691e5085b9603f351800eedb44e911238cbf",
-                "reference": "8b94691e5085b9603f351800eedb44e911238cbf",
+                "url": "https://api.github.com/repos/Holt59/cakephp3-bootstrap-helpers/zipball/5da1f8922529d1c437106a3061b5e37593ea859c",
+                "reference": "5da1f8922529d1c437106a3061b5e37593ea859c",
                 "shasum": ""
             },
             "require": {
@@ -954,7 +954,7 @@
                 "bootstrap",
                 "cakephp"
             ],
-            "time": "2019-02-28T14:01:23+00:00"
+            "time": "2019-04-01T19:55:25+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
