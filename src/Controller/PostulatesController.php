@@ -288,7 +288,8 @@ class PostulatesController extends AppController
 		$postulate_vote_count = $this->Postulates->Votes->find()
 			->where([
 				'user_id' => $this->Authentication->getIdentityData('id'),
-				'fk_model' => 'Postulates'
+				'fk_model' => 'Postulates',
+				'value !=' => 0
 			])
 			->count();
 		if ($postulate_vote_count >= 12) {
