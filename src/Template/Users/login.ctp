@@ -35,7 +35,6 @@ if (!$this->getRequest()->is('ssl')) {
 			<?= $this->Form->create(null, ['horizontal' => true]); ?>
 			<fieldset>
 				<?php
-				echo $this->element('flashbox');
 				echo $this->Form->control('email', ['label' => __d('user', 'Email')]);
 				echo $this->Form->control('password', ['label' => __d('user', 'Password')]);
 				echo $this->Form->submit(__('Zaloguj'));
