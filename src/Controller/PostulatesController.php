@@ -235,6 +235,7 @@ class PostulatesController extends AppController
 							return $query->where([
 								'Votes.fk_id' => $postulate->id,
 								'Votes.fk_model' => 'Postulates',
+								'Votes.value !=' => '0',
 							]);
 						});
 					$this->set('representatives', $representatives);

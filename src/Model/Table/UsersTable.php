@@ -68,7 +68,8 @@ class UsersTable extends Table
 			'through' => 'Votes',
 			'targetForeignKey' => 'fk_id',
 			'conditions' => [
-				'Votes.fk_model' => 'Postulates'
+				'Votes.fk_model' => 'Postulates',
+				'Votes.value !=' => '0',
 			]
 		]);
 
@@ -77,7 +78,8 @@ class UsersTable extends Table
 			'through' => 'Votes',
 			'targetForeignKey' => 'fk_id',
 			'conditions' => [
-				'Votes.fk_model' => 'Representatives'
+				'Votes.fk_model' => 'Representatives',
+				'Votes.value !=' => '0',
 			]
 		]);
 	}
