@@ -140,6 +140,11 @@ class UsersController extends AppController
 			/** @var User $user */
 			$user = $event->getSubject()->entity;
 
+			if (!$this->Recaptcha->verify()) {
+				$this->Flash->error('Nie rozwiązałeś capchty');
+				return $this->redirect($this->getRequest()->getRequestTarget());
+			}
+
 			$user->verified = false;
 			$user->generateToken();
 		});
@@ -215,6 +220,11 @@ class UsersController extends AppController
 			}
 		}
 		if ($this->getRequest()->is('post')) {
+			if (!$this->Recaptcha->verify()) {
+				$this->Flash->error('Nie rozwiązałeś capchty');
+				return $this->redirect($this->getRequest()->getRequestTarget());
+			}
+
 			if ($user instanceof User) {
 				$user->generateToken();
 				$this->Users->saveOrFail($user);

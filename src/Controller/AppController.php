@@ -94,6 +94,7 @@ class AppController extends Controller
 		$this->loadComponent('Recaptcha.Recaptcha', [
 			'sitekey' => Configure::readOrFail('Recaptcha.site_key'),
 			'secret' => Configure::readOrFail('Recaptcha.secret_key'),
+			'lang' => 'pl'
 		]);
 
 		$this->_crudInit();
