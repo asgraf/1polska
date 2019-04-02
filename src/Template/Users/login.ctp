@@ -17,33 +17,15 @@ if (!$this->getRequest()->is('ssl')) {
 }
 ?>
 
-<!--<br/><p style="color:#BBBBBB">Aby kontynuować - Zaloguj się przez swoje konto społecznościowe:</p><br/>-->
-<!---->
-<? //= $this->Html->link($this->Html->image('Google.png') . ' Zaloguj za pomocą Google', ['admin' => false, 'plugin' => false, 'controller' => 'Home', 'action' => 'socialLogin', 'google'], ['escape' => false, 'class' => 'btn btn-default']) ?>
-<!---->
-<!--<br/><br/><p style="color:#BBBBBB">lub skorzystaj z formularza poniżej, jeśli nie masz / nie chcesz używać konta-->
-<!--	społecznościowego:</p><br/>-->
+<?= $this->Form->create(null, ['horizontal' => true]); ?>
+<fieldset>
+	<?php
+	echo $this->Form->control('email', ['label' => __d('user', 'Email')]);
+	echo $this->Form->control('password', ['label' => __d('user', 'Password')]);
+	echo $this->Form->submit(__('Zaloguj'));
 
-<div class="row">
-	<div class="col-md-5">
-		<ul class="nav nav-tabs">
-			<li role="presentation"
-			    class="active"><?= $this->Html->link(__d('user', 'Login'), ['action' => 'login']); ?></a></li>
-			<li role="presentation"><?= $this->Html->link(__d('user', 'Register'), ['action' => 'register']); ?></a></li>
-		</ul>
-		<div>
-			<?= $this->Form->create(null, ['horizontal' => true]); ?>
-			<fieldset>
-				<?php
-				echo $this->Form->control('email', ['label' => __d('user', 'Email')]);
-				echo $this->Form->control('password', ['label' => __d('user', 'Password')]);
-				echo $this->Form->submit(__('Zaloguj'));
-
-				?>
-				<?= $this->Html->link('Zapomniałeś hasła?', ['controller' => 'Users', 'action' => 'forgotPassword'], ['class' => 'pull-right']); ?>
-			</fieldset>
-			<?= $this->Form->end(); ?>
-		</div>
-	</div>
-</div>
+	?>
+	<?= $this->Html->link('Zapomniałeś hasła?', ['controller' => 'Users', 'action' => 'forgotPassword'], ['class' => 'pull-right']); ?>
+</fieldset>
+<?= $this->Form->end(); ?>
 Logowanie oznacza akceptację <?= $this->Html->link('polityki prywatności', ['controller' => 'Pages', 'action' => 'display', 'polityka_prywatnosci']) ?>
