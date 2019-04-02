@@ -6966,21 +6966,25 @@ dt {
 .upvotes.progressbar {
   width: 150px;
 }
-[data-markdown] {
+[data-markdown],
+[data-provider="markdown-preview"] {
   position: relative;
   white-space: pre-wrap;
 }
-[data-markdown] img {
+[data-markdown] img,
+[data-provider="markdown-preview"] img {
   display: block;
   margin: 5px;
   padding: 1px;
   border: 1px solid #c0c0c0;
 }
-[data-markdown] p {
+[data-markdown] p,
+[data-provider="markdown-preview"] p {
   display: inline;
   margin: 0 !important;
 }
-[data-markdown]:after {
+[data-markdown]:after,
+[data-provider="markdown-preview"]:after {
   display: block;
   visibility: hidden;
   clear: both;
