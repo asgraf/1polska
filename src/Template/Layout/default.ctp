@@ -35,8 +35,14 @@ $adminpanel = !empty($this->Identity->get('admin')) && $this->getRequest()->getP
 </header>
 <div id="fb-root"></div>
 <div class="container">
-	<?= $this->element('flashbox') ?>
-	<?= $this->cell('Constituencies');?>
+	<section id="flashbox">
+		<?php
+		echo $this->Flash->render('auth');
+		echo $this->Flash->render('flash');
+		echo $this->fetch('flash');
+		?>
+	</section>
+	<?= $this->cell('Constituencies'); ?>
 	<div class="view_content"><?= $this->fetch('content'); ?></div>
 </div>
 <footer id="footer" data-role="footer">
@@ -63,6 +69,8 @@ echo $this->Html->script('to-markdown');
 echo $this->Html->script('apply_markdown');
 echo $this->Html->script('bootstrap-markdown');
 echo $this->Html->script('apply_click_url');
+echo $this->fetch('action_link_forms');
+echo $this->fetch('postLink');
 echo $this->fetch('script');
 ?>
 </body>
