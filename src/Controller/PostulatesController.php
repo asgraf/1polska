@@ -237,7 +237,11 @@ class PostulatesController extends AppController
 								'Votes.fk_model' => 'Postulates',
 								'Votes.value !=' => '0',
 							]);
-						});
+						})
+						->order([
+							'Votes.modified'=>'asc'
+						])
+					;
 					$this->set('representatives', $representatives);
 				});
 			});
