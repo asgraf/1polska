@@ -285,11 +285,16 @@ class PostulatesController extends AppController
 	public function upvote($id = null)
 	{
 		$this->getRequest()->allowMethod('post');
-		$postulate_vote_count = $this->Postulates->Votes->find()
+		$postulate_vote_count = $this->Postulates->find()
+			->matching('Votes', function (Query $query) {
+				return $query->where([
+					'Votes.user_id' => $this->Authentication->getIdentityData('id'),
+					'Votes.fk_model' => 'Postulates',
+					'Votes.value !=' => 0
+				]);
+			})
 			->where([
-				'user_id' => $this->Authentication->getIdentityData('id'),
-				'fk_model' => 'Postulates',
-				'value !=' => 0
+				'Postulates.active' => true
 			])
 			->count();
 		if ($postulate_vote_count >= 12) {
