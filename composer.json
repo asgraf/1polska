@@ -9,6 +9,7 @@
         "asgraf/filerepo": "dev-master",
         "cakephp/authentication": "^1.1",
         "cakephp/cakephp": "3.7.*",
+        "cakephp/localized": "^3.5",
         "cakephp/migrations": "^2.0.0",
         "cakephp/plugin-installer": "^1.0",
         "crabstudio/recaptcha": "^2.1",

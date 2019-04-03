@@ -11,6 +11,7 @@ use Cake\Event\Event;
 use Cake\Event\EventManager;
 use Cake\Http\ServerRequest;
 use Cake\I18n\FrozenTime;
+use Cake\I18n\I18n;
 use Cake\Routing\Router;
 use Cake\Utility\Hash;
 use Cake\Utility\Inflector;
@@ -51,6 +52,7 @@ class AppController extends Controller
 	 */
 	public function initialize()
 	{
+		I18n::setLocale('pl');
 		$this->getRequest()->addDetector('html', function (ServerRequest $request) {
 			return !$request->getParam('_ext');
 		});
