@@ -17,7 +17,8 @@ $this->set('title', 'Polityka prywatności');
 	<strong>1Polska.pl NIE jest przedsięwzięciem biznesowym, nie ma żadnych partnerów biznesowych 
 		i nie przetwarza żadnych danych w celach biznesowych.</strong><br/>
 	<br/>
-	<strong>Zarejestrowani/zalogowani użytkownicy</strong><br/>
+	<br/>
+<h3><strong>Zarejestrowani/zalogowani użytkownicy</strong></h3><br/>
 	<br/>
 	Rejestracja/zalogowanie (poprzez formularz na stronie lub poprzez konta społecznościowe: google lub facebook) jest
 	dobrowolna ale konieczna aby w pełni korzystać z funkcjonalności strony. Nie jest wymagana aby przeglądać zawartość
@@ -42,7 +43,8 @@ $this->set('title', 'Polityka prywatności');
 		Niedopuszczalne jest tworzenie więcej niż jednego konta użytkownika (multikont) przez jedną i tą samą osobę w
 		celu manipulowania ilością głosów.</strong><br/>
 	<br/>
-	<strong>Reprezentanci</strong><br/>
+	<br/>
+<h3><strong>Reprezentanci</strong></h3><br/>
 	<br/>
 	Każdy zalogowany użytkownik może zaproponować siebie (i tylko siebie) na reprezentanta.<br/>
 	<br/>
