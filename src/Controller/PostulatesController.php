@@ -230,7 +230,7 @@ class PostulatesController extends AppController
 
 				$this->Crud->on('beforeRender', function (Event $event) use ($postulate) {
 					$representatives = $this->Postulates->Users->Representatives->find()
-						->contain()
+						->contain('')
 						->matching('Users.Votes', function (Query $query) use ($postulate) {
 							return $query->where([
 								'Votes.fk_id' => $postulate->id,
