@@ -26,7 +26,7 @@ $this->set('title', 'Polityka prywatności');
 	<br/>
 	Podczas rejestracji użytkownika (utworzenia konta) strona 1Polska.pl potrzebuje i gromadzi następujące dane:<br/>
 	- Adres email,<br/>
-	- Nazwę użytkownika (wpisaną w formularzu rejestracyjnym lub powiązaną z kontem społecznościowym z którego nastąpiło
+	- Nazwę (Login) użytkownika (wpisaną w formularzu rejestracyjnym lub powiązaną z kontem społecznościowym z którego nastąpiło
 	logowanie),<br/>
 	- Avatar (zdjęcie) użytkownika powiązane z kontem na Google, Facebook'u, lub Gravatar - w zależności od sposobu
 	rejestracji/logowania.<br/>
@@ -40,6 +40,7 @@ $this->set('title', 'Polityka prywatności');
 	Żadne dane użytkowników wymienione powyżej nie są publikowane w żadnym miejscu strony 1Polska.pl<br/>
 	<br/>
 	<strong>Strona 1Polska.pl opiera się na wzajemnym zaufaniu jej użytkowników.<br/>
+		<br/>
 		Niedopuszczalne jest tworzenie więcej niż jednego konta użytkownika (multikont) przez jedną i tą samą osobę w
 		celu manipulowania ilością głosów.</strong><br/>
 	<br/>
