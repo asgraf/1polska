@@ -26,9 +26,9 @@ $this->append('header', '
 		<p style="font-size:17px; color:red; font-family: verdana; margin-bottom: -20px; margin-top: -22px;">Najbliższe spotkania 1Polska:</p>
 		<p style="font-size:17px; background-color:red; color:white; font-family: verdana; padding: 6px;">
 		<strong>GDAŃSK - 13.IV.2019</strong> (sobota) - godz. 14:10 - ul. Miszewskiego 12, sala A-12, I piętro</p>
-		<p style="font-size:17px; background-color:red; color: #bbb; font-family: verdana; padding: 0px 6px; margin-top: -13px;">
+		<p style="font-size:17px; background-color:red; color: #bbb; font-family: verdana; padding: 0px 6px; margin-top: -15px;">
 		(WSHiT, skrzydło A, wejście po lewej stronie dziedzińca) - niedaleko dworca PKP Gdańsk Wrzeszcz.</p>
-		<p style="font-size:17px; background-color:red; color:white; font-family: verdana; padding: 15px 6px 4px 6px; margin-top: -12px; margin-bottom: 20px;">
+		<p style="font-size:17px; background-color:red; color:white; font-family: verdana; padding: 15px 6px 4px 6px; margin-top: -15px; margin-bottom: 20px;">
 		<strong>WARSZAWA - 27.IV.2019</strong> (sobota) - godz. 15:10 - ul. Kopernika 30, sala 325, III piętro</p>
 
 
