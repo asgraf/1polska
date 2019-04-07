@@ -179,6 +179,67 @@ class RepresentativesTable extends Table
 		$validator
 			->allowEmptyString('downvotes', false);
 
+		$validator->add('photo', 'custom', [
+			'rule' => function ($photo, $context) {
+				$suported_formats = getSupportedImageFormats();
+
+				if (
+					isset($photo['tmp_name']) &&
+					is_uploaded_file($photo['tmp_name']) &&
+					isset($photo['type'])
+				) {
+					$content_type_exploded = explode('/', $photo['type']);
+					if ($content_type_exploded[0] != 'image') {
+						return 'Załączony plik nie jest obrazkiem';
+					}
+					$image = false;
+					switch ($photo['type']) {
+						case 'image/jpeg':
+							if (function_exists('imagecreatefromjpeg')) {
+								$image = imagecreatefromjpeg($photo['tmp_name']);
+							}
+							break;
+						case 'image/png':
+							if (function_exists('imagecreatefrompng')) {
+								$image = imagecreatefrompng($photo['tmp_name']);
+							}
+							break;
+						case 'image/bmp':
+						case 'image/x-windows-bmp':
+							if (function_exists('imagecreatefrombmp')) {
+								$image = imagecreatefrombmp($photo['tmp_name']);
+							}
+							break;
+						case 'image/webp':
+							if (function_exists('imagecreatefromwebp')) {
+								$image = imagecreatefromwebp($photo['tmp_name']);
+							}
+							break;
+						case 'image/gif':
+							if (function_exists('imagecreatefromgif')) {
+								$image = imagecreatefromgif($photo['tmp_name']);
+							}
+							break;
+					}
+					if ($image) {
+						$w = imagesx($image);
+						$h = imagesy($image);
+						if (!$w || !$h) {
+							return 'Nieprawidłowy lub uszkodzony obrazek';
+						}
+						$maxSize = 320;
+						if ($w > $maxSize || $h > $maxSize) {
+							return 'Maksymalny rozmiar obrazka to ' . $maxSize . 'x' . $maxSize . ' pixeli. Przesłany obrazek ma wymiary ' . $w . 'x' . $h . ' pixeli';
+						}
+						return true;
+					} else {
+						return 'Przesłane zdjęcie jest uszkodzone lub w nie obsługiwanym formacje. Obsługiwane formaty to: ' . implode(', ', array_unique($suported_formats));
+					}
+				}
+				return false;
+			},
+		]);
+
 		return $validator;
 	}
 

@@ -315,3 +315,24 @@ function unparse_url($parsed_url, $ommit = [])
 
 	return $p['scheme'] . $p['user'] . $p['pass'] . $p['host'] . $p['port'] . $p['path'] . $p['query'] . $p['fragment'];
 }
+
+function getSupportedImageFormats() {
+	$suported_formats = [];
+	if (function_exists('imagecreatefromjpeg')) {
+		$suported_formats['image/jpeg'] = 'jpeg';
+	}
+	if (function_exists('imagecreatefrompng')) {
+		$suported_formats['image/png'] = 'png';
+	}
+	if (function_exists('imagecreatefrombmp')) {
+		$suported_formats['image/bmp'] = 'bmp';
+		$suported_formats['image/x-windows-bmp'] = 'bmp';
+	}
+	if (function_exists('imagecreatefromwebp')) {
+		$suported_formats['image/webp'] = 'webp';
+	}
+	if (function_exists('imagecreatefromgif')) {
+		$suported_formats['image/gif'] = 'gif';
+	}
+	return $suported_formats;
+}

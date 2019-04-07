@@ -22,7 +22,7 @@ class RepresentativesController extends AppController
 		/** @var \Crud\Action\BaseAction $action */
 		$action = $this->Crud->action();
 
-		if($this->getRequest()->getParam('action')=='index') {
+		if ($this->getRequest()->getParam('action') == 'index') {
 			$action->setConfig('scaffold.actions', [
 				'add' => [
 					'scope' => 'table',
@@ -72,6 +72,7 @@ class RepresentativesController extends AppController
 			'photo' => [
 				'type' => 'file',
 				'label' => __('Zdjęcie'),
+				'accept' => implode(',', array_keys(getSupportedImageFormats()))
 			],
 			'constituency_id' => [
 				'label' => [
@@ -131,6 +132,7 @@ class RepresentativesController extends AppController
 			'photo' => [
 				'type' => 'file',
 				'label' => __('Zdjęcie'),
+				'accept' => implode(',', array_keys(getSupportedImageFormats()))
 			],
 			'constituency_id' => [
 				'label' => [
