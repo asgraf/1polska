@@ -14,6 +14,11 @@ $this->set('title', 'Polityka prywatności');
 	<strong>1Polska.pl NIE udostępnia (i nie będzie udostępniać) żadnych danych swoich użytkowników innym serwisom ani
 		podmiotom zewnętrznym.</strong><br/>
 	<br/>
+	<strong>1Polska.pl NIE jest przedsięwzięciem biznesowym, nie ma żadnych partnerów biznesowych 
+		i nie przetwarza żadnych danych w celach biznesowych.</strong><br/>
+	<br/>
+	<strong>Zarejestrowani/zalogowani użytkownicy</strong><br/>
+	<br/>
 	Rejestracja/zalogowanie (poprzez formularz na stronie lub poprzez konta społecznościowe: google lub facebook) jest
 	dobrowolna ale konieczna aby w pełni korzystać z funkcjonalności strony. Nie jest wymagana aby przeglądać zawartość
 	strony.<br/>
@@ -29,25 +34,28 @@ $this->set('title', 'Polityka prywatności');
 	<br/>
 	<strong>Adresy email użytkowników są poufne</strong> (wyłącznie do wiadomości administratorów) i nie są nigdzie na
 	stronie publikowane ani widoczne.<br/>
-	(Jawna jest natomiast domena konta email użytkownika, czyli to co w adresie email znajduje się po symbolu "@" -
-	wyjaśnienie poniżej)<br/>
 	<br/>
-	Podczas oddania głosu (przyciski "popieram" lub "kciuk w górę" lub "kciuk w dół") przez zalogowanego użytkownika,
-	zapisywany jest adres IP głosującego.<br/>
-	<br/>
-	Na stronie prezentowane są statystyki (historia) głosowań, na których widoczne są następujące dane użytkowników,
-	którzy oddali głos w danym głosowaniu:<br/>
-	- Nazwa użytkownika,<br/>
-	- Avatar (zdjęcie użytkownika),<br/>
-	- Domena, na której użytkownik ma swój adres email (to co znajduje się po symbolu "@" w adresie email),<br/>
-	- Pierwsze 3 cyfry adresu IP (ostatnia, indywidualna część adresu IP jest niewidoczna)<br/>
-	<br/>
-	Jawność powyższych danych głosujących użytkowników ma na celu wykrycie nadużyć i sabotażu lub manipulowania procesu
-	głosowania i działania tej strony poprzez zakładanie/wykorzystanie wielu kont przez te same osoby.<br/>
+	Podczas logowania zapisywany jest aktualny adres IP logującego się użytkownika.<br/>
+	Żadne dane użytkowników wymienione powyżej nie są publikowane w żadnym miejscu strony 1Polska.pl<br/>
 	<br/>
 	<strong>Strona 1Polska.pl opiera się na wzajemnym zaufaniu jej użytkowników.<br/>
 		Niedopuszczalne jest tworzenie więcej niż jednego konta użytkownika (multikont) przez jedną i tą samą osobę w
 		celu manipulowania ilością głosów.</strong><br/>
+	<br/>
+	<strong>Reprezentanci</strong><br/>
+	<br/>
+	Każdy zalogowany użytkownik może zaproponować siebie (i tylko siebie) na reprezentanta.<br/>
+	<br/>
+	Robiąc to, <strong>jednocześnie oświadcza, że zgadza się na upublicznienie (opublikowanie) na stronie 1Polska.pl swoich danych oraz wszystkich informacji o sobie</strong>, które dobrowolnie poda wypełniając formularz dodawania/edycji reprezentanta.<br/>
+	W szczególności dotyczy to jego/jej danych osobowych takich jak: imię i nazwisko oraz wizerunek (zdjęcie twarzy), nr swojego okręgu wyborczego zgodnego z miejscem zamieszkania.<br/>
+	<br/>
+	Ponadto wyraża zgodę, na upublicznienie swoich głosów poparcia oddanych poprzez stronę 1Polska.pl jako zalogowany użytkownik (kciuk w górę oraz kciuk w dół przy reprezentantach oraz poparcie dla poszczególnych postulatów).<br/>
+	Informacje o jego głosach poparcia będą widoczne na stronie jego profilu reprezentanta - oraz na stronach poszczególnych postulatów<br/>
+	<br/>
+	Każdy reprezentant ma możliwość trwałego usunięcia (skasowania) swojego profilu w dowolnym momencie. (podczas edycji swojego profilu)<br/>
+	Usunięcie swojego konta użytkownika - również skutkuje jednoczesnym usunięciem swojego profilu reprezentanta.<br/>
+	<br/>
+	<strong>NIEDOPUSZCZALNE jest posługiwanie się nie swoimi lub nieprawdziwymi danymi podczas dodawania profilu reprezentanta.</strong><br/>
 	<br/>
 	<br/>
 	Strona 1Polska.pl wykorzystuje tzw. widgety innych serwisów internetowych takich jak np.: google, facebook, gravatar
