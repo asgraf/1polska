@@ -21,6 +21,17 @@ $this->append('header', '
 		<h5 style="font-style:italic; font-weight:normal; color:#99BB99">„Do triumfu zła wystarczy bierność ludzi dobrych” – Edmund Burke</h5>
 		<h1 style="font-size:36px">Czas zjednoczyć dobrych ludzi wobec patologii obecnego systemu!</h1>
 		<h4 style="color:#317EAC">Chcesz żyć w normalnym kraju? Masz dość absurdów IIIRP? Nie jesteś sam!</h4>
+
+
+		<p style="font-size:17px; color:red; font-family: verdana; margin-bottom: -20px; margin-top: -22px;">Najbliższe spotkania 1Polska:</p>
+		<p style="font-size:17px; background-color:red; color:white; font-family: verdana; padding: 6px;">
+		<strong>GDAŃSK - 13.IV.2019</strong> (sobota) - godz. 14:10 - ul. Miszewskiego 12, sala A-12, I piętro</p>
+		<p style="font-size:17px; background-color:red; color: #bbb; font-family: verdana; padding: 0px 6px; margin-top: -15px;">
+		(WSHiT, skrzydło A, wejście po lewej stronie dziedzińca) - niedaleko dworca PKP Gdańsk Wrzeszcz.</p>
+		<p style="font-size:17px; background-color:red; color:white; font-family: verdana; padding: 15px 6px 4px 6px; margin-top: -15px; margin-bottom: 20px;">
+		<strong>WARSZAWA - 27.IV.2019</strong> (sobota) - godz. 15:10 - ul. Kopernika 30, sala 325, III piętro</p>
+
+
 		<p style="font-size:15px">To my, polskie społeczeństwo, które ma już dość tego chorego systemu, jaki stworzyły nam tzw. "elity IIIRP". Pookrągłostołowemu, zabetonowanemu układowi partyjnemu i obecnej klasie politycznej już dziękujemy! Dość hipokryzji, obłudy i zakłamania polityków oraz mediów. Tu ustalimy wspólnie priorytety zmian i wreszcie połączymy siły żeby przywrócić w Polsce normalność. To my: normalni, zwykli ludzie chcący żyć uczciwie i godnie jesteśmy w Polsce większością - i czas to sobie uświadomić!</p>
 		<h2 class="text-center">' . $this->Html->link('Zobacz więcej »', ['controller' => 'Pages', 'action' => 'display', 'o_co_chodzi'], ['class' => 'btn btn-primary btn-lg pull-left']) . '<strong style="margin-left:15px; margin-right:15px; font-weight:normal">Jest nas już <span style="color:#CC3344">' . number_format($users_count, 0, ',', '&nbsp;') . '</span> osób!</strong>
 		' . $join_button . '
