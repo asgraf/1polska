@@ -52,7 +52,7 @@ $this->set('title', 'Polityka prywatności');
 	Robiąc to, <strong>jednocześnie oświadcza, że zgadza się na upublicznienie (opublikowanie) na stronie 1Polska.pl swoich danych oraz wszystkich informacji o sobie</strong>, które dobrowolnie poda wypełniając formularz dodawania/edycji reprezentanta.<br/>
 	W szczególności dotyczy to jego/jej danych osobowych takich jak: imię i nazwisko oraz wizerunek (zdjęcie twarzy), nr swojego okręgu wyborczego zgodnego z miejscem zamieszkania.<br/>
 	<br/>
-	Ponadto wyraża zgodę, na upublicznienie swoich głosów poparcia oddanych poprzez stronę 1Polska.pl jako zalogowany użytkownik (kciuk w górę oraz kciuk w dół przy reprezentantach oraz poparcie dla poszczególnych postulatów).<br/>
+	Ponadto <strong>wyraża zgodę, na upublicznienie swoich głosów poparcia oddanych poprzez stronę 1Polska.pl</strong> jako zalogowany użytkownik (kciuk w górę oraz kciuk w dół przy reprezentantach oraz poparcie dla poszczególnych postulatów).<br/>
 	Informacje o jego głosach poparcia będą widoczne na stronie jego profilu reprezentanta - oraz na stronach poszczególnych postulatów<br/>
 	<br/>
 	Każdy reprezentant ma możliwość trwałego usunięcia (skasowania) swojego profilu w dowolnym momencie. (podczas edycji swojego profilu)<br/>
