@@ -34,8 +34,8 @@ $this->set('title', 'Kontakt');
 <h2 class="kontakt">Dla programistów i grafików chętnych pomóc w doskonaleniu strony 1Polska:</h2>
 
 <p class="o_co_chodzi">
-	Kod źródłowy tej strony przeznaczony jest do upublicznienia na zasadach OpenSource.
-	<br/>Repozytorium znajduje się: <a href="https://bitbucket.org/Asgraf/1polska_pl/">TUTAJ</a>
+	Kod źródłowy tej strony przeznaczony dostępny na zasadach OpenSource.
+	<br/>Repozytorium znajduje się: <a href="https://github.com/asgraf/1polska">TUTAJ</a>
 	<br/>
 </p>
 
