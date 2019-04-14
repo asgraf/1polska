@@ -24,7 +24,7 @@ $this->append('header', '
 
 
 		<p style="font-size:17px; color:red; font-family: verdana; margin-bottom: -20px; margin-top: -22px;">Najbliższe spotkania 1Polska:</p>
-		<p style="font-size:17px; background-color:red; color:white; font-family: verdana; padding: 6px 6px 6px 6px; margin-top: -2px; margin-bottom: 2px;">
+		<p style="font-size:17px; background-color:red; color:white; font-family: verdana; padding: 6px 6px 6px 6px; margin-top: -2px; margin-bottom: 20px;">
 		<strong>WARSZAWA - 27.IV.2019</strong> (sobota) - godz. 15:10 - ul. Kopernika 30, sala 325, III piętro</p>
 
 
