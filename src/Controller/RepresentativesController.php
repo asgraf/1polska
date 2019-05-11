@@ -187,7 +187,7 @@ class RepresentativesController extends AppController
 		});
 
 
-		$this->Crud->execute();
+		return $this->Crud->execute();
 	}
 
 	public function delete()
