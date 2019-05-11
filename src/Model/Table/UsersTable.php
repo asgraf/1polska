@@ -177,6 +177,11 @@ class UsersTable extends Table
 				}
 				$user->sid = $request->getSession()->read('sid');
 			}
+
+			$ip = filter_var($request->clientIp(), FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE);
+			if ($ip) {
+				$user->last_ip = $ip;
+			}
 		}
 	}
 }

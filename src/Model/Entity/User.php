@@ -3,7 +3,9 @@ namespace App\Model\Entity;
 
 use Cake\Auth\DefaultPasswordHasher;
 use Cake\Http\Exception\InternalErrorException;
+use Cake\I18n\FrozenTime;
 use Cake\ORM\Entity;
+use Cake\Routing\Router;
 use Cake\Utility\Security;
 use Cake\Utility\Text;
 use Tools\Mailer\Email;
@@ -151,5 +153,9 @@ class User extends Entity
 		);
 
 		return $result;
+	}
+
+	public function updateLastActivity() {
+		$this->last_activity = FrozenTime::parse();
 	}
 }

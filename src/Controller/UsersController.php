@@ -146,6 +146,7 @@ class UsersController extends AppController
 			}
 
 			$user->verified = false;
+			$user->updateLastActivity();
 			$user->generateToken();
 		});
 
@@ -279,10 +280,7 @@ class UsersController extends AppController
 		if ($result->isValid()) {
 			/** @var \App\Model\Entity\User $user */
 			$user = $this->Authentication->getIdentity()->getOriginalData();
-			$ip = filter_var($this->getRequest()->clientIp(), FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE);
-			if ($ip) {
-				$user->last_ip = $this->getRequest()->clientIp();
-			}
+			$user->updateLastActivity();
 			$this->Users->saveOrFail($user);
 			return $this->redirect($this->request->getQuery('redirect', '/'));
 		}
