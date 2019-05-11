@@ -322,7 +322,7 @@ class AppController extends Controller
 		$this->loadModel('Users');
 		try {
 			$user = $this->Users->get($user->id);
-			$user->set('last_activity', FrozenTime::parse());
+			$user->updateLastActivity();
 			$this->Users->saveOrFail($user);
 			$this->Authentication->setIdentity($user);
 			return true;
