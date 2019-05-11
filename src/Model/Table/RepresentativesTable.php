@@ -179,8 +179,13 @@ class RepresentativesTable extends Table
 		$validator
 			->allowEmptyString('downvotes', false);
 
-		$validator->add('photo', 'custom', [
+		$validator
+			->allowEmptyString('photo')
+			->add('photo', 'custom', [
 			'rule' => function ($photo, $context) {
+				if(empty($photo)) {
+					return true;
+				}
 				$suported_formats = getSupportedImageFormats();
 
 				if (
