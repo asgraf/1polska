@@ -26,7 +26,7 @@ $this->append('header', '
 		<p style="font-size:17px; background-color:red; color:white; font-family: verdana; padding: 6px 6px 6px 6px; margin-top: -2px; margin-bottom: 4px;">
 		<strong>KRAKÓW - 8.VI.2019</strong>  (sobota) - godz. 14:00 ul. Meiselsa 1, Sala 109, I piętro</p>
 		<p style="font-size:17px; background-color:red; color:white; font-family: verdana; padding: 6px 6px 6px 6px; margin-top: -2px; margin-bottom: 20px;">
-		<strong>KATOWICE - 9.VI.2019</strong> (niedziela) - godz. 13 ul. Opolska 22, Sala A, I piętro (wejście od ul. Sobieskiego)</p>
+		<strong>KATOWICE - 9.VI.2019</strong> (niedziela) - godz. 13:00 ul. Opolska 22, Sala A, I piętro (wejście od ul. Sobieskiego)</p>
 
 		<p style="font-size:15px">To my, polskie społeczeństwo, które ma już dość tego chorego systemu, jaki stworzyły nam tzw. "elity IIIRP". Pookrągłostołowemu, zabetonowanemu układowi partyjnemu i obecnej klasie politycznej już dziękujemy! Dość hipokryzji, obłudy i zakłamania polityków oraz mediów. Tu ustalimy wspólnie priorytety zmian i wreszcie połączymy siły żeby przywrócić w Polsce normalność. To my: normalni, zwykli ludzie chcący żyć uczciwie i godnie jesteśmy w Polsce większością - i czas to sobie uświadomić!</p>
 		<h2 class="text-center">' . $this->Html->link('Zobacz więcej »', ['controller' => 'Pages', 'action' => 'display', 'o_co_chodzi'], ['class' => 'btn btn-primary btn-lg pull-left']) . '<strong style="margin-left:15px; margin-right:15px; font-weight:normal">Jest nas już <span style="color:#CC3344">' . number_format($users_count, 0, ',', '&nbsp;') . '</span> osób!</strong>
