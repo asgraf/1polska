@@ -24,7 +24,7 @@ $this->append('header', '
 
 		<p style="font-size:17px; color:red; font-family: verdana; margin-bottom: -20px; margin-top: -22px;">Najbliższe spotkania 1Polska:</p>
 		<p style="font-size:17px; background-color:red; color:white; font-family: verdana; padding: 6px 6px 6px 6px; margin-top: -2px; margin-bottom: 4px;">
-		<strong>KRAKÓW - 8.VI.2019</strong>  (sobota) - godz. 13 ul. Reymonta 20 (Centrum Obywatelskie na terenie Stadionu), Sala 1w014, I piętro</p>
+		<strong>KRAKÓW - 8.VI.2019</strong>  (sobota) - godz. 14:00 ul. Meiselsa 1, Sala 109, I piętro</p>
 		<p style="font-size:17px; background-color:red; color:white; font-family: verdana; padding: 6px 6px 6px 6px; margin-top: -2px; margin-bottom: 20px;">
 		<strong>KATOWICE - 9.VI.2019</strong> (niedziela) - godz. 13 ul. Opolska 22, Sala A, I piętro (wejście od ul. Sobieskiego)</p>
 
