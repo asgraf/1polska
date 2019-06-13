@@ -9,11 +9,11 @@ $this->set('title', 'Kontakt');
 <p class="o_co_chodzi">
 	Kontakt dla osób chcących działać "w realu" (nie tylko w sieci) oraz lokalnie na rzecz zjednoczenia społeczeństwa i
 	połączenia sił:<br/>
-	<strong>Jarek Zienkiewicz</strong> (<a href="mailto:Jarek1PL@gmail.com?Subject=1Polska%20stronaWWW">Jarek1PL@gmail.com</a>)
+	<strong>Jarek Zienkiewicz</strong> ( <a href="mailto:Jarek1PL@gmail.com?Subject=1Polska%20stronaWWW">Jarek1PL@gmail.com</a> )
 	- koordynator spraw organizacyjnych i kontakt informacyjny<br/>
 	<br/>
 	Koordynator główny budowy struktur lokalnych:<br/>
-	<strong>Jan Sposób</strong> (<a href="mailto:jan.sposob@o2.pl?Subject=1Polska%20struktury%20stronaWWW">jan.sposob@o2.pl</a>
+	<strong>Jan Sposób</strong> ( <a href="mailto:jan.sposob@o2.pl?Subject=1Polska%20struktury%20stronaWWW">jan.sposob@o2.pl</a> )<br/>
 	<br/>
 </p>
 
