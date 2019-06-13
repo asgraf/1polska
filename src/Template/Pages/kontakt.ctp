@@ -11,10 +11,14 @@ $this->set('title', 'Kontakt');
 	połączenia sił:<br/>
 	<strong>Jarek Zienkiewicz</strong> (<a href="mailto:Jarek1PL@gmail.com?Subject=1Polska%20stronaWWW">Jarek1PL@gmail.com</a>)
 	- koordynator spraw organizacyjnych i kontakt informacyjny<br/>
+	<br/>
+	Koordynator główny budowy struktur lokalnych:<br/>
+	<strong>Jan Sposób</strong> (<a href="mailto:jan.sposob@o2.pl?Subject=1Polska%20struktury%20stronaWWW">jan.sposob@o2.pl</a>
+	<br/>
 </p>
 
 <iframe src="https://docs.google.com/document/d/1a9gZ_MiNQe4OvUhJ6GXf2BR3l1XpawJzt_nY_Jy3TOw/pub?embedded=true"
-        width="1000" height="1200" style="border:none"></iframe>
+        width="1044" height="1300" style="border:none"></iframe>
 
 <h2 class="kontakt">Administratorzy strony:</h2>
 <p class="o_co_chodzi">
