@@ -5,6 +5,12 @@
 $this->set('title', 'Kontakt');
 ?>
 
+<h2 class="kontakt">Materiały do pobrania:</h2>
+<p class="o_co_chodzi">
+	LOGO 1Polska:  <a href="http://1Polska.pl/img/1polska_logo_400X400.png" target="_blank"><img src="http://1Polska.pl/img/ico_1_42x42.png"></a> 
+	Rollup 1Polska (85x200cm) <a href="http://1Polska.pl/img/1PL_rollup_bialy.pdf" target="_blank">BIAŁY</a> oraz <a href="http://1Polska.pl/img/1PL_rollup_blue.pdf" target="_blank">NIEBIESKI</a>
+</p>
+
 <h2 class="kontakt">Centrum informacyjno-organizacyjno-koordynacyjne:</h2>
 <p class="o_co_chodzi">
 	Kontakt dla osób chcących działać "w realu" (nie tylko w sieci) oraz lokalnie na rzecz zjednoczenia społeczeństwa i
@@ -15,8 +21,8 @@ $this->set('title', 'Kontakt');
 	Koordynator główny budowy struktur lokalnych:<br/>
 	<strong>Jan Sposób</strong> ( <a href="mailto:jan.sposob@o2.pl?Subject=1Polska%20struktury%20stronaWWW">jan.sposob@o2.pl</a> ) <strong>tel: +48 794 999 711</strong> <br/>
 	<br/>
-1Polska na facebooku: <a href="https://www.facebook.com/1Polskapl">fb.me/1Polskapl</a> - informacje i komunikaty organizacyjne.<br/><br/>	
-Grupy 1Polska na facebooku dla każdego z okręgów wyborczych - DOŁĄCZ do grupy w swoim okręgu:
+<strong>1Polska na facebooku:</strong> <a href="https://www.facebook.com/1Polskapl">fb.me/1Polskapl</a> - informacje i komunikaty organizacyjne.<br/><br/>	
+<strong>Grupy 1Polska na facebooku</strong> dla każdego z okręgów wyborczych - DOŁĄCZ do grupy w swoim okręgu:
 <br/><table style="width:100%">
   <tr>
     <td>
