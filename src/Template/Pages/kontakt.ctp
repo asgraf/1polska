@@ -75,7 +75,7 @@ $this->set('title', 'Kontakt');
 <a href="https://www.facebook.com/groups/850472365001445/">Okr 41 Szczecin</a><br/>
 </td>
   </tr>
-</table><br/><br/>
+</table><br/>
 	
 </p>
 
