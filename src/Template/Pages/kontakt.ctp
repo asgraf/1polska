@@ -8,7 +8,7 @@ $this->set('title', 'Kontakt');
 <h2 class="kontakt">Materiały do pobrania:</h2>
 <p class="o_co_chodzi">
 	LOGO 1Polska:  <a href="http://1Polska.pl/img/1polska_logo_400X400.png" target="_blank"><img src="http://1Polska.pl/img/ico_1_42x42.png"></a> 
-	Rollup 1Polska (85x200cm) <a href="http://1Polska.pl/img/1PL_rollup_bialy.pdf" target="_blank">BIAŁY</a><a href="http://1Polska.pl/img/1PL_rollup_bialy.pdf" target="_blank"><img src="http://1Polska.pl/img/rollup_ico_b2.jpg"></a> oraz <a href="http://1Polska.pl/img/1PL_rollup_blue.pdf" target="_blank">NIEBIESKI</a><a href="http://1Polska.pl/img/1PL_rollup_blue.pdf" target="_blank"><img src="http://1Polska.pl/img/rollup_mini_n.png"></a>
+	Rollup 1Polska (85x200cm) <a href="http://1Polska.pl/img/1PL_rollup_bialy.pdf" target="_blank">BIAŁY </a><a href="http://1Polska.pl/img/1PL_rollup_bialy.pdf" target="_blank"><img src="http://1Polska.pl/img/rollup_ico_b2.jpg"></a> oraz <a href="http://1Polska.pl/img/1PL_rollup_blue.pdf" target="_blank">NIEBIESKI </a><a href="http://1Polska.pl/img/1PL_rollup_blue.pdf" target="_blank"><img src="http://1Polska.pl/img/rollup_mini_n.png"></a>
 </p>
 
 <h2 class="kontakt">Centrum informacyjno-organizacyjno-koordynacyjne:</h2>
