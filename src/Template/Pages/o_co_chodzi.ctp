@@ -18,7 +18,7 @@ równych dla wszystkich zasadach</strong>, w ramach jednej wspólnej listy
 na Liście Społecznej (czyli zgłosić chęć / gotowość reprezentowania
 społeczeństwa w sejmie) i nikt nie może odgórnie go tego prawa
 pozbawić.<br/>
- (Osoba korzystająca z tego prawa to "Reprezentant")<br/>
+ (Osoba korzystająca z tego prawa to "Reprezentant")<br/><br/>
 2a. Reprezentant może za to pozbawić się tego prawa sam
 <strong>(wykluczyć się z Listy Społecznej) - jeśli zostanie przyłapany
 na celowym kłamstwie lub zatajeniu prawdy</strong> odnośnie swojej
@@ -57,7 +57,7 @@ wyborcze</strong> (tworzące Listę Społeczną) <strong>powstają ODDOLNIE,
 NIEZALEŻNIE i SUWERENNIE w każdym z okręgów wyborczych
 - poprzez JAWNE (w tym rejestrowane kamerą) PRAWYBORY.</strong><br/>
 (nie ma żadnego centralnego komitetu, który mianuje "jedynki")<br/><br/>
-7. Okręgowe Listy Wyborcze ułoŜą sami wyborcy danego okręgu, którzy
+7. Okręgowe Listy Wyborcze ułożą sami wyborcy danego okręgu, którzy
 zaangażują się w powstanie i rejestrację Listy Społecznej - a więc
 będą to głównie Reprezentanci oraz członkowie sztabów okręgowych
 zbierających podpisy i formalnie rejestrujących listy w OKW.<br/><br/>
@@ -98,10 +98,10 @@ i <strong>przekazanie władzy suwerenowi (Narodowi) oraz oddanie
 marnotrawionych pieniędzy publicznych obywatelom.</strong> Bo to jest
 warunek niezbędny do dokonania w Polsce JAKICHKOLWIEK
 potrzebnych i pro-obywatelskich zmian.<br/><br/>
-11. Wszystkim wyborcom powinno zaleŜeć na wybraniu do sejmu jak
+11. Wszystkim wyborcom powinno zależeć na wybraniu do sejmu jak
 najlepszych, najszlachetniejszych, najmądrzejszych
 i niezależnych ludzi, nieuwikłanych w partyjne i polityczne
-zależności - i w takim celu powstaje LISTA SPOŁECZNA.<br/>
+zależności - i w takim celu powstaje LISTA SPOŁECZNA.<br/><br/><br/>
 </p>
 
 <iframe
