@@ -80,8 +80,13 @@ $this->set('title', 'Kontakt');
 
 <a href="https://t.me/jedna_Polska" target="_blank"><img src="http://1Polska.pl/img/1pl_tm.png"></a>
 <strong>1Polska na Telegramie:</strong> <a href="https://t.me/jedna_Polska">t.me/Jedna_Polska</a> - darmowy komunikator na telefon<br/>	
-<strong>Okręgowe grupy 1Polska na Telegramie</strong> - DOŁĄCZ do grupy w swoim okręgu:
+<strong>Okręgowe grupy 1Polska na Telegramie</strong> - DOŁĄCZ do grupy w swoim okręgu: [Jak zainstalować Telegrama? 
+Apka Telegram jest darmowa - po instalacji podajemy swój nr telefonu - aplikacja do nas oddzwania i dyktuje (po angielsku) kod weryfikacyjny (pięć cyfr), który należy wpisać.
+Warto więc przygotować sobie coś do zapisania kodu, odbierając przychodzące połączenie.]
 <br/>
+<table style="width:100%">
+  <tr>
+    <td>
 <a href="https://t.me/JPolska_1Legnica" target="_blank">1 Legnica </a>
 <a href="https://t.me/JPolska_2Walbrzych" target="_blank">2 Wałbrzych </a> 
 <a href="https://t.me/JPolska_3Wroclaw" target="_blank">3 Wrocław </a> 
@@ -92,6 +97,8 @@ $this->set('title', 'Kontakt');
 <a href="https://t.me/JPolska_8ZielonaGora" target="_blank">8 Zielona Góra </a> 
 <a href="https://t.me/JPolska_9Lodz" target="_blank">9 Łódź </a> 
 <a href="https://t.me/JPolska_10PiotrkowTrybunalski" target="_blank">10 Piotrków Trybunalski </a>
+</td>
+<td>
 <a href="https://t.me/JPolska_11Sieradz" target="_blank">11 Sieradz </a>
 <a href="https://t.me/JPolska_12Chrzanow" target="_blank">12 Chrzanów </a>
 <a href="https://t.me/JPolska_13Krakow" target="_blank">13 Kraków </a>
@@ -102,6 +109,8 @@ $this->set('title', 'Kontakt');
 <a href="https://t.me/JPolska_18Siedlce" target="_blank">18 Siedlce </a> 
 <a href="https://t.me/JPolska_19Warszawa" target="_blank">19 Warszawa </a>
 <a href="https://t.me/JPolska_20Warszawa" target="_blank">20 Warszawa </a>
+</td>
+<td>
 <a href="https://t.me/JPolska_21Opole" target="_blank">21 Opole </a> 
 <a href="https://t.me/JPolska_22Krosno" target="_blank">22 Krosno </a> 
 <a href="https://t.me/JPolska_23Rzeszow" target="_blank">23 Rzeszów </a> 
@@ -111,7 +120,9 @@ $this->set('title', 'Kontakt');
 <a href="Biała https://t.me/JPolska_27BielskoBiala" target="_blank">27 Bielsko </a> 
 <a href="https://t.me/JPolska_28Czestochowa" target="_blank">28 Częstochowa </a> 
 <a href="https://t.me/JPolska_29Gliwice" target="_blank">29 Gliwice </a> 
-<a href="https://t.me/JPolska_30Rybnik" target="_blank">30 Rybnik </a> 
+<a href="https://t.me/JPolska_30Rybnik" target="_blank">30 Rybnik </a>
+</td>
+<td>
 <a href="https://t.me/JPolska_31Katowice" target="_blank">31 Katowice </a>
 <a href="https://t.me/JPolska_32Sosnowiec" target="_blank">32 Sosnowiec </a> 
 <a href="https://t.me/JPolska_33Kielce" target="_blank">33 Kielce </a> 
@@ -123,7 +134,9 @@ $this->set('title', 'Kontakt');
 <a href="https://t.me/JPolska_39Poznan" target="_blank">39 Poznań </a> 
 <a href="https://t.me/JPolska_40Koszalin" target="_blank">40 Koszalin </a>
 <a href="https://t.me/JPolska_41Szczecin" target="_blank">41 Szczecin </a>
-<br/>
+	</td>
+  </tr>
+</table><br/>
 
 </p>
 
