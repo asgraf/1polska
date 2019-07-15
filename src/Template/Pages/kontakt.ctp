@@ -21,7 +21,8 @@ $this->set('title', 'Kontakt');
 	Koordynator główny budowy struktur lokalnych:<br/>
 	<strong>Jan Sposób</strong> ( <a href="mailto:jan.sposob@o2.pl?Subject=1Polska%20struktury%20stronaWWW">jan.sposob@o2.pl</a> ) <strong>tel: +48 794 999 711</strong> <br/>
 	<br/>
-<strong>1Polska na facebooku:</strong> <a href="https://www.facebook.com/1Polskapl">fb.me/1Polskapl</a> - informacje i komunikaty organizacyjne.<br/><br/>	
+<a href="https://fb.me/1Polskapl" target="_blank"><img src="http://1Polska.pl/img/1pl_fb.png"></a>
+<strong>1Polska na facebooku:</strong> <a href="https://www.facebook.com/1Polskapl">fb.me/1Polskapl</a> - informacje i komunikaty organizacyjne.<br/>	
 <strong>Grupy 1Polska na facebooku</strong> dla każdego z okręgów wyborczych - DOŁĄCZ do grupy w swoim okręgu:
 <br/><table style="width:100%">
   <tr>
