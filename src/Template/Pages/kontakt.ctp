@@ -80,8 +80,8 @@ $this->set('title', 'Kontakt');
 
 <a href="https://t.me/jedna_Polska" target="_blank"><img src="http://1Polska.pl/img/1pl_tm.png"></a>
 <strong>1Polska na Telegramie:</strong> <a href="https://t.me/jedna_Polska">t.me/Jedna_Polska</a> - darmowy komunikator na telefon<br/>	
-<strong>Okręgowe grupy 1Polska na Telegramie</strong> - DOŁĄCZ do grupy w swoim okręgu:<br/> 
- Koniecznie dołącz do grupy swojego okręgu wyborczego! Spotykamy się, organizujemy, zbieramy podpisy i wybieramy kandydatów w SWOICH OKRĘGACH wyborczych!
+<strong>Okręgowe grupy 1Polska na Telegramie</strong> - KONIECZNIE DOŁĄCZ do grupy swojego okręgu:<br/> 
+ Spotykamy się, organizujemy, zbieramy podpisy i wybieramy kandydatów w SWOICH OKRĘGACH wyborczych!
 <br/>
 <table style="width:100%">
   <tr>
@@ -135,10 +135,10 @@ $this->set('title', 'Kontakt');
 <a href="https://t.me/JPolska_41Szczecin" target="_blank">41 Szczecin </a><br/>
 	</td>
   </tr>
-</table><br/>
+</table>
 [Jak zainstalować Telegrama? 
 Apka Telegram jest darmowa - po instalacji podajemy swój nr telefonu - aplikacja do nas oddzwania i dyktuje (po angielsku) kod weryfikacyjny (pięć cyfr), który należy wpisać.
-Warto więc przygotować sobie coś do zapisania kodu, odbierając przychodzące połączenie.]<br/>
+Warto więc przygotować sobie coś do zapisania kodu, odbierając przychodzące połączenie.]<br/><br/>
 </p>
 
 <iframe src="https://docs.google.com/document/d/1a9gZ_MiNQe4OvUhJ6GXf2BR3l1XpawJzt_nY_Jy3TOw/pub?embedded=true"
