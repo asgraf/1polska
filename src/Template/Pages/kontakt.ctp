@@ -13,7 +13,7 @@ $this->set('title', 'Kontakt');
 
 <h3 class="kontakt">FORUM wewnętrzne 1Polska:</h3>
 <p class="o_co_chodzi">
-	<a href="http://wsw.sgdw.pl/" target="_blank">wsw.sgdw.pl</a> - miejsce na dyskusje organizacyjne, programowe, strategiczne i wszelkie inne.
+	<a href="http://wsw.sgdw.pl/" target="_blank">wsw.sgdw.pl</a> - miejsce na dyskusje organizacyjne, programowe, strategiczne i wszelkie inne. (Wymagana imienna rejestracja)
 </p>
 
 <h2 class="kontakt">Centrum informacyjno-organizacyjno-koordynacyjne:</h2>
@@ -52,8 +52,8 @@ $this->set('title', 'Kontakt');
 <a href="https://www.facebook.com/groups/758306620933987/">Okr 16 Płock</a><br/>
 <a href="https://www.facebook.com/groups/445345572311056/">Okr 17 Radom</a><br/>
 <a href="https://www.facebook.com/groups/1612115142390544/">Okr 18 Siedlce</a><br/>
-<a href="https://www.facebook.com/groups/721744381270960/">Okr 19 Warszawa</a><br/>
-<a href="https://www.facebook.com/groups/1453024055001967/">Okr 20 Warszawa II</a><br/>
+<a href="https://www.facebook.com/groups/721744381270960/">Okr 19 Warszawa (miasto)</a><br/>
+<a href="https://www.facebook.com/groups/1453024055001967/">Okr 20 Warszawa II (obrzeża)</a><br/>
 </td>
 <td>
 <a href="https://www.facebook.com/groups/854108544687253/">Okr 21 Opole</a><br/>
@@ -113,8 +113,8 @@ $this->set('title', 'Kontakt');
 <a href="https://t.me/JPolska_16Plock" target="_blank">16 Płock </a><br/>
 <a href="https://t.me/JPolska_17Radom" target="_blank">17 Radom </a><br/>
 <a href="https://t.me/JPolska_18Siedlce" target="_blank">18 Siedlce </a> <br/>
-<a href="https://t.me/JPolska_19Warszawa" target="_blank">19 Warszawa </a><br/>
-<a href="https://t.me/JPolska_20Warszawa" target="_blank">20 Warszawa </a><br/>
+<a href="https://t.me/JPolska_19Warszawa" target="_blank">19 Warszawa (miasto)</a><br/>
+<a href="https://t.me/JPolska_20Warszawa" target="_blank">20 Warszawa II (obrzeża)</a><br/>
 </td>
 <td>
 <a href="https://t.me/JPolska_21Opole" target="_blank">21 Opole </a> <br/>
