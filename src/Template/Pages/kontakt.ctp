@@ -11,9 +11,9 @@ $this->set('title', 'Kontakt');
 	Rollup 1Polska (85x200cm) <a href="http://1Polska.pl/img/1PL_rollup_bialy.pdf" target="_blank">BIAŁY </a><a href="http://1Polska.pl/img/1PL_rollup_bialy.pdf" target="_blank"><img src="http://1Polska.pl/img/rollup_ico_b2.jpg"></a> oraz <a href="http://1Polska.pl/img/1PL_rollup_blue.pdf" target="_blank">NIEBIESKI </a><a href="http://1Polska.pl/img/1PL_rollup_blue.pdf" target="_blank"><img src="http://1Polska.pl/img/rollup_mini_n.png"></a>
 </p>
 
-<h2 class="kontakt">FORUM wewnętrzne 1Polska:</h2>
+<h3 class="kontakt">FORUM wewnętrzne 1Polska:</h3>
 <p class="o_co_chodzi">
-	<a href="http://wsw.sgdw.pl/" target="_blank">wsw.sgdw.pl/</a> - miejsce na dyskusje organizacyjne, programowe, strategiczne i wszelkie inne.
+	<a href="http://wsw.sgdw.pl/" target="_blank">wsw.sgdw.pl</a> - miejsce na dyskusje organizacyjne, programowe, strategiczne i wszelkie inne.
 </p>
 
 <h2 class="kontakt">Centrum informacyjno-organizacyjno-koordynacyjne:</h2>
