@@ -11,6 +11,11 @@ $this->set('title', 'Kontakt');
 	Rollup 1Polska (85x200cm) <a href="http://1Polska.pl/img/1PL_rollup_bialy.pdf" target="_blank">BIAŁY </a><a href="http://1Polska.pl/img/1PL_rollup_bialy.pdf" target="_blank"><img src="http://1Polska.pl/img/rollup_ico_b2.jpg"></a> oraz <a href="http://1Polska.pl/img/1PL_rollup_blue.pdf" target="_blank">NIEBIESKI </a><a href="http://1Polska.pl/img/1PL_rollup_blue.pdf" target="_blank"><img src="http://1Polska.pl/img/rollup_mini_n.png"></a>
 </p>
 
+<h2 class="kontakt">FORUM wewnętrzne 1Polska:</h2>
+<p class="o_co_chodzi">
+	<a href="http://wsw.sgdw.pl/" target="_blank">wsw.sgdw.pl/</a> - miejsce na dyskusje organizacyjne, programowe, strategiczne i wszelkie inne.
+</p>
+
 <h2 class="kontakt">Centrum informacyjno-organizacyjno-koordynacyjne:</h2>
 <p class="o_co_chodzi">
 	Kontakt dla osób chcących działać "w realu" (nie tylko w sieci) oraz lokalnie na rzecz zjednoczenia społeczeństwa i
@@ -80,7 +85,7 @@ $this->set('title', 'Kontakt');
 </p>
 
 <p class="o_co_chodzi">
-<a href="https://t.me/jedna_Polska" target="_blank"><img src="http://1Polska.pl/img/1pl_tm.png"></a>
+<a href="https://t.me/s/jedna_Polska" target="_blank"><img src="http://1Polska.pl/img/1pl_tm.png"></a>
 <strong>1Polska na Telegramie:</strong> <a href="https://t.me/jedna_Polska">t.me/Jedna_Polska</a> - darmowy komunikator na telefon<br/>	
 <strong>Okręgowe grupy 1Polska na Telegramie</strong> - KONIECZNIE DOŁĄCZ do grupy swojego okręgu:<br/> 
  Spotykamy się, organizujemy, zbieramy podpisy i wybieramy kandydatów w SWOICH OKRĘGACH wyborczych!
