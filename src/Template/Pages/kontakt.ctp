@@ -80,64 +80,65 @@ $this->set('title', 'Kontakt');
 
 <a href="https://t.me/jedna_Polska" target="_blank"><img src="http://1Polska.pl/img/1pl_tm.png"></a>
 <strong>1Polska na Telegramie:</strong> <a href="https://t.me/jedna_Polska">t.me/Jedna_Polska</a> - darmowy komunikator na telefon<br/>	
-<strong>Okręgowe grupy 1Polska na Telegramie</strong> - DOŁĄCZ do grupy w swoim okręgu: [Jak zainstalować Telegrama? 
-Apka Telegram jest darmowa - po instalacji podajemy swój nr telefonu - aplikacja do nas oddzwania i dyktuje (po angielsku) kod weryfikacyjny (pięć cyfr), który należy wpisać.
-Warto więc przygotować sobie coś do zapisania kodu, odbierając przychodzące połączenie.]
+<strong>Okręgowe grupy 1Polska na Telegramie</strong> - DOŁĄCZ do grupy w swoim okręgu:<br/> 
+ Koniecznie dołącz do grupy swojego okręgu wyborczego! Spotykamy się, organizujemy, zbieramy podpisy i wybieramy kandydatów w SWOICH OKRĘGACH wyborczych!
 <br/>
 <table style="width:100%">
   <tr>
     <td>
-<a href="https://t.me/JPolska_1Legnica" target="_blank">1 Legnica </a>
-<a href="https://t.me/JPolska_2Walbrzych" target="_blank">2 Wałbrzych </a> 
-<a href="https://t.me/JPolska_3Wroclaw" target="_blank">3 Wrocław </a> 
-<a href="https://t.me/JPolska_4Bydgoszcz" target="_blank">4 Bydgoszcz </a>
-<a href="https://t.me/JPolska_5Torun" target="_blank">5 Toruń </a>
-<a href="https://t.me/JPolska_6Lublin" target="_blank">6 Lublin </a> 
-<a href="https://t.me/JPolska_7Chelm" target="_blank">7 Chełm </a> 
-<a href="https://t.me/JPolska_8ZielonaGora" target="_blank">8 Zielona Góra </a> 
-<a href="https://t.me/JPolska_9Lodz" target="_blank">9 Łódź </a> 
-<a href="https://t.me/JPolska_10PiotrkowTrybunalski" target="_blank">10 Piotrków Trybunalski </a>
+<a href="https://t.me/JPolska_1Legnica" target="_blank">1 Legnica </a><br/>
+<a href="https://t.me/JPolska_2Walbrzych" target="_blank">2 Wałbrzych </a><br/> 
+<a href="https://t.me/JPolska_3Wroclaw" target="_blank">3 Wrocław </a> <br/>
+<a href="https://t.me/JPolska_4Bydgoszcz" target="_blank">4 Bydgoszcz </a><br/>
+<a href="https://t.me/JPolska_5Torun" target="_blank">5 Toruń </a><br/>
+<a href="https://t.me/JPolska_6Lublin" target="_blank">6 Lublin </a> <br/>
+<a href="https://t.me/JPolska_7Chelm" target="_blank">7 Chełm </a> <br/>
+<a href="https://t.me/JPolska_8ZielonaGora" target="_blank">8 Zielona Góra </a> <br/>
+<a href="https://t.me/JPolska_9Lodz" target="_blank">9 Łódź </a> <br/>
+<a href="https://t.me/JPolska_10PiotrkowTrybunalski" target="_blank">10 Piotrków Trybunalski </a><br/>
 </td>
 <td>
-<a href="https://t.me/JPolska_11Sieradz" target="_blank">11 Sieradz </a>
-<a href="https://t.me/JPolska_12Chrzanow" target="_blank">12 Chrzanów </a>
-<a href="https://t.me/JPolska_13Krakow" target="_blank">13 Kraków </a>
-<a href="https://t.me/JPolska_14NowySacz" target="_blank">14 Nowy Sącz </a>
-<a href="https://t.me/JPolska_15Tarnow" target="_blank">15 Tarnów </a>
-<a href="https://t.me/JPolska_16Plock" target="_blank">16 Płock </a>
-<a href="https://t.me/JPolska_17Radom" target="_blank">17 Radom </a>
-<a href="https://t.me/JPolska_18Siedlce" target="_blank">18 Siedlce </a> 
-<a href="https://t.me/JPolska_19Warszawa" target="_blank">19 Warszawa </a>
-<a href="https://t.me/JPolska_20Warszawa" target="_blank">20 Warszawa </a>
+<a href="https://t.me/JPolska_11Sieradz" target="_blank">11 Sieradz </a><br/>
+<a href="https://t.me/JPolska_12Chrzanow" target="_blank">12 Chrzanów </a><br/>
+<a href="https://t.me/JPolska_13Krakow" target="_blank">13 Kraków </a><br/>
+<a href="https://t.me/JPolska_14NowySacz" target="_blank">14 Nowy Sącz </a><br/>
+<a href="https://t.me/JPolska_15Tarnow" target="_blank">15 Tarnów </a><br/>
+<a href="https://t.me/JPolska_16Plock" target="_blank">16 Płock </a><br/>
+<a href="https://t.me/JPolska_17Radom" target="_blank">17 Radom </a><br/>
+<a href="https://t.me/JPolska_18Siedlce" target="_blank">18 Siedlce </a> <br/>
+<a href="https://t.me/JPolska_19Warszawa" target="_blank">19 Warszawa </a><br/>
+<a href="https://t.me/JPolska_20Warszawa" target="_blank">20 Warszawa </a><br/>
 </td>
 <td>
-<a href="https://t.me/JPolska_21Opole" target="_blank">21 Opole </a> 
-<a href="https://t.me/JPolska_22Krosno" target="_blank">22 Krosno </a> 
-<a href="https://t.me/JPolska_23Rzeszow" target="_blank">23 Rzeszów </a> 
-<a href="https://t.me/JPolska_24Bialystok" target="_blank">24 Białystok </a>
-<a href="https://t.me/JPolska_25Gdansk" target="_blank">25 Gdańsk </a>
-<a href="https://t.me/JPolska_26Gdynia" target="_blank">26 Gdynia </a>
-<a href="Biała https://t.me/JPolska_27BielskoBiala" target="_blank">27 Bielsko </a> 
-<a href="https://t.me/JPolska_28Czestochowa" target="_blank">28 Częstochowa </a> 
-<a href="https://t.me/JPolska_29Gliwice" target="_blank">29 Gliwice </a> 
-<a href="https://t.me/JPolska_30Rybnik" target="_blank">30 Rybnik </a>
+<a href="https://t.me/JPolska_21Opole" target="_blank">21 Opole </a> <br/>
+<a href="https://t.me/JPolska_22Krosno" target="_blank">22 Krosno </a> <br/>
+<a href="https://t.me/JPolska_23Rzeszow" target="_blank">23 Rzeszów </a> <br/>
+<a href="https://t.me/JPolska_24Bialystok" target="_blank">24 Białystok </a><br/>
+<a href="https://t.me/JPolska_25Gdansk" target="_blank">25 Gdańsk </a><br/>
+<a href="https://t.me/JPolska_26Gdynia" target="_blank">26 Gdynia </a><br/>
+<a href="Biała https://t.me/JPolska_27BielskoBiala" target="_blank">27 Bielsko </a> <br/>
+<a href="https://t.me/JPolska_28Czestochowa" target="_blank">28 Częstochowa </a> <br/>
+<a href="https://t.me/JPolska_29Gliwice" target="_blank">29 Gliwice </a> <br/>
+<a href="https://t.me/JPolska_30Rybnik" target="_blank">30 Rybnik </a><br/>
 </td>
 <td>
-<a href="https://t.me/JPolska_31Katowice" target="_blank">31 Katowice </a>
-<a href="https://t.me/JPolska_32Sosnowiec" target="_blank">32 Sosnowiec </a> 
-<a href="https://t.me/JPolska_33Kielce" target="_blank">33 Kielce </a> 
-<a href="https://t.me/JPolska_34Elblag" target="_blank">34 Elbląg </a>
-<a href="https://t.me/JPolska_35Olsztyn" target="_blank">35 Olsztyn </a>
-<a href="https://t.me/JPolska_36Kalisz" target="_blank">36 Kalisz </a> 
-<a href="https://t.me/JPolska_37Konin" target="_blank">37 Konin </a> 
-<a href="https://t.me/JPolska_38Pila" target="_blank">38 Piła </a> 
-<a href="https://t.me/JPolska_39Poznan" target="_blank">39 Poznań </a> 
-<a href="https://t.me/JPolska_40Koszalin" target="_blank">40 Koszalin </a>
-<a href="https://t.me/JPolska_41Szczecin" target="_blank">41 Szczecin </a>
+<a href="https://t.me/JPolska_31Katowice" target="_blank">31 Katowice </a><br/>
+<a href="https://t.me/JPolska_32Sosnowiec" target="_blank">32 Sosnowiec </a> <br/>
+<a href="https://t.me/JPolska_33Kielce" target="_blank">33 Kielce </a> <br/>
+<a href="https://t.me/JPolska_34Elblag" target="_blank">34 Elbląg </a><br/>
+<a href="https://t.me/JPolska_35Olsztyn" target="_blank">35 Olsztyn </a><br/>
+<a href="https://t.me/JPolska_36Kalisz" target="_blank">36 Kalisz </a> <br/>
+<a href="https://t.me/JPolska_37Konin" target="_blank">37 Konin </a> <br/>
+<a href="https://t.me/JPolska_38Pila" target="_blank">38 Piła </a> <br/>
+<a href="https://t.me/JPolska_39Poznan" target="_blank">39 Poznań </a> <br/>
+<a href="https://t.me/JPolska_40Koszalin" target="_blank">40 Koszalin </a><br/>
+<a href="https://t.me/JPolska_41Szczecin" target="_blank">41 Szczecin </a><br/>
 	</td>
   </tr>
 </table><br/>
-
+[Jak zainstalować Telegrama? 
+Apka Telegram jest darmowa - po instalacji podajemy swój nr telefonu - aplikacja do nas oddzwania i dyktuje (po angielsku) kod weryfikacyjny (pięć cyfr), który należy wpisać.
+Warto więc przygotować sobie coś do zapisania kodu, odbierając przychodzące połączenie.]<br/>
 </p>
 
 <iframe src="https://docs.google.com/document/d/1a9gZ_MiNQe4OvUhJ6GXf2BR3l1XpawJzt_nY_Jy3TOw/pub?embedded=true"
