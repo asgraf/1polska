@@ -8,6 +8,7 @@ $this->set('title', 'O co chodzi');
 <h1 class="o_co_chodzi">LISTA SPOŁECZNA</h1>
 <h2 class="o_co_chodzi">Definicja i zasady "gry"</h2>
 <p class="o_co_chodzi">
+	<a href="http://1polska.pl/img/LISTA_SPOLECZNA_definicja.pdf">pobierz wersję PDF</a><br/>
 (Uwaga formalna: każda ogólnokrajowa lista wyborcza składa się
 z 41 list okręgowych i zawiera od 460 do 920 nazwisk kandydatów)<br/><br/>
 1. Lista Społeczna to lista wyborcza umożliwiająca kandydatom
@@ -101,7 +102,8 @@ potrzebnych i pro-obywatelskich zmian.<br/><br/>
 11. Wszystkim wyborcom powinno zależeć na wybraniu do sejmu jak
 najlepszych, najszlachetniejszych, najmądrzejszych
 i niezależnych ludzi, nieuwikłanych w partyjne i polityczne
-zależności - i w takim celu powstaje LISTA SPOŁECZNA.<br/><br/><br/>
+zależności - i w takim celu powstaje LISTA SPOŁECZNA.<br/><br/>
+	<a href="http://1polska.pl/img/LISTA_SPOLECZNA_definicja.pdf">pobierz wersję PDF</a><br/><br/>
 </p>
 
 <iframe
