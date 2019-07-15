@@ -76,8 +76,10 @@ $this->set('title', 'Kontakt');
 <a href="https://www.facebook.com/groups/850472365001445/">Okr 41 Szczecin</a><br/>
 </td>
   </tr>
-</table><br/>
+</table>
+</p>
 
+<p class="o_co_chodzi">
 <a href="https://t.me/jedna_Polska" target="_blank"><img src="http://1Polska.pl/img/1pl_tm.png"></a>
 <strong>1Polska na Telegramie:</strong> <a href="https://t.me/jedna_Polska">t.me/Jedna_Polska</a> - darmowy komunikator na telefon<br/>	
 <strong>Okręgowe grupy 1Polska na Telegramie</strong> - KONIECZNIE DOŁĄCZ do grupy swojego okręgu:<br/> 
@@ -136,9 +138,11 @@ $this->set('title', 'Kontakt');
 	</td>
   </tr>
 </table>
-[Jak zainstalować Telegrama? 
+</p>
+<p class="o_co_chodzi">
+<i>[INSTALACJA Telegrama na telefonie: 
 Apka Telegram jest darmowa - po instalacji podajemy swój nr telefonu - aplikacja do nas oddzwania i dyktuje (po angielsku) kod weryfikacyjny (pięć cyfr), który należy wpisać.
-Warto więc przygotować sobie coś do zapisania kodu, odbierając przychodzące połączenie.]<br/><br/>
+	Warto więc przygotować sobie coś do zapisania kodu, odbierając przychodzące połączenie.]</i><br/><br/>
 </p>
 
 <iframe src="https://docs.google.com/document/d/1a9gZ_MiNQe4OvUhJ6GXf2BR3l1XpawJzt_nY_Jy3TOw/pub?embedded=true"
