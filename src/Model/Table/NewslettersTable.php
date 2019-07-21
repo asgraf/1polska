@@ -48,6 +48,10 @@ class NewslettersTable extends Table
             'targetForeignKey' => 'user_id',
             'joinTable' => 'newsletters_users'
         ]);
+
+	    $this->hasMany('NewslettersUsers', [
+		    'foreignKey' => 'newsletter_id',
+	    ]);
     }
 
     /**
