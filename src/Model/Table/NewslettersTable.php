@@ -112,6 +112,7 @@ class NewslettersTable extends Table
 			if ($newsletter->sendEmail($newslettersUser->user->email)) {
 				$newslettersUser->sent = true;
 				$this->NewslettersUsers->saveOrFail($newslettersUser);
+				sleep(Configure::readOrFail('email_sleep'));
 			} else {
 				$errors++;
 			}
