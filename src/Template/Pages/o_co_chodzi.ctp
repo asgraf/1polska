@@ -5,6 +5,106 @@
 $this->set('title', 'O co chodzi');
 ?>
 
+<h1 class="o_co_chodzi">LISTA SPOŁECZNA</h1>
+<h2 class="o_co_chodzi">Definicja i zasady "gry"</h2>
+<p class="o_co_chodzi">
+	<a href="http://1polska.pl/img/LISTA_SPOLECZNA_definicja.pdf">pobierz wersję PDF</a><br/>
+(Uwaga formalna: każda ogólnokrajowa lista wyborcza składa się
+z 41 list okręgowych i zawiera od 460 do 920 nazwisk kandydatów)<br/><br/>
+1. Lista Społeczna to lista wyborcza umożliwiająca kandydatom
+<strong>samodzielny i niezależny start w wyborach do sejmu, na
+równych dla wszystkich zasadach</strong>, w ramach jednej wspólnej listy
+(jednego komitetu wyborczego)<br/><br/>
+2. Każdy wyborca ma prawo ubiegać się na równych zasadach o miejsce
+na Liście Społecznej (czyli zgłosić chęć / gotowość reprezentowania
+społeczeństwa w sejmie) i nikt nie może odgórnie go tego prawa
+pozbawić.<br/>
+ (Osoba korzystająca z tego prawa to "Reprezentant")<br/><br/>
+2a. Reprezentant może za to pozbawić się tego prawa sam
+<strong>(wykluczyć się z Listy Społecznej) - jeśli zostanie przyłapany
+na celowym kłamstwie lub zatajeniu prawdy</strong> odnośnie swojej
+przeszłości (w tym politycznej), swojego życiorysu (w tym
+pochodzenia), swoich prawdziwych poglądów czy swoich
+planowanych działań jako ewentualny poseł (kontrakt wyborczy)<br/>
+<strong>UCZCIWOŚĆ (prawdomówność) wobec wyborców jest
+najważniejszą kompetencją i kategorią.</strong><br/><br/>
+3. <strong>To wyborcy w dniu głosowania (w dniu wyborów
+powszechnych) mają wybrać najlepszych kandydatów
+startujących samodzielnie</strong> w ramach Listy Społecznej - i posłami
+zostaną ci, którzy zdobędą największą liczbę głosów (wg przydziału
+mandatów dla Listy Społecznej przez PKW)<br/><br/>
+4. Rolą Komitetu Wyborczego wystawiającego Listę Społeczną jest
+możliwie jak najuczciwsze zaprezentowanie wyborcom wszystkich
+kandydatów, na równych zasadach i podkreślanie różnicy w jakości
+niezależnych kandydatów społecznych w porównaniu do kandydatów
+partyjnych oraz promowanie "wybierania posłów bezpośrednio
+spośród niezależnych kandydatów" zamiast "wybierania pomiędzy
+partiami"<br/>
+(Lista Społeczna oferuje "autentyczny wybór" zamiast "partyjnego,
+fałszywego politycznego PRu")<br/><br/>
+4a. W szczególności Lista Społeczna nie może promować tylko
+pojedynczych twarzy (np. tzw. „jedynek”) tak jak to robią wszystkie
+inne partie - wszystkie działania w kampanii mają ODRÓŻNIAĆ Listę
+Społeczną od wszystkich innych partii i ich metod działania. Bo to ta
+faktyczna RÓŻNICA jakości jest siłą i kluczową cechą Listy
+Społecznej.<br/><br/>
+<strong>Układanie list wyborczych:</strong><br/><br/>
+5. Ponieważ formalnym wymogiem kodeksu wyborczego są numerowane
+listy wyborcze o ograniczonej liczbie kandydatów oraz z parytetem
+płci - Lista Społeczna też musi ten wymóg spełniać - stąd konieczność
+tzw. "Ułożenia list okręgowych" przed ich rejestracją.<br/><br/>
+6. <strong>Główną zasadą Listy Społecznej jest to, że okręgowe listy
+wyborcze</strong> (tworzące Listę Społeczną) <strong>powstają ODDOLNIE,
+NIEZALEŻNIE i SUWERENNIE w każdym z okręgów wyborczych
+- poprzez JAWNE (w tym rejestrowane kamerą) PRAWYBORY.</strong><br/>
+(nie ma żadnego centralnego komitetu, który mianuje "jedynki")<br/><br/>
+7. Okręgowe Listy Wyborcze ułożą sami wyborcy danego okręgu, którzy
+zaangażują się w powstanie i rejestrację Listy Społecznej - a więc
+będą to głównie Reprezentanci oraz członkowie sztabów okręgowych
+zbierających podpisy i formalnie rejestrujących listy w OKW.<br/><br/>
+7a. Czas od teraz do ostatecznych spotkań w okręgach, na których
+odbędą się JAWNE PRAWYBORY - to czas na poznanie i
+zaprezentowanie się reprezentantów, na "sprawdzenie się w boju"
+(wspólna praca i zbieranie podpisów) i na weryfikację / konfrontację
+reprezentantów.<br/><br/>
+8. PRAWYBORY (ułożenie kandydatów w kolejności na listach
+wyborczych) odbędą się poprzez jawne głosowanie osób określonych
+w pkt 7. metodą zaprezentowaną na warsztatach 1Polska - tzn każdy
+głosujący układa kandydatów w kolejności (od najlepszego do
+najmniej odpowiedniego).<br/><br/>
+8a. Głosy są sumowane (miejsce na liście każdego głosującego to
+punkty, im mniej punktów tym więcej razy kandydat był na wyższym
+miejscu) i kandydaci są sortowani rosnąco wg sumy punktów w
+ranking (im mniej punktów tym lepiej, tym wyższe miejsce w
+rankingu).<br/><br/>
+8b. <strong>Okręgowa lista wyborcza powstaje na podstawie rankingu
+w następujący sposób:</strong><br/>
+- pierwszeństwo mają kandydaci którzy podpisali KONTRAKT
+WYBORCZY, ich układa się na górze listy, wg kolejności w rankingu<br/>
+- jeśli nadal są wolne miejsca na liście uzupełnia się je pozostałymi
+kandydatami, wg kolejności w rankingu<br/>
+- na koniec trzeba uwzględnić formalny wymóg parytetu płci: tzn.
+Idąc od dołu listy, wymienić "panów na panie" (lub na odwrót)
+uzupełniając listę osobami brakującej płci wg rankingu.<br/><br/>
+9. KONTRAKT WYBORCZY jest to indywidualne (spersonalizowane)
+zobowiązanie kandydata na piśmie, w którym kandydat określa w
+jakim celu kandyduje do sejmu, co chce w Polsce zmienić, jak
+zamierza głosować jako poseł.<br/><br/>
+10. Lista Społeczna (z definicji, patrz pkt.1-9) nie może narzucać odgórnie
+kandydatom żadnego jednego "programu wyborczego" rozumianego
+w tradycyjny sposób.<br/>
+Programem Listy Społecznej jest to co de facto ODRÓŻNIA ją od
+wszystkich innych partii a więc odebranie władzy (i pieniędzy) partiom
+i <strong>przekazanie władzy suwerenowi (Narodowi) oraz oddanie
+marnotrawionych pieniędzy publicznych obywatelom.</strong> Bo to jest
+warunek niezbędny do dokonania w Polsce JAKICHKOLWIEK
+potrzebnych i pro-obywatelskich zmian.<br/><br/>
+11. Wszystkim wyborcom powinno zależeć na wybraniu do sejmu jak
+najlepszych, najszlachetniejszych, najmądrzejszych
+i niezależnych ludzi, nieuwikłanych w partyjne i polityczne
+zależności - i w takim celu powstaje LISTA SPOŁECZNA.<br/><br/>
+	<a href="http://1polska.pl/img/LISTA_SPOLECZNA_definicja.pdf">pobierz wersję PDF</a><br/><br/>
+</p>
 
 <iframe
 	src="https://docs.google.com/presentation/d/14gx2DUk-6XOd4p4TTQdhQJRuedCelurnQOc45IuTmTs/embed?start=true&loop=true&delayms=5000"

@@ -18,8 +18,8 @@ $this->set('title', 'Polityka prywatności');
 		i nie przetwarza żadnych danych w celach biznesowych.</strong><br/>
 	<br/>
 	<br/>
-<h3><strong>Zarejestrowani/zalogowani użytkownicy</strong></h3><br/>
-	<br/>
+<h3><strong>Zarejestrowani/zalogowani użytkownicy</strong></h3>
+	(Administratorem danych jest Konrad Daniel)<br/><br/>
 	Rejestracja/zalogowanie (poprzez formularz na stronie lub poprzez konta społecznościowe: google lub facebook) jest
 	dobrowolna ale konieczna aby w pełni korzystać z funkcjonalności strony. Nie jest wymagana aby przeglądać zawartość
 	strony.<br/>
@@ -33,7 +33,7 @@ $this->set('title', 'Polityka prywatności');
 	<br/>
 	Użytkownicy mają prawo i możliwość usunięcia swojego konta wraz ze swoimi danymi - jeśli zechcą tak zrobić.<br/>
 	<br/>
-	<strong>Adresy email użytkowników są poufne</strong> (wyłącznie do wiadomości administratorów) i nie są nigdzie na
+	<strong>Adresy email użytkowników są poufne</strong> (wyłącznie do wiadomości administratora) i nie są nigdzie na
 	stronie publikowane ani widoczne.<br/>
 	<br/>
 	Podczas logowania zapisywany jest aktualny adres IP logującego się użytkownika.<br/>
