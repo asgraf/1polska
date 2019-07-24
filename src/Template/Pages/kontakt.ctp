@@ -18,11 +18,12 @@ $this->set('title', 'Kontakt');
 
 <h2 class="kontakt">Centrum informacyjno-organizacyjno-koordynacyjne:</h2>
 <p class="o_co_chodzi">
-	<strong>KONTAKT DLA MEDIÓW:</strong> Mariusz Olczak <strong>+48 510 789 412</strong><br/><br/>
 	Kontakt dla osób chcących działać "w realu" (nie tylko w sieci) oraz lokalnie na rzecz zjednoczenia społeczeństwa i
 	połączenia sił:<br/>
 	<strong>Jarek Zienkiewicz</strong> ( <a href="mailto:Jarek1PL@gmail.com?Subject=1Polska%20stronaWWW">Jarek1PL@gmail.com</a> )
 	- koordynator spraw organizacyjnych i kontakt informacyjny<br/>
+	<br/>
+	<strong>KONTAKT DLA MEDIÓW:</strong> Mariusz Olczak <strong>+48 510 789 412</strong><br/>
 	<br/>
 	Koordynator główny budowy struktur lokalnych:<br/>
 	<strong>Jan Sposób</strong> ( <a href="mailto:jan.sposob@o2.pl?Subject=1Polska%20struktury%20stronaWWW">jan.sposob@o2.pl</a> ) <strong>tel: +48 794 999 711</strong> <br/>
