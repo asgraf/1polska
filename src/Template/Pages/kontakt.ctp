@@ -13,11 +13,12 @@ $this->set('title', 'Kontakt');
 
 <h3 class="kontakt">FORUM wewnętrzne 1Polska:</h3>
 <p class="o_co_chodzi">
-	<a href="http://wsw.sgdw.pl/" target="_blank">wsw.sgdw.pl</a> - miejsce na dyskusje organizacyjne, programowe, strategiczne i wszelkie inne. (Wymagana imienna rejestracja)
+	<a href="http://forum.1Polska.pl" target="_blank">forum.1Polska.pl</a> - miejsce na dyskusje organizacyjne, programowe, strategiczne i wszelkie inne. (Wymagana imienna rejestracja)
 </p>
 
 <h2 class="kontakt">Centrum informacyjno-organizacyjno-koordynacyjne:</h2>
 <p class="o_co_chodzi">
+	<strong>KONTAKT DLA MEDIÓW:</strong> Mariusz Olczak <strong>+48 510 789 412</strong><br/><br/>
 	Kontakt dla osób chcących działać "w realu" (nie tylko w sieci) oraz lokalnie na rzecz zjednoczenia społeczeństwa i
 	połączenia sił:<br/>
 	<strong>Jarek Zienkiewicz</strong> ( <a href="mailto:Jarek1PL@gmail.com?Subject=1Polska%20stronaWWW">Jarek1PL@gmail.com</a> )
@@ -151,7 +152,7 @@ Apka Telegram jest darmowa - po instalacji podajemy swój nr telefonu - aplikacj
 </p>
 
 <iframe src="https://docs.google.com/document/d/1a9gZ_MiNQe4OvUhJ6GXf2BR3l1XpawJzt_nY_Jy3TOw/pub?embedded=true"
-        width="1044" height="1500" style="border:none"></iframe>
+        width="1044" height="1600" style="border:none"></iframe>
 
 <h2 class="kontakt">Administratorzy strony:</h2>
 <p class="o_co_chodzi">
