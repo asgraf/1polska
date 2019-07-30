@@ -22,10 +22,11 @@ $this->append('header', '
 		<h1 style="font-size:36px">Czas zjednoczyć dobrych ludzi wobec patologii obecnego systemu!</h1>
 		<h4 style="color:#317EAC">Chcesz żyć w normalnym kraju? Masz dość absurdów IIIRP? Nie jesteś sam!</h4>
 
-		<p style="font-size:17px; color:red; font-family: verdana; margin-bottom: -20px; margin-top: -22px;">Najbliższe spotkania 1Polska:</p>
+		<p style="font-size:17px; color:red; font-family: verdana; margin-bottom: -20px; margin-top: -22px;">Spotkania 1Polska - Nagrania video ze spotkań/warsztatów 1Polska: <a href="https://www.youtube.com/channel/UCb5mIKEv944_VLTOcdwH_MA/videos">na youtube</a>  </p>
+
+<!--		
 		<p style="font-size:17px; background-color:red; color:white; font-family: verdana; padding: 6px 6px 6px 6px; margin-top: -2px; margin-bottom: 4px;">
 		<strong>TORUŃ - 27 lipca 2019</strong>  (sobota) - godz. 13:00 ul. Przedzamcze 8, sala 002 (Regionalny Inkubator Przedsiębiorczości)</p>
-<!--		
 		<p style="font-size:17px; background-color:red; color:white; font-family: verdana; padding: 6px 6px 6px 6px; margin-top: -2px; margin-bottom: 20px;">
 		<strong>KATOWICE - 9.VI.2019</strong> (niedziela) - godz. 13:00 ul. Opolska 22, Sala A, I piętro (wejście od ul. Sobieskiego)</p>
 -->
