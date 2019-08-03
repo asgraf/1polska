@@ -339,23 +339,23 @@
         },
         {
             "name": "cakephp/migrations",
-            "version": "2.1.1",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/migrations.git",
-                "reference": "96e3cc00ede11f28bb8bcefcab95f07c487177cf"
+                "reference": "38fbee62e7f387dbe0dc7ef492aa7dddb8e304fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/migrations/zipball/96e3cc00ede11f28bb8bcefcab95f07c487177cf",
-                "reference": "96e3cc00ede11f28bb8bcefcab95f07c487177cf",
+                "url": "https://api.github.com/repos/cakephp/migrations/zipball/38fbee62e7f387dbe0dc7ef492aa7dddb8e304fc",
+                "reference": "38fbee62e7f387dbe0dc7ef492aa7dddb8e304fc",
                 "shasum": ""
             },
             "require": {
                 "cakephp/cache": "^3.6.0",
                 "cakephp/orm": "^3.6.0",
                 "php": ">=5.6.0",
-                "robmorgan/phinx": "~0.10.3"
+                "robmorgan/phinx": "^0.10.3"
             },
             "require-dev": {
                 "cakephp/bake": "^1.7.0",
@@ -369,7 +369,7 @@
             "type": "cakephp-plugin",
             "autoload": {
                 "psr-4": {
-                    "Migrations\\": "src"
+                    "Migrations\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -388,20 +388,20 @@
                 "cakephp",
                 "migrations"
             ],
-            "time": "2019-02-07T15:20:33+00:00"
+            "time": "2019-07-22T03:02:47+00:00"
         },
         {
             "name": "cakephp/plugin-installer",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/plugin-installer.git",
-                "reference": "41373d0678490502f45adc7be88aa22d24ac1843"
+                "reference": "af9711ee5dfbe62a76e8aa86cb348895fab23b50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/plugin-installer/zipball/41373d0678490502f45adc7be88aa22d24ac1843",
-                "reference": "41373d0678490502f45adc7be88aa22d24ac1843",
+                "url": "https://api.github.com/repos/cakephp/plugin-installer/zipball/af9711ee5dfbe62a76e8aa86cb348895fab23b50",
+                "reference": "af9711ee5dfbe62a76e8aa86cb348895fab23b50",
                 "shasum": ""
             },
             "require-dev": {
@@ -429,7 +429,7 @@
                 }
             ],
             "description": "A composer installer for CakePHP 3.0+ plugins.",
-            "time": "2017-12-24T21:09:29+00:00"
+            "time": "2019-07-25T15:43:38+00:00"
         },
         {
             "name": "crabstudio/recaptcha",
@@ -489,16 +489,16 @@
         },
         {
             "name": "dereuromark/cakephp-shim",
-            "version": "1.8.3",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dereuromark/cakephp-shim.git",
-                "reference": "1266ff7a78910a3995733c435bdafdb16f14c975"
+                "reference": "6a65d1af81e2bb8da654cce53fa9ef447b2f2287"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dereuromark/cakephp-shim/zipball/1266ff7a78910a3995733c435bdafdb16f14c975",
-                "reference": "1266ff7a78910a3995733c435bdafdb16f14c975",
+                "url": "https://api.github.com/repos/dereuromark/cakephp-shim/zipball/6a65d1af81e2bb8da654cce53fa9ef447b2f2287",
+                "reference": "6a65d1af81e2bb8da654cce53fa9ef447b2f2287",
                 "shasum": ""
             },
             "require": {
@@ -523,8 +523,8 @@
             "authors": [
                 {
                     "name": "Mark Scherer",
-                    "homepage": "https://www.dereuromark.de",
-                    "role": "Maintainer"
+                    "role": "Maintainer",
+                    "homepage": "https://www.dereuromark.de"
                 }
             ],
             "description": "A CakePHP plugin to shim applications between major framework versions.",
@@ -535,20 +535,20 @@
                 "plugin",
                 "shim"
             ],
-            "time": "2019-06-06T19:31:19+00:00"
+            "time": "2019-07-30T11:40:44+00:00"
         },
         {
             "name": "dereuromark/cakephp-tags",
-            "version": "0.5.4",
+            "version": "0.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dereuromark/cakephp-tags.git",
-                "reference": "14024143357600d212b5fd6965556846a588b3f1"
+                "reference": "69a43dd8dfa391bd8eaff12f7571761e493c32b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dereuromark/cakephp-tags/zipball/14024143357600d212b5fd6965556846a588b3f1",
-                "reference": "14024143357600d212b5fd6965556846a588b3f1",
+                "url": "https://api.github.com/repos/dereuromark/cakephp-tags/zipball/69a43dd8dfa391bd8eaff12f7571761e493c32b1",
+                "reference": "69a43dd8dfa391bd8eaff12f7571761e493c32b1",
                 "shasum": ""
             },
             "require": {
@@ -573,23 +573,23 @@
             ],
             "authors": [
                 {
+                    "name": "Mark Scherer",
+                    "role": "Maintainer",
+                    "homepage": "https://www.dereuromark.de"
+                },
+                {
                     "name": "Jad Bitar",
-                    "homepage": "http://jadb.io",
-                    "role": "Author"
+                    "role": "Author",
+                    "homepage": "http://jadb.io"
                 },
                 {
                     "name": "ADmad",
-                    "homepage": "https://github.com/ADmad",
-                    "role": "Author"
+                    "role": "Author",
+                    "homepage": "https://github.com/ADmad"
                 },
                 {
                     "name": "Others",
                     "homepage": "https://github.com/dereuromark/cakephp-tags/graphs/contributors"
-                },
-                {
-                    "name": "Mark Scherer",
-                    "homepage": "https://www.dereuromark.de",
-                    "role": "Maintainer"
                 }
             ],
             "description": "Tags plugin for CakePHP 3.x",
@@ -599,20 +599,20 @@
                 "tagging",
                 "tags"
             ],
-            "time": "2019-07-01T14:11:22+00:00"
+            "time": "2019-07-23T10:15:13+00:00"
         },
         {
             "name": "dereuromark/cakephp-tools",
-            "version": "1.9.4",
+            "version": "1.9.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dereuromark/cakephp-tools.git",
-                "reference": "1aae3315972b790bcf482ba8a166f6ec200042fa"
+                "reference": "cc95261759b0341fabcef24d4423cfe2ba39c692"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dereuromark/cakephp-tools/zipball/1aae3315972b790bcf482ba8a166f6ec200042fa",
-                "reference": "1aae3315972b790bcf482ba8a166f6ec200042fa",
+                "url": "https://api.github.com/repos/dereuromark/cakephp-tools/zipball/cc95261759b0341fabcef24d4423cfe2ba39c692",
+                "reference": "cc95261759b0341fabcef24d4423cfe2ba39c692",
                 "shasum": ""
             },
             "require": {
@@ -643,8 +643,8 @@
             "authors": [
                 {
                     "name": "Mark Scherer",
-                    "homepage": "https://www.dereuromark.de",
-                    "role": "Author"
+                    "role": "Author",
+                    "homepage": "https://www.dereuromark.de"
                 }
             ],
             "description": "A CakePHP plugin containing lots of useful and reusable tools",
@@ -659,7 +659,7 @@
                 "tools",
                 "utils"
             ],
-            "time": "2019-05-22T14:57:16+00:00"
+            "time": "2019-08-01T09:01:38+00:00"
         },
         {
             "name": "friendsofcake/bootstrap-ui",
@@ -1327,16 +1327,16 @@
         },
         {
             "name": "symfony/config",
-            "version": "v4.3.2",
+            "version": "v4.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "9198eea354be75794a7b1064de00d9ae9ae5090f"
+                "reference": "a17a2aea43950ce83a0603ed301bac362eb86870"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/9198eea354be75794a7b1064de00d9ae9ae5090f",
-                "reference": "9198eea354be75794a7b1064de00d9ae9ae5090f",
+                "url": "https://api.github.com/repos/symfony/config/zipball/a17a2aea43950ce83a0603ed301bac362eb86870",
+                "reference": "a17a2aea43950ce83a0603ed301bac362eb86870",
                 "shasum": ""
             },
             "require": {
@@ -1387,20 +1387,20 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2019-06-08T06:33:08+00:00"
+            "time": "2019-07-18T10:34:59+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v4.3.2",
+            "version": "v4.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "b592b26a24265a35172d8a2094d8b10f22b7cc39"
+                "reference": "8b0ae5742ce9aaa8b0075665862c1ca397d1c1d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/b592b26a24265a35172d8a2094d8b10f22b7cc39",
-                "reference": "b592b26a24265a35172d8a2094d8b10f22b7cc39",
+                "url": "https://api.github.com/repos/symfony/console/zipball/8b0ae5742ce9aaa8b0075665862c1ca397d1c1d9",
+                "reference": "8b0ae5742ce9aaa8b0075665862c1ca397d1c1d9",
                 "shasum": ""
             },
             "require": {
@@ -1462,11 +1462,11 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2019-06-13T11:03:18+00:00"
+            "time": "2019-07-24T17:13:59+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.3.2",
+            "version": "v4.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -1749,16 +1749,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.3.2",
+            "version": "v4.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "c60ecf5ba842324433b46f58dc7afc4487dbab99"
+                "reference": "34d29c2acd1ad65688f58452fd48a46bd996d5a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/c60ecf5ba842324433b46f58dc7afc4487dbab99",
-                "reference": "c60ecf5ba842324433b46f58dc7afc4487dbab99",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/34d29c2acd1ad65688f58452fd48a46bd996d5a6",
+                "reference": "34d29c2acd1ad65688f58452fd48a46bd996d5a6",
                 "shasum": ""
             },
             "require": {
@@ -1804,7 +1804,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-04-06T14:04:46+00:00"
+            "time": "2019-07-24T14:47:54+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -2045,16 +2045,16 @@
         },
         {
             "name": "cakephp/bake",
-            "version": "1.11.1",
+            "version": "1.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/bake.git",
-                "reference": "817282f4f797cd0792a393a870512e9e225e9ac1"
+                "reference": "8598c3326541a16aa7b003ce322c44a34f90ad85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/bake/zipball/817282f4f797cd0792a393a870512e9e225e9ac1",
-                "reference": "817282f4f797cd0792a393a870512e9e225e9ac1",
+                "url": "https://api.github.com/repos/cakephp/bake/zipball/8598c3326541a16aa7b003ce322c44a34f90ad85",
+                "reference": "8598c3326541a16aa7b003ce322c44a34f90ad85",
                 "shasum": ""
             },
             "require": {
@@ -2089,7 +2089,7 @@
                 "bake",
                 "cakephp"
             ],
-            "time": "2019-07-10T17:48:16+00:00"
+            "time": "2019-07-30T02:08:16+00:00"
         },
         {
             "name": "cakephp/cakephp-codesniffer",
@@ -2198,25 +2198,25 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.1.4",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "558f321c52faeb4828c03e7dc0cfe39a09e09a2d"
+                "reference": "f26a67e397be0e5c00d7c52ec7b5010098e15ce5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/558f321c52faeb4828c03e7dc0cfe39a09e09a2d",
-                "reference": "558f321c52faeb4828c03e7dc0cfe39a09e09a2d",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/f26a67e397be0e5c00d7c52ec7b5010098e15ce5",
+                "reference": "f26a67e397be0e5c00d7c52ec7b5010098e15ce5",
                 "shasum": ""
             },
             "require": {
                 "ext-openssl": "*",
                 "ext-pcre": "*",
-                "php": "^5.3.2 || ^7.0"
+                "php": "^5.3.2 || ^7.0 || ^8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 8",
                 "psr/log": "^1.0",
                 "symfony/process": "^2.5 || ^3.0 || ^4.0"
             },
@@ -2250,20 +2250,20 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2019-01-28T09:30:10+00:00"
+            "time": "2019-08-02T09:05:43+00:00"
         },
         {
             "name": "composer/composer",
-            "version": "1.8.6",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "19b5f66a0e233eb944f134df34091fe1c5dfcc11"
+                "reference": "314aa57fdcfc942065996f59fb73a8b3f74f3fa5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/19b5f66a0e233eb944f134df34091fe1c5dfcc11",
-                "reference": "19b5f66a0e233eb944f134df34091fe1c5dfcc11",
+                "url": "https://api.github.com/repos/composer/composer/zipball/314aa57fdcfc942065996f59fb73a8b3f74f3fa5",
+                "reference": "314aa57fdcfc942065996f59fb73a8b3f74f3fa5",
                 "shasum": ""
             },
             "require": {
@@ -2299,7 +2299,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8-dev"
+                    "dev-master": "1.9-dev"
                 }
             },
             "autoload": {
@@ -2323,14 +2323,14 @@
                     "homepage": "http://seld.be"
                 }
             ],
-            "description": "Composer helps you declare, manage and install dependencies of PHP projects, ensuring you have the right stack everywhere.",
+            "description": "Composer helps you declare, manage and install dependencies of PHP projects. It ensures you have the right stack everywhere.",
             "homepage": "https://getcomposer.org/",
             "keywords": [
                 "autoload",
                 "dependency",
                 "package"
             ],
-            "time": "2019-06-11T13:03:06+00:00"
+            "time": "2019-08-02T18:55:33+00:00"
         },
         {
             "name": "composer/semver",
@@ -2396,16 +2396,16 @@
         },
         {
             "name": "composer/spdx-licenses",
-            "version": "1.5.1",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/spdx-licenses.git",
-                "reference": "a1aa51cf3ab838b83b0867b14e56fc20fbd55b3d"
+                "reference": "7ac1e6aec371357df067f8a688c3d6974df68fa5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/a1aa51cf3ab838b83b0867b14e56fc20fbd55b3d",
-                "reference": "a1aa51cf3ab838b83b0867b14e56fc20fbd55b3d",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/7ac1e6aec371357df067f8a688c3d6974df68fa5",
+                "reference": "7ac1e6aec371357df067f8a688c3d6974df68fa5",
                 "shasum": ""
             },
             "require": {
@@ -2452,7 +2452,7 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2019-03-26T10:23:26+00:00"
+            "time": "2019-07-29T10:31:59+00:00"
         },
         {
             "name": "composer/xdebug-handler",
@@ -2500,16 +2500,16 @@
         },
         {
             "name": "dereuromark/cakephp-ide-helper",
-            "version": "0.13.13",
+            "version": "0.13.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dereuromark/cakephp-ide-helper.git",
-                "reference": "ec3947bd33bede284f2991e3278d8f53be124b83"
+                "reference": "4dc07d445d5e9f035a77813cd0422d8e44c81537"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dereuromark/cakephp-ide-helper/zipball/ec3947bd33bede284f2991e3278d8f53be124b83",
-                "reference": "ec3947bd33bede284f2991e3278d8f53be124b83",
+                "url": "https://api.github.com/repos/dereuromark/cakephp-ide-helper/zipball/4dc07d445d5e9f035a77813cd0422d8e44c81537",
+                "reference": "4dc07d445d5e9f035a77813cd0422d8e44c81537",
                 "shasum": ""
             },
             "require": {
@@ -2520,8 +2520,8 @@
                 "squizlabs/php_codesniffer": "^3.0"
             },
             "require-dev": {
-                "dereuromark/cakephp-shim": "^1.5",
-                "dereuromark/cakephp-tools": "^1.3",
+                "dereuromark/cakephp-shim": "^1.8.3",
+                "dereuromark/cakephp-tools": "^1.9.0",
                 "fig-r/psr2r-sniffer": "dev-master"
             },
             "type": "cakephp-plugin",
@@ -2537,14 +2537,14 @@
             ],
             "authors": [
                 {
-                    "name": "Other contributors",
-                    "homepage": "https://github.com/dereuromark/cakephp-ide-helper/graphs/contributors",
-                    "role": "Developer"
+                    "name": "Mark Scherer",
+                    "role": "Maintainer",
+                    "homepage": "https://www.dereuromark.de"
                 },
                 {
-                    "name": "Mark Scherer",
-                    "homepage": "https://www.dereuromark.de",
-                    "role": "Maintainer"
+                    "name": "Other contributors",
+                    "role": "Developer",
+                    "homepage": "https://github.com/dereuromark/cakephp-ide-helper/graphs/contributors"
                 }
             ],
             "description": "CakePHP IdeHelper Plugin to improve auto-completion",
@@ -2558,7 +2558,7 @@
                 "phpstorm",
                 "plugin"
             ],
-            "time": "2019-06-05T12:22:07+00:00"
+            "time": "2019-07-30T10:58:35+00:00"
         },
         {
             "name": "dereuromark/cakephp-setup",
@@ -4666,16 +4666,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.3.2",
+            "version": "v4.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "33c21f7d5d3dc8a140c282854a7e13aeb5d0f91a"
+                "reference": "9638d41e3729459860bb96f6247ccb61faaa45f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/33c21f7d5d3dc8a140c282854a7e13aeb5d0f91a",
-                "reference": "33c21f7d5d3dc8a140c282854a7e13aeb5d0f91a",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/9638d41e3729459860bb96f6247ccb61faaa45f2",
+                "reference": "9638d41e3729459860bb96f6247ccb61faaa45f2",
                 "shasum": ""
             },
             "require": {
@@ -4711,7 +4711,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2019-06-13T11:03:18+00:00"
+            "time": "2019-06-28T13:16:30+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
@@ -4770,7 +4770,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.3.2",
+            "version": "v4.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
@@ -4819,16 +4819,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v4.3.2",
+            "version": "v4.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "45d6ef73671995aca565a1aa3d9a432a3ea63f91"
+                "reference": "e4110b992d2cbe198d7d3b244d079c1c58761d07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/45d6ef73671995aca565a1aa3d9a432a3ea63f91",
-                "reference": "45d6ef73671995aca565a1aa3d9a432a3ea63f91",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/e4110b992d2cbe198d7d3b244d079c1c58761d07",
+                "reference": "e4110b992d2cbe198d7d3b244d079c1c58761d07",
                 "shasum": ""
             },
             "require": {
@@ -4891,7 +4891,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2019-06-17T17:37:00+00:00"
+            "time": "2019-07-27T06:42:46+00:00"
         },
         {
             "name": "theseer/tokenizer",
