@@ -7,7 +7,6 @@ use Authentication\AuthenticationServiceProviderInterface;
 use Authentication\Middleware\AuthenticationMiddleware;
 use Cake\Core\Configure;
 use Cake\Core\Exception\MissingPluginException;
-use Cake\Error\Middleware\ErrorHandlerMiddleware;
 use Cake\Http\BaseApplication;
 use Cake\Http\Middleware\EncryptedCookieMiddleware;
 use Cake\Routing\Middleware\AssetMiddleware;
@@ -15,6 +14,7 @@ use Cake\Routing\Middleware\RoutingMiddleware;
 use DateTime;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
+use Tools\Error\Middleware\ErrorHandlerMiddleware;
 
 /**
  * Application setup class.
@@ -46,6 +46,7 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
 		}
 
 		// Load more plugins here
+		$this->addPlugin('DatabaseLog', ['bootstrap' => true]);
 		$this->addPlugin('Crud');
 		$this->addPlugin('CrudUsers');
 		$this->addPlugin('CrudView');
