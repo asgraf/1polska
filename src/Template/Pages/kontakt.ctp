@@ -54,6 +54,7 @@ $this->set('title', 'Kontakt');
 <a href="https://www.facebook.com/groups/758306620933987/">Okr 16 Płock</a><br/>
 <a href="https://www.facebook.com/groups/445345572311056/">Okr 17 Radom</a><br/>
 <a href="https://www.facebook.com/groups/1612115142390544/">Okr 18 Siedlce</a><br/>
+<a href="https://www.facebook.com/groups/407908299824305/">POLONIA (głosuje "w okr 19")</a><br/>
 <a href="https://www.facebook.com/groups/721744381270960/">Okr 19 Warszawa (miasto)</a><br/>
 <a href="https://www.facebook.com/groups/1453024055001967/">Okr 20 Warszawa II (obrzeża)</a><br/>
 </td>
@@ -115,6 +116,7 @@ $this->set('title', 'Kontakt');
 <a href="https://t.me/JPolska_16Plock" target="_blank">16 Płock </a><br/>
 <a href="https://t.me/JPolska_17Radom" target="_blank">17 Radom </a><br/>
 <a href="https://t.me/JPolska_18Siedlce" target="_blank">18 Siedlce </a> <br/>
+<a href="https://t.me/JPolska_Polonia" target="_blank">POLONIA (głosuje "w okr 19")</a><br/>
 <a href="https://t.me/JPolska_19Warszawa" target="_blank">19 Warszawa (miasto)</a><br/>
 <a href="https://t.me/JPolska_20Warszawa" target="_blank">20 Warszawa II (obrzeża)</a><br/>
 </td>
@@ -125,7 +127,7 @@ $this->set('title', 'Kontakt');
 <a href="https://t.me/JPolska_24Bialystok" target="_blank">24 Białystok </a><br/>
 <a href="https://t.me/JPolska_25Gdansk" target="_blank">25 Gdańsk </a><br/>
 <a href="https://t.me/JPolska_26Gdynia" target="_blank">26 Gdynia </a><br/>
-<a href="Biała https://t.me/JPolska_27BielskoBiala" target="_blank">27 Bielsko </a> <br/>
+<a href="https://t.me/JPolska_27BielskoBiala" target="_blank">27 Bielsko Biała</a> <br/>
 <a href="https://t.me/JPolska_28Czestochowa" target="_blank">28 Częstochowa </a> <br/>
 <a href="https://t.me/JPolska_29Gliwice" target="_blank">29 Gliwice </a> <br/>
 <a href="https://t.me/JPolska_30Rybnik" target="_blank">30 Rybnik </a><br/>
