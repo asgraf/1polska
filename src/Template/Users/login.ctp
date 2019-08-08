@@ -30,3 +30,5 @@ if (!$this->getRequest()->is('ssl')) {
 </fieldset>
 <?= $this->Form->end(); ?>
 Logowanie oznacza akceptację <?= $this->Html->link('polityki prywatności', ['controller' => 'Pages', 'action' => 'display', 'polityka_prywatnosci']) ?>
+
+<br>NIE MASZ KONTA? <?= $this->Html->link('Zarejestruj się!', ['controller' => 'Pages', 'action' => 'display', 'rejestracja']) ?>
