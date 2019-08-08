@@ -7,8 +7,8 @@ $this->set('title', 'Kontakt');
 
 <h2 class="kontakt">Materiały do pobrania:</h2>
 <p class="o_co_chodzi">
-	LOGO 1Polska:  <a href="http://1Polska.pl/img/1polska_logo_400X400.png" target="_blank"><img src="http://1Polska.pl/img/ico_1_42x42.png"></a> 
-	Rollup 1Polska (85x200cm) <a href="http://1Polska.pl/img/1PL_rollup_bialy.pdf" target="_blank">BIAŁY </a><a href="http://1Polska.pl/img/1PL_rollup_bialy.pdf" target="_blank"><img src="http://1Polska.pl/img/rollup_ico_b2.jpg"></a> oraz <a href="http://1Polska.pl/img/1PL_rollup_blue.pdf" target="_blank">NIEBIESKI </a><a href="http://1Polska.pl/img/1PL_rollup_blue.pdf" target="_blank"><img src="http://1Polska.pl/img/rollup_mini_n.png"></a>
+	LOGO 1Polska:  <a href="/img/1polska_logo_400X400.png" target="_blank"><img src="/img/ico_1_42x42.png"></a> 
+	Rollup 1Polska (85x200cm) <a href="/img/1PL_rollup_bialy.pdf" target="_blank">BIAŁY </a><a href="/img/1PL_rollup_bialy.pdf" target="_blank"><img src="/img/rollup_ico_b2.jpg"></a> oraz <a href="/img/1PL_rollup_blue.pdf" target="_blank">NIEBIESKI </a><a href="/img/1PL_rollup_blue.pdf" target="_blank"><img src="/img/rollup_mini_n.png"></a>
 </p>
 
 <h3 class="kontakt">FORUM wewnętrzne 1Polska:</h3>
@@ -28,7 +28,7 @@ $this->set('title', 'Kontakt');
 	Koordynator główny budowy struktur lokalnych:<br/>
 	<strong>Jan Sposób</strong> ( <a href="mailto:jan.sposob@o2.pl?Subject=1Polska%20struktury%20stronaWWW">jan.sposob@o2.pl</a> ) <strong>tel: +48 794 999 711</strong> <br/>
 	<br/>
-<a href="https://www.facebook.com/1Polskapl" target="_blank"><img src="http://1Polska.pl/img/1pl_fb.png"></a>
+<a href="https://www.facebook.com/1Polskapl" target="_blank"><img src="/img/1pl_fb.png"></a>
 <strong>1Polska na facebooku:</strong> <a href="https://www.facebook.com/1Polskapl">fb.me/1Polskapl</a> - informacje i komunikaty organizacyjne.<br/>	
 <strong>Grupy 1Polska na facebooku</strong> dla każdego z okręgów wyborczych - DOŁĄCZ do grupy w swoim okręgu:
 <br/><table style="width:100%">
@@ -88,7 +88,7 @@ $this->set('title', 'Kontakt');
 </p>
 
 <p class="o_co_chodzi">
-<a href="https://t.me/s/jedna_Polska" target="_blank"><img src="http://1Polska.pl/img/1pl_tm.png"></a>
+<a href="https://t.me/s/jedna_Polska" target="_blank"><img src="/img/1pl_tm.png"></a>
 <strong>1Polska na Telegramie:</strong> <a href="https://t.me/jedna_Polska">t.me/Jedna_Polska</a> - darmowy komunikator na telefon<br/>	
 <strong>Okręgowe grupy 1Polska na Telegramie</strong> - KONIECZNIE DOŁĄCZ do grupy swojego okręgu:<br/> 
  Spotykamy się, organizujemy, zbieramy podpisy i wybieramy kandydatów w SWOICH OKRĘGACH wyborczych!
