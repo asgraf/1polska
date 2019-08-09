@@ -24,9 +24,10 @@ $this->set('title', 'Kontakt');
 	- koordynator spraw organizacyjnych i kontakt informacyjny<br/>
 	<br/>
 	<strong>*** KONTAKT DLA MEDIÓW:</strong> Mariusz Olczak <strong>+48 510 789 412</strong><br/>
+	<strong>Mariusz Olczak - Pełnomocnik wyborczy KWW Jedna Polska - Ruch Oddolny</strong><br/>
 	<br/>
 	Koordynator główny budowy struktur lokalnych:<br/>
-	<strong>Jan Sposób</strong> ( <a href="mailto:jan.sposob@o2.pl?Subject=1Polska%20struktury%20stronaWWW">jan.sposob@o2.pl</a> ) <strong>tel: +48 794 999 711</strong> <br/>
+	<strong id="grupy">Jan Sposób</strong> ( <a href="mailto:jan.sposob@o2.pl?Subject=1Polska%20struktury%20stronaWWW">jan.sposob@o2.pl</a> ) <strong>tel: +48 794 999 711</strong> <br/>
 	<br/>
 <a href="https://www.facebook.com/1Polskapl" target="_blank"><img src="/img/1pl_fb.png"></a>
 <strong>1Polska na facebooku:</strong> <a href="https://www.facebook.com/1Polskapl">fb.me/1Polskapl</a> - informacje i komunikaty organizacyjne.<br/>	
