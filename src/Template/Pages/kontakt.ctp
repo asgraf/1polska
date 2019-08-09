@@ -90,7 +90,7 @@ $this->set('title', 'Kontakt');
 
 <p class="o_co_chodzi">
 <a href="https://t.me/s/jedna_Polska" target="_blank"><img src="/img/1pl_tm.png"></a>
-<strong>1Polska na Telegramie:</strong> <a href="https://t.me/jedna_Polska">t.me/Jedna_Polska</a> - darmowy komunikator na telefon<br/>	
+<strong>1Polska na Telegramie:</strong> <a href="https://t.me/jedna_Polska">t.me/Jedna_Polska</a> - darmowy komunikator na telefon (i na komputer)<br/>	
 <strong>Okręgowe grupy 1Polska na Telegramie</strong> - KONIECZNIE DOŁĄCZ do grupy swojego okręgu:<br/> 
  Spotykamy się, organizujemy, zbieramy podpisy i wybieramy kandydatów w SWOICH OKRĘGACH wyborczych!
 <br/>
