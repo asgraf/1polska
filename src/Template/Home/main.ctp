@@ -23,7 +23,7 @@ $this->append('header', '
 		<h4 style="color:#317EAC">Chcesz żyć w normalnym kraju? Masz dość absurdów IIIRP? Nie jesteś sam!</h4>
 
 		<p style="font-size:19px; color:red; font-family: verdana; margin-bottom: -2px; margin-top: -12px;"><b>KARTA NA PODPISY</b> dla utworzenia KWW Jedna Polska - Ruch Oddolny: <a href="/img/Wykaz_podpisow_KWW.pdf">POBIERZ</a>  
-		<br><b>ULOTKA</b> informacyjna: <a href="/img/Ulotka.pdf">Pobierz, Wydrukuj, Przetnij na pół, ROZDAWAJ</a>
+		<br><b>ULOTKA</b> informacyjna: <a href="/img/Ulotka.pdf">Pobierz, WYDRUKUJ, Przetnij na pół, ROZDAWAJ</a>
 		<br><b>DOŁĄCZ do grupy kontaktowej 1Polska</b> swojego okręgu wyborczego: <a href="kontakt#grupy">LINKI do okr. grup kontaktowych</a>
 		</p>
 
