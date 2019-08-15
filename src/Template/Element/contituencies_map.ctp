@@ -7,7 +7,7 @@ echo $this->Html->image(
 	[
 		'alt' => 'Okręgi wyborcze do Sejmu RP',
 		'usemap' => '#okregi',
-		'style'=>'width:512px; height:487px;'
+		'style'=>'width:100%; height:auto;'
 	]
 )
 ?>
