@@ -64,7 +64,7 @@ $this->append('header', '
 		<h2>LISTA SPOŁECZNA - co to takiego? (jak połączyć siły aby zmienić nasz kraj):</h2>
 		<iframe
 			src="https://docs.google.com/presentation/d/14gx2DUk-6XOd4p4TTQdhQJRuedCelurnQOc45IuTmTs/embed?start=true&loop=true&delayms=5000"
-			frameborder="0" width="100%" height="500vh" allowfullscreen="true" mozallowfullscreen="true"
+			frameborder="0" width="100%" height="50vh" allowfullscreen="true" mozallowfullscreen="true"
 			webkitallowfullscreen="true"></iframe>
 	</div>
 
