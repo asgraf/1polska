@@ -205,7 +205,7 @@ class RepresentativesController extends AppController
 
 	public function index()
 	{
-		$this->paginate['limit'] = 100;
+		$this->paginate['limit'] = 50;
 		$this->set('title', 'Reprezentanci');
 
 		$action = $this->Crud->action();
