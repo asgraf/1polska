@@ -150,10 +150,10 @@ class RepresentativesController extends AppController
 				'label' => __('Pełny Opis'),
 				'data-markdown-editor'
 			],
-			'tag_list' => [
+			/*'tag_list' => [
 				'label' => __('Tagi'),
 				'help' => 'Aby przypisać kilka tagów oddziel je przecinkiem'
-			],
+			],*/
 			'privacy_policy' => [
 				'type' => 'custom',
 				'label' => 'Polityka prywatosci',
