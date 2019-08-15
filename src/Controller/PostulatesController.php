@@ -166,6 +166,7 @@ class PostulatesController extends AppController
 
 	public function index()
 	{
+		$this->paginate['limit'] = 100;
 		$this->set('title', 'Postulaty');
 
 		$action = $this->Crud->action();
