@@ -25,7 +25,7 @@ $this->append('header', '
 		<p style="font-size:19px; color:red; font-family: verdana; margin-bottom: -2px; margin-top: -12px;"><b>KWW 1Polska - Ruch Oddolny zgłoszony w PKW!</b>
 		<br>
 		<br><b>KARTA na podpisy! ZBIERAMY 100 000 podpisów: <a href="/img/Podpisy_poparcia.pdf">POBIERZ, WYDRUKUJ</a> i wpisz ręcznie Nr Okręgu, w którym zbierasz podpisy!
-		<br>W każdym okręgu trzeba zebrać ponad 5 tys. podpisów - Nie wiesz, który to Twój okręg? <a href="/img/okregi.pdf"> SPRAWDŹ </a>
+		<br>W każdym okręgu trzeba zebrać ponad 5 tys. podpisów - Nie wiesz, który to Twój okręg? <a href="/img/okregi_sejm.pdf"> SPRAWDŹ </a>
 		<br>
 		<br><b>ULOTKA</b> informacyjna: <a href="/img/Ulotka.pdf">Pobierz, WYDRUKUJ, Przetnij na pół, ROZDAWAJ</a>
 		<br><b>DOŁĄCZ do grupy kontaktowej 1Polska</b> swojego okręgu wyborczego: <a href="kontakt#grupy">LINKI do okr. grup kontaktowych</a>
