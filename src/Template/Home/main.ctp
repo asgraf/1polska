@@ -22,7 +22,7 @@ $this->append('header', '
 		<h1 style="font-size:36px">Czas zjednoczyć dobrych ludzi wobec patologii obecnego systemu!</h1>
 		<h4 style="color:#317EAC">Chcesz żyć w normalnym kraju? Masz dość absurdów IIIRP? Nie jesteś sam!</h4>
 
-		<p style="font-size:19px; color:red; font-family: verdana; margin-bottom: -2px; margin-top: -12px;"><b>KWW 1Polska - Ruch Oddolny zgłoszony w PKW!</b> (za chwilę pojawi się tu do pobrania karta do zbiórki 100000 podpisów) <a href="https://pkw.gov.pl/pliki/1565945628_wykaz_zawiadomien_34.pdf">Wykaz komitetów wg PKW</a>  
+		<p style="font-size:19px; color:red; font-family: verdana; margin-bottom: -2px; margin-top: -12px;"><b>KWW 1Polska - Ruch Oddolny zgłoszony w PKW!</b> (za chwilę pojawi się tu do pobrania karta do zbiórki 100000 podpisów) <a href="https://pkw.gov.pl/pliki/1565955946_wykaz_zawiadomien_35.pdf">Wykaz komitetów wg PKW</a>  
 		<br><b>ULOTKA</b> informacyjna: <a href="/img/Ulotka.pdf">Pobierz, WYDRUKUJ, Przetnij na pół, ROZDAWAJ</a>
 		<br><b>DOŁĄCZ do grupy kontaktowej 1Polska</b> swojego okręgu wyborczego: <a href="kontakt#grupy">LINKI do okr. grup kontaktowych</a>
 		</p>
