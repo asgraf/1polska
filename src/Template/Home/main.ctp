@@ -23,7 +23,9 @@ $this->append('header', '
 		<h4 style="color:#317EAC">Chcesz żyć w normalnym kraju? Masz dość absurdów IIIRP? Nie jesteś sam!</h4>
 
 		<p style="font-size:19px; color:red; font-family: verdana; margin-bottom: -2px; margin-top: -12px;"><b>KWW 1Polska - Ruch Oddolny zgłoszony w PKW!</b>
-		<br><b>KARTA na podpisy! ZBIERAMY 100 000 podpisów: <a href="/img/Podpisy_poparcia.pdf">POBIERZ i WYDRUKUJ</a>  
+		<br>
+		<br><b>KARTA na podpisy! ZBIERAMY 100 000 podpisów: <a href="/img/Podpisy_poparcia.pdf">POBIERZ, WYDRUKUJ</a> i wpisz ręcznie Nr Okręgu, w którym zbierasz podpisy!
+		<br>W każdym okręgu trzeba zebrać ponad 5 tys. podpisów - Nie wiesz, który to Twój okręg? <a href="https://pkw.gov.pl/pliki/1565440079_Obwieszczenie_Panstwowej_Komisji_Wyborczej_z_dnia_6_sierpnia_2019_r_o_okregach_wyborczych_w_wyborach_do_Sejmu_Rzeczypospolitej_Polskiej_i_do_Senatu_Rzeczypospolitej_Polskiej_zarzadzonych_na_dzien_13_pazdziernika_2019_r.pdf"> SPRAWDŹ </a>
 		<br><b>ULOTKA</b> informacyjna: <a href="/img/Ulotka.pdf">Pobierz, WYDRUKUJ, Przetnij na pół, ROZDAWAJ</a>
 		<br><b>DOŁĄCZ do grupy kontaktowej 1Polska</b> swojego okręgu wyborczego: <a href="kontakt#grupy">LINKI do okr. grup kontaktowych</a>
 		</p>
