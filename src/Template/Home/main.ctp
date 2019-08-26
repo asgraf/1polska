@@ -20,10 +20,10 @@ $this->append('header', '
 	<div class="container">
 		<h5 style="font-style:italic; font-weight:normal; color:#99BB99">„Do triumfu zła wystarczy bierność ludzi dobrych” – Edmund Burke</h5>
 		<h1 style="font-size:36px">Czas zjednoczyć dobrych ludzi wobec patologii obecnego systemu!</h1>
-		<h4 style="color:#317EAC">Chcesz żyć w normalnym kraju? Masz dość absurdów IIIRP? Nie jesteś sam!</h4>
+		<h4 style="color:#317EAC; margin-bottom: -12px">Chcesz żyć w normalnym kraju? Masz dość absurdów IIIRP? Nie jesteś sam!</h4>
 
 <a href="https://www.1pro.pl/"><img src="https://www.1pro.pl/wp-content/uploads/2019/08/zdj%C4%99cie-w-tle-zdj%C4%99cie-has%C5%82a-jedynka-3.png"</a>
-<p style="font-size:19px; color:brown; font-family: verdana; margin-bottom: -2px; margin-top: -12px;"><b>KWW 1Polska - Ruch Oddolny zgłoszony w PKW!</b> <b style="color:red">Trwa zbiórka 100 000 PODPISÓW!</b>
+<p style="font-size:19px; color:brown; font-family: verdana; margin-bottom: -2px; margin-top: 2px;"><b>KWW 1Polska - Ruch Oddolny zgłoszony w PKW!</b> <b style="color:red">Trwa zbiórka 100 000 PODPISÓW!</b>
         <br><b style="color:red">Wystarczą 3-4 PODPISY OD KAŻDEGO</b> x 35 000! sympatyków 1Polska - to razem ponad 100tys!
         <br>
 		<br><b style="color:red">KARTA na podpisy!</b> <a href="/img/Podpisy_poparcia.pdf">POBIERZ, WYDRUKUJ</a> i wpisz ręcznie Nr Okręgu, w którym zbierasz podpisy!<br>
