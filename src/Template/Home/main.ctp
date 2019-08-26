@@ -22,7 +22,7 @@ $this->append('header', '
 		<h1 style="font-size:36px">Czas zjednoczyć dobrych ludzi wobec patologii obecnego systemu!</h1>
 		<h4 style="color:#317EAC; margin-bottom: 4px">Chcesz żyć w normalnym kraju? Masz dość absurdów IIIRP? Nie jesteś sam!</h4>
 
-<a href="https://www.1pro.pl/"><img src="https://www.1pro.pl/wp-content/uploads/2019/08/zdj%C4%99cie-w-tle-zdj%C4%99cie-has%C5%82a-jedynka-3.png"</a>
+<a href="https://www.1pro.pl/"><img src="https://www.1pro.pl/wp-content/uploads/2019/08/zdj%C4%99cie-w-tle-zdj%C4%99cie-has%C5%82a-jedynka-3.png"></a>
 <p style="font-size:19px; color:brown; font-family: verdana; margin-bottom: -2px; margin-top: 8px;"><b>KWW 1Polska - Ruch Oddolny zgłoszony w PKW!</b> <b style="color:red">Trwa zbiórka 100 000 PODPISÓW!</b>
         <br><b style="color:red">Wystarczą 3-4 PODPISY OD KAŻDEGO</b> x 35 000! sympatyków 1Polska - to razem ponad 100tys!
         <br>
