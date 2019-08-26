@@ -23,15 +23,16 @@ $this->append('header', '
 		<h4 style="color:#317EAC">Chcesz żyć w normalnym kraju? Masz dość absurdów IIIRP? Nie jesteś sam!</h4>
 
 <p style="font-size:19px; color:brown; font-family: verdana; margin-bottom: -2px; margin-top: -12px;"><b>KWW 1Polska - Ruch Oddolny zgłoszony w PKW!</b> <b style="color:red">Trwa zbiórka 100 000 PODPISÓW!</b>
-		<br>
-		<br><b style="color:red">KARTA na podpisy!</b> <a href="/img/Podpisy_poparcia.pdf">POBIERZ, WYDRUKUJ</a> i wpisz ręcznie Nr Okręgu, w którym zbierasz podpisy!<br>
         <br><b style="color:red">Wystarczą 3-4 PODPISY OD KAŻDEGO</b> x 35 000! sympatyków 1Polska - to razem ponad 100tys!
         <br>
+		<br><b style="color:red">KARTA na podpisy!</b> <a href="/img/Podpisy_poparcia.pdf">POBIERZ, WYDRUKUJ</a> i wpisz ręcznie Nr Okręgu, w którym zbierasz podpisy!<br>
+        
 		<br>* Nie wiesz, który to Twój okręg? <a href="/img/okregi_sejm.pdf"> SPRAWDŹ podział na okręgi!</a>
         <br>* <b style="color:red">INSTRUKCJA:</b> <a href="/img/instrukcja.pdf">JAK ZBIERAĆ PODPISY</a> sprawnie i szybko
 		<br>* <b style="color:red">ULOTKA</b> informacyjna: <a href="/img/Ulotka.pdf">Pobierz, WYDRUKUJ, Przetnij na pół, ROZDAWAJ</a>
 		<br>* <b>DOŁĄCZ do grupy kontaktowej 1Polska</b> swojego okręgu wyborczego: <a href="kontakt#grupy">LINKI do okr. grup kontaktowych</a>
 		</p>
+        
         
 <!--		
 		<p style="font-size:17px; color:red; font-family: verdana; margin-bottom: -22px; margin-top: -22px;">Spotkania 1Polska - Nagrania video ze spotkań/warsztatów 1Polska są dostęne na <a href="https://www.youtube.com/channel/UCb5mIKEv944_VLTOcdwH_MA/videos">kanale 1Polska na youtube</a>  </p>
