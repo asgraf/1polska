@@ -27,7 +27,7 @@ $this->append('header', '
 		<br><b style="color:red">KARTA na podpisy!</b> <a href="/img/Podpisy_poparcia.pdf">POBIERZ, WYDRUKUJ</a> i wpisz ręcznie Nr Okręgu, w którym zbierasz podpisy!<br>
 		<br>Nie wiesz, który to Twój okręg? <a href="/img/okregi_sejm.pdf"> SPRAWDŹ podział na okręgi!</a>
 		<br>
-        <br><b style="color:red">INSTRUKCJA:</b> <a href="/img/Instrukcja.docx">JAK ZBIERAĆ PODPISY</a> sprawnie i szybko<br>
+        <br><b style="color:red">INSTRUKCJA:</b> <a href="/img/instrukcja.pdf">JAK ZBIERAĆ PODPISY</a> sprawnie i szybko<br>
 		<br><b style="color:red">ULOTKA</b> informacyjna: <a href="/img/Ulotka.pdf">Pobierz, WYDRUKUJ, Przetnij na pół, ROZDAWAJ</a><br>
 		<br><b>DOŁĄCZ do grupy kontaktowej 1Polska</b> swojego okręgu wyborczego: <a href="kontakt#grupy">LINKI do okr. grup kontaktowych</a>
 		</p>
