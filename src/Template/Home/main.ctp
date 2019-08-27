@@ -23,7 +23,7 @@ $this->append('header', '
 		<h4 style="color:#317EAC; margin-bottom: 4px">Chcesz żyć w normalnym kraju? Masz dość absurdów IIIRP? Nie jesteś sam!</h4>
 
 <a href="https://www.1pro.pl/"><img src="/img/1pl.jpg"></a><br>
-<p style="font-size:22px; color:red; font-family: verdana; margin-bottom: -2px; margin-top: 8px;"><b>UWAGA! KWW 1Polska - Ruch Oddolny został rozwiązany! <a href="https://www.youtube.com/watch?v=TypSgGdYhCI">Szczegóły w nagraniu</a>
+<p style="font-size:22px; color:red; font-family: verdana; margin-bottom: -2px; margin-top: 8px;"><br><b>UWAGA! KWW 1Polska - Ruch Oddolny został rozwiązany! <a href="https://www.youtube.com/watch?v=TypSgGdYhCI">Szczegóły w nagraniu</a>
         
 	</p>
 <!--
