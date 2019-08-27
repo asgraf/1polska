@@ -23,8 +23,11 @@ $this->append('header', '
 		<h4 style="color:#317EAC; margin-bottom: 4px">Chcesz żyć w normalnym kraju? Masz dość absurdów IIIRP? Nie jesteś sam!</h4>
 
 <a href="https://www.1pro.pl/"><img src="https://www.1pro.pl/wp-content/uploads/2019/08/zdj%C4%99cie-w-tle-zdj%C4%99cie-has%C5%82a-jedynka-3.png"></a>
-<p style="font-size:19px; color:brown; font-family: verdana; margin-bottom: -2px; margin-top: 8px;"><b>KWW 1Polska - Ruch Oddolny zgłoszony w PKW!</b> <b style="color:red">Trwa zbiórka 100 000 PODPISÓW!</b>
-        <br><b style="color:red">Wystarczą 3-4 PODPISY OD KAŻDEGO</b> x 35 000! sympatyków 1Polska - to razem ponad 100tys!
+<p style="font-size:19px; color:red; font-family: verdana; margin-bottom: -2px; margin-top: 8px;"><b>UWAGA! KWW 1Polska - Ruch Oddolny został rozwiązany! <a href="https://www.youtube.com/watch?v=TypSgGdYhCI">Szczegóły w nagraniu</a>
+        
+	</p>
+<!--
+<br><b style="color:red">Wystarczą 3-4 PODPISY OD KAŻDEGO</b> x 35 000! sympatyków 1Polska - to razem ponad 100tys!
         <br>
 		<br><b style="color:red">KARTA na podpisy!</b> <a href="/img/Podpisy_poparcia.pdf">POBIERZ, WYDRUKUJ</a> i wpisz ręcznie Nr Okręgu, w którym zbierasz podpisy!<br>
         
@@ -32,10 +35,10 @@ $this->append('header', '
         <br>* <b style="color:red">INSTRUKCJA:</b> <a href="/img/instrukcja.pdf">JAK ZBIERAĆ PODPISY</a> sprawnie i szybko
 		<br>* <b style="color:red">ULOTKA</b> informacyjna: <a href="/img/Ulotka.pdf">Pobierz, WYDRUKUJ, Przetnij na pół, ROZDAWAJ</a>
 		<br>* <b>DOŁĄCZ do grupy kontaktowej 1Polska</b> swojego okręgu wyborczego: <a href="kontakt#grupy">LINKI do okr. grup kontaktowych</a>
-		</p>
+	
         
         
-<!--		
+		
 		<p style="font-size:17px; color:red; font-family: verdana; margin-bottom: -22px; margin-top: -22px;">Spotkania 1Polska - Nagrania video ze spotkań/warsztatów 1Polska są dostęne na <a href="https://www.youtube.com/channel/UCb5mIKEv944_VLTOcdwH_MA/videos">kanale 1Polska na youtube</a>  </p>
 
 		<p style="font-size:17px; background-color:red; color:white; font-family: verdana; padding: 6px 6px 6px 6px; margin-top: -2px; margin-bottom: 4px;">
