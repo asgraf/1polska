@@ -22,11 +22,12 @@ $this->append('header', '
 		<h1 style="font-size:36px">Czas zjednoczyć dobrych ludzi wobec patologii obecnego systemu!</h1>
 		<h4 style="color:#317EAC; margin-bottom: 4px">Chcesz żyć w normalnym kraju? Masz dość absurdów IIIRP? Nie jesteś sam!</h4>
 
+<!--
 <a href="https://www.1pro.pl/"><img src="/img/1pl.jpg"></a><br>
 <p style="font-size:22px; color:red; font-family: verdana; margin-bottom: -2px; margin-top: 8px;"><br><b>UWAGA! KWW 1Polska - Ruch Oddolny został rozwiązany! <a href="https://www.youtube.com/watch?v=TypSgGdYhCI">Szczegóły w nagraniu</a>
         
 	</p>
-<!--
+
 <br><b style="color:red">Wystarczą 3-4 PODPISY OD KAŻDEGO</b> x 35 000! sympatyków 1Polska - to razem ponad 100tys!
         <br>
 		<br><b style="color:red">KARTA na podpisy!</b> <a href="/img/Podpisy_poparcia.pdf">POBIERZ, WYDRUKUJ</a> i wpisz ręcznie Nr Okręgu, w którym zbierasz podpisy!<br>
