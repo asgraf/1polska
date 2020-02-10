@@ -28,7 +28,7 @@ $this->set('title', 'Kontakt');
 	<br/>
 	Koordynator główny budowy struktur lokalnych:<br/>
 	<strong>Jan Sposób</strong> ( <a href="mailto:jan.sposob@o2.pl?Subject=1Polska%20struktury%20stronaWWW">jan.sposob@o2.pl</a> ) <strong>tel: +48 794 999 711</strong> <br/>
--->	<br/>
+-->
 <a href="https://www.facebook.com/1Polskapl" target="_blank"><img src="/img/1pl_fb.png"></a>
 <strong>1Polska na facebooku:</strong> <a href="https://www.facebook.com/1Polskapl">fb.me/1Polskapl</a> - informacje i komunikaty organizacyjne.<br/>	
 <!--
@@ -89,6 +89,7 @@ $this->set('title', 'Kontakt');
 </table>
 </p>
 -->
+<br/><br/>
 <p class="o_co_chodzi">
 <a href="https://t.me/s/jedna_Polska" target="_blank"><img src="/img/1pl_tm.png"></a>
 <strong>1Polska na Telegramie:</strong> <a href="https://t.me/jedna_Polska">t.me/Jedna_Polska</a> - darmowy komunikator na telefon (i na komputer)<br/>	
